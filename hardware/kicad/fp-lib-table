@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Teapot")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprint/Teapot.pretty")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprint/Espressif.pretty")(options "")(descr ""))
+  (lib (name "L86-M33")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprint/L86-M33.pretty")(options "")(descr ""))
+)
