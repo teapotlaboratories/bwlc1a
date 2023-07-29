@@ -3,4 +3,7 @@
   (lib (name "Teapot")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprint/Teapot.pretty")(options "")(descr ""))
   (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprint/Espressif.pretty")(options "")(descr ""))
   (lib (name "L86-M33")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprint/L86-M33.pretty")(options "")(descr ""))
+  (lib (name "TPS62290DRVR")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprint/TPS62290DRVR.pretty")(options "")(descr ""))
+  (lib (name "GCT_SIM8051-6-0-14-00-X-REVD")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprint/GCT_SIM8051-6-0-14-00-X-REVD.pretty")(options "")(descr ""))
+  (lib (name "SAMTEC_RSP-122811-02")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprint/SAMTEC_RSP-122811-02.pretty")(options "")(descr ""))
 )
