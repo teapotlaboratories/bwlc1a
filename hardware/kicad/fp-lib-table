@@ -6,4 +6,5 @@
   (lib (name "TPS62290DRVR")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprint/TPS62290DRVR.pretty")(options "")(descr ""))
   (lib (name "GCT_SIM8051-6-0-14-00-X-REVD")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprint/GCT_SIM8051-6-0-14-00-X-REVD.pretty")(options "")(descr ""))
   (lib (name "SAMTEC_RSP-122811-02")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprint/SAMTEC_RSP-122811-02.pretty")(options "")(descr ""))
+  (lib (name "A7670C")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprint/A7670C.pretty")(options "")(descr ""))
 )
