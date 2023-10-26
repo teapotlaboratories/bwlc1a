@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Teapot")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbol/Teapot.kicad_sym")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbol/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "L86-M33")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbol/L86-M33.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX17048G")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbol/MAX17048G_.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS62290DRVR")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbol/TPS62290DRVR.kicad_sym")(options "")(descr ""))
+  (lib (name "RSP-122811-02")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbol/RSP-122811-02.kicad_sym")(options "")(descr ""))
+  (lib (name "SIM-SMD_SMN-304")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbol/SIM-SMD_SMN-304.kicad_sym")(options "")(descr ""))
+)
