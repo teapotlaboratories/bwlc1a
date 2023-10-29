@@ -5,7 +5,7 @@
       (effects (font (size 1.4 1.4) (thickness 0.15)))
     (tstamp f9ea0874-9eba-4b9a-a627-a4458740d26d)
   )
-  (fp_text value "L76L-M33" (at 11.43 6.731) (layer "F.Fab")
+  (fp_text value "L76L-M33" (at 0 6.35) (layer "F.Fab")
       (effects (font (size 1.4 1.4) (thickness 0.15)))
     (tstamp 6a62a74b-0e1e-412d-a9cf-30137a60e8fa)
   )
@@ -69,4 +69,9 @@
     (solder_mask_margin 0.102) (tstamp 7d5de5da-9322-4b7c-bcf9-2f31f11c0aba))
   (pad "18" smd oval (at 4.85 -4.4) (size 1.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp 147a5d1c-cf80-4ad9-af44-3c277f0a9dd2))
+  (model "${KIPRJMOD}/library/3dmodels/L76L-M33.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
