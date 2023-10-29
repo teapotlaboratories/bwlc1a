@@ -513,11 +513,31 @@
     ],
     [
       "d0b0fe7e-ffcb-4a20-b7b5-70f0caeaf6a1",
-      "a7670"
+      "Cellular"
     ],
     [
       "6908783c-0fa0-46ec-befb-a4abfbcaa74b",
-      "gnss"
+      "GNSS"
+    ],
+    [
+      "3774d0f3-a7e5-4b39-9680-0f9041fc211b",
+      "Main Controller"
+    ],
+    [
+      "c42c1b26-c4d8-47f4-ac0f-5524ee8d9937",
+      "Power"
+    ],
+    [
+      "682951ea-0756-4fd0-8a4d-877ac2f402c6",
+      "USB and Charger"
+    ],
+    [
+      "fc98a97f-c593-44d5-bbd7-e4921ada3217",
+      "Battery"
+    ],
+    [
+      "f0ceb3a9-6c16-45f6-8aec-9ac0bb10996d",
+      "Sensors"
     ]
   ],
   "text_variables": {}
