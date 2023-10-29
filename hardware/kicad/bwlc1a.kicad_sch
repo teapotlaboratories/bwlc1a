@@ -2,25 +2,20 @@
 
   (uuid 388039b1-99cc-430f-bd4a-010573fde798)
 
-  (paper "A3")
+  (paper "A4")
 
   (lib_symbols
   )
 
 
-  (polyline (pts (xy 191.135 283.21) (xy 191.135 284.48))
-    (stroke (width 0) (type default))
-    (uuid 41d51196-f235-44cd-8b28-ae2fdfc8bc6e)
-  )
-
-  (sheet (at 187.325 108.585) (size 47.625 45.085) (fields_autoplaced)
+  (sheet (at 133.35 78.105) (size 47.625 45.085) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 3774d0f3-a7e5-4b39-9680-0f9041fc211b)
-    (property "Sheetname" "Main Controller" (at 187.325 107.8734 0)
+    (property "Sheetname" "Main Controller" (at 133.35 77.3934 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "main_controller.kicad_sch" (at 187.325 154.2546 0)
+    (property "Sheetfile" "main_controller.kicad_sch" (at 133.35 123.7746 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -30,14 +25,14 @@
     )
   )
 
-  (sheet (at 80.01 66.04) (size 76.2 33.02) (fields_autoplaced)
+  (sheet (at 36.83 34.925) (size 76.2 33.02) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 682951ea-0756-4fd0-8a4d-877ac2f402c6)
-    (property "Sheetname" "USB and Charger" (at 80.01 65.3284 0)
+    (property "Sheetname" "USB and Charger" (at 36.83 34.2134 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "usb_and_charger.kicad_sch" (at 80.01 99.6446 0)
+    (property "Sheetfile" "usb_and_charger.kicad_sch" (at 36.83 68.5296 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -47,14 +42,14 @@
     )
   )
 
-  (sheet (at 255.905 99.06) (size 60.96 60.325) (fields_autoplaced)
+  (sheet (at 212.725 67.945) (size 60.96 60.325) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 6908783c-0fa0-46ec-befb-a4abfbcaa74b)
-    (property "Sheetname" "GNSS" (at 255.905 98.3484 0)
+    (property "Sheetname" "GNSS" (at 212.725 67.2334 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "gnss.kicad_sch" (at 255.905 159.9696 0)
+    (property "Sheetfile" "gnss.kicad_sch" (at 212.725 128.8546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -64,14 +59,14 @@
     )
   )
 
-  (sheet (at 81.28 160.655) (size 69.85 30.48) (fields_autoplaced)
+  (sheet (at 38.1 129.54) (size 69.85 30.48) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid c42c1b26-c4d8-47f4-ac0f-5524ee8d9937)
-    (property "Sheetname" "Power" (at 81.28 159.9434 0)
+    (property "Sheetname" "Power" (at 38.1 128.8284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "power.kicad_sch" (at 81.28 191.7196 0)
+    (property "Sheetfile" "power.kicad_sch" (at 38.1 160.6046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -81,14 +76,14 @@
     )
   )
 
-  (sheet (at 256.54 44.45) (size 46.99 45.72) (fields_autoplaced)
+  (sheet (at 213.36 13.335) (size 46.99 45.72) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid d0b0fe7e-ffcb-4a20-b7b5-70f0caeaf6a1)
-    (property "Sheetname" "Cellular" (at 256.54 43.7384 0)
+    (property "Sheetname" "Cellular" (at 213.36 12.6234 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "cellular.kicad_sch" (at 256.54 90.7546 0)
+    (property "Sheetfile" "cellular.kicad_sch" (at 213.36 59.6396 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -98,14 +93,14 @@
     )
   )
 
-  (sheet (at 257.81 179.705) (size 48.895 33.655) (fields_autoplaced)
+  (sheet (at 213.36 140.335) (size 48.895 33.655) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid f0ceb3a9-6c16-45f6-8aec-9ac0bb10996d)
-    (property "Sheetname" "Sensors" (at 257.81 178.9934 0)
+    (property "Sheetname" "Sensors" (at 213.36 139.6234 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "sensors.kicad_sch" (at 257.81 213.9446 0)
+    (property "Sheetfile" "sensors.kicad_sch" (at 213.36 174.5746 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -115,14 +110,14 @@
     )
   )
 
-  (sheet (at 79.375 107.315) (size 68.58 45.72) (fields_autoplaced)
+  (sheet (at 36.195 76.2) (size 68.58 45.72) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid fc98a97f-c593-44d5-bbd7-e4921ada3217)
-    (property "Sheetname" "Battery" (at 79.375 106.6034 0)
+    (property "Sheetname" "Battery" (at 36.195 75.4884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "battery.kicad_sch" (at 79.375 153.6196 0)
+    (property "Sheetfile" "battery.kicad_sch" (at 36.195 122.5046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
