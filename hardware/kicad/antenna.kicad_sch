@@ -566,6 +566,11 @@
     (effects (font (size 2 2) (thickness 0.6) bold) (justify left bottom))
     (uuid 024afea5-8c8a-45f7-8b86-78583347efcf)
   )
+  (text "TODO: refer Ignion NN03-310 for correct matching circuit"
+    (at 88.265 57.404 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8acaa359-8946-40bb-8be4-8f2f99ff662a)
+  )
   (text "GNSS Matching Circuit" (at 169.926 115.824 0)
     (effects (font (size 2 2) (thickness 0.6) bold) (justify left bottom))
     (uuid b4992249-c495-4c05-865a-98133eaac770)
