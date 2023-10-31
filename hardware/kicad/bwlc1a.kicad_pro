@@ -538,6 +538,10 @@
     [
       "f0ceb3a9-6c16-45f6-8aec-9ac0bb10996d",
       "Sensors"
+    ],
+    [
+      "ca79f09e-abdb-462a-9aab-98f2e37e5b23",
+      "Antenna"
     ]
   ],
   "text_variables": {}
