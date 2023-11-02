@@ -495,6 +495,10 @@
     (effects (font (size 2 2) (thickness 0.6) bold) (justify left bottom))
     (uuid b4992249-c495-4c05-865a-98133eaac770)
   )
+  (text "* most US operator uses band 5" (at 15.748 69.088 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cb20af57-8829-4834-ad3e-db0a5acbb9c0)
+  )
   (text "Use Skyworks Solutions SKY13416-485LF for RF Switch"
     (at 87.884 123.444 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
