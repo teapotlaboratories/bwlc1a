@@ -491,7 +491,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a8084d9e-ef79-40de-9c53-334cc54736f1)
   )
-  (text "2G		DL				UL\n-----------------------------\nEGSM900	925~960MHz 		880~915 MHz\nDCS1800	1805~1880 MHz 	1710~1785 MHz\n\nLTE\nBand	UL Freq.		DL Freq. 		DuplexMode\n----------------------------------------\n1 		1920~1980 MHz	2110 ~2170 MHz	FDD\n3 		1710~1785 MHz	1805 ~1880 MHz	FDD\n5 		869~894 MHz		824~849MHz 		FDD\n8 		880 ~915 MHz	925 ~960 MHz 	FDD\n34 		2010~2025MHz	2010~2025 MHz 	TDD\n38 		2570 ~2620 MHz 	2570 ~2620 MHz	TDD\n39 		1880 ~1920 MHz 	1880 ~1920 MHz	TDD\n40 		2300 ~2400 MHz 	2300 ~2400 MHz	TDD\n41 		2535 ~2655 MHz 	2535 ~2655 MHz	TDD"
+  (text "2G		DL				UL\n-----------------------------\nEGSM900	  925~960 MHz	  880~915 MHz\nDCS1800	1805~1880 MHz 	1710~1785 MHz\n\nLTE\nBand	UL Freq.		DL Freq. 		DuplexMode\n----------------------------------------\n1 		1920~1980 MHz	2110~2170 MHz	FDD\n3 		1710~1785 MHz	1805~1880 MHz	FDD\n5 		  869~894 MHz	  824~849 MHz	FDD\n8 		  880~915 MHz	  925~960 MHz 	FDD\n34 		2010~2025 MHz	2010~2025 MHz 	TDD\n38 		2570~2620 MHz 	2570~2620 MHz	TDD\n39 		1880~1920 MHz 	1880~1920 MHz	TDD\n40 		2300~2400 MHz 	2300~2400 MHz	TDD\n41 		2535~2655 MHz 	2535~2655 MHz	TDD"
     (at 16.637 62.103 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ac051b69-961c-4233-b0cd-34541f0c7c58)
