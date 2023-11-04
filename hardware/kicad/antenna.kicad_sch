@@ -473,7 +473,7 @@
     (uuid fd0c4a88-cad9-487e-a382-219a439cf306)
   )
 
-  (text "Cell Matching Network" (at 169.926 84.201 0)
+  (text "Cell Source Matching Network" (at 157.607 84.963 0)
     (effects (font (size 2 2) (thickness 0.6) bold) (justify left bottom))
     (uuid 024afea5-8c8a-45f7-8b86-78583347efcf)
   )
@@ -496,7 +496,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ac051b69-961c-4233-b0cd-34541f0c7c58)
   )
-  (text "GNSS Matching Network" (at 167.386 115.824 0)
+  (text "GNSS Source Matching Network" (at 155.956 116.586 0)
     (effects (font (size 2 2) (thickness 0.6) bold) (justify left bottom))
     (uuid b4992249-c495-4c05-865a-98133eaac770)
   )
