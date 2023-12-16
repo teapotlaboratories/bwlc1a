@@ -8,4 +8,5 @@
   (lib (name "RSP-122811-02")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbol/RSP-122811-02.kicad_sym")(options "")(descr ""))
   (lib (name "SIM-SMD_SMN-304")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbol/SIM-SMD_SMN-304.kicad_sym")(options "")(descr ""))
   (lib (name "bwlc1a")(type "KiCad")(uri "${KIPRJMOD}/library/bwlc1a.kicad_sym")(options "")(descr ""))
+  (lib (name "ignionAntenna")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbol/ignionAntenna.kicad_sym")(options "")(descr ""))
 )
