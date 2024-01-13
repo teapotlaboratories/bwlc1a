@@ -1351,7 +1351,7 @@
     (property "Value" "Qwiic" (at 182.245 120.015 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "bwlr1e:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" (at 179.07 122.555 0)
+    (property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" (at 179.07 122.555 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_JST-Sales-America-SM04B-SRSS-TB-LF-SN_C160404.pdf" (at 179.07 122.555 0)
