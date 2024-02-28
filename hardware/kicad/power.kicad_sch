@@ -1186,8 +1186,7 @@
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 0ede306c-1e0a-4649-9b2b-13471b15bd91)
   )
-  (text "TODO:\n- does cellular power cap have a specific ESR? (NO, not specify in datasheet)\n- maybe change GNSS 2V8 with lower Iq https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Texas-Instruments-TPS7A0328DBVR_C2862669.html (DONE)\n- look for lower LDO Iq for GNSS 3V3 (DONE, TPS7A0333DBVR)\n- consider adding ESD in all schematic"
-    (at 87.63 133.985 0)
+  (text "TODO:\n- consider adding ESD in all schematic" (at 87.63 128.27 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 26f5692f-aa58-4a23-b672-ef0cd44c0725)
   )
@@ -1968,7 +1967,7 @@
     (property "Value" "RT9080-33GJ5" (at 76.835 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" (at 76.2 78.105 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 76.2 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2009192305_Richtek-Tech-RT9080-33GJ5_C841192.pdf" (at 76.2 80.645 0)
