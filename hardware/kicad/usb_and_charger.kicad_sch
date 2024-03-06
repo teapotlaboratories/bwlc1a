@@ -3964,6 +3964,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 191.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 191.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ffeebe4a-e37b-42a7-8248-82b8a5a7c643")
 		)
@@ -6190,6 +6208,24 @@
 			)
 		)
 		(property "Type" "SMD"
+			(at 121.285 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 121.285 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 121.285 104.14 0)
 			(effects
 				(font

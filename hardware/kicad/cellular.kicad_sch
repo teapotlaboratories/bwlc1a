@@ -1215,231 +1215,6 @@
 				)
 			)
 		)
-		(symbol "SIM-SMD_SMN-304:SMN-304"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Card"
-				(at 0 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMN-304"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:SIM-SMD_SMN-304"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Connector-Card-Sockets_XUNPU-SMN-304_C266889.html"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C266889"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMN-304_0_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -4.57 -6.86)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 -10.16 90)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "RST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 10.16 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VPP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 10.16 270)
-					(length 2.54)
-					(name "I/O"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Simulation_SPICE:NPN"
 			(pin_numbers hide)
 			(pin_names
@@ -1681,7 +1456,7 @@
 				)
 			)
 		)
-		(symbol "Teapot:A7670X"
+		(symbol "bwlc1a:A7670X"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1701,8 +1476,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at -1.27 34.29 0)
+			(property "Footprint" "bwlc1a:LGA-124_L24.0-W24.0-P1.0-A7670C-LASS"
+				(at 0 57.15 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3317,6 +3092,221 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "bwlc1a:SMN-304"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Card"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMN-304"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bwlc1a:SIM-SMD_SMN-304"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Connector-Card-Sockets_XUNPU-SMN-304_C266889.html"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMN-304_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -4.57 -6.86)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -10.16 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VPP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "I/O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8354,7 +8344,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SIM-SMD_SMN-304:SMN-304")
+		(lib_id "bwlc1a:SMN-304")
 		(at 239.395 100.965 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8364,7 +8354,7 @@
 		(fields_autoplaced yes)
 		(uuid "3623022e-471b-410b-b069-c0eeac23231d")
 		(property "Reference" "J4"
-			(at 243.0211 90.805 90)
+			(at 242.4115 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8373,7 +8363,7 @@
 			)
 		)
 		(property "Value" "SMN-304"
-			(at 243.0211 93.345 90)
+			(at 242.4115 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8381,16 +8371,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SIM-SMD_SMN-304:SIM-SMD_SMN-304"
-			(at 221.615 100.965 0)
+		(property "Footprint" "bwlc1a:SIM-SMD_SMN-304"
+			(at 242.4115 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/product-detail/Connector-Card-Sockets_XUNPU-SMN-304_C266889.html"
 			(at 219.075 100.965 0)
 			(effects
 				(font
@@ -8454,6 +8444,24 @@
 			)
 		)
 		(property "Type" "SMD"
+			(at 239.395 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 239.395 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 239.395 100.965 0)
 			(effects
 				(font
@@ -8762,7 +8770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Teapot:A7670X")
+		(lib_id "bwlc1a:A7670X")
 		(at 64.135 83.185 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8772,7 +8780,7 @@
 		(fields_autoplaced yes)
 		(uuid "403ce5e7-f1e4-4132-b124-38eed7981935")
 		(property "Reference" "U9"
-			(at 63.5 26.035 0)
+			(at 63.5 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,15 +8788,15 @@
 			)
 		)
 		(property "Value" "A7670C_24x24mm"
-			(at 62.865 48.895 0)
+			(at 63.5 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "A7670C:LGA-124_L24.0-W24.0-P1.0-A7670C-LASS"
-			(at 62.865 48.895 0)
+		(property "Footprint" "bwlc1a:LGA-124_L24.0-W24.0-P1.0-A7670C-LASS"
+			(at 64.135 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8869,6 +8877,24 @@
 			)
 		)
 		(property "Type" "SMD"
+			(at 64.135 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 64.135 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 64.135 83.185 0)
 			(effects
 				(font
