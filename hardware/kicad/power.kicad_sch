@@ -989,6 +989,175 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:TPS7A0508PDBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS7A0508PDBV"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a05.pdf"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "200-mA Ultra-Low-Iq LDO, 0.8V, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Output LDO Low-Iq"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS7A0508PDBV_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bwcl1a:RT9080"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1106,157 +1275,6 @@
 					(at 0 -8.89 90)
 					(length 2.54)
 					(name "NC/SNS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 11.43 0 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "bwlc1a:RT9193"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 5.08 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RT9193"
-				(at -11.43 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-				(at 0 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809191953_Richtek-Tech-RT9193-28GB_C56731.pdf"
-				(at 0 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "600mA LDO Voltage Regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RT9193_1_1"
-				(rectangle
-					(start -10.16 6.35)
-					(end 8.89 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -12.7 3.81 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -3.81 -8.89 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "CE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -8.89 90)
-					(length 2.54)
-					(name "BP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1913,22 +1931,10 @@
 		)
 	)
 	(junction
-		(at 203.2 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05d999d5-190d-496c-978b-ae730890578c")
-	)
-	(junction
 		(at 60.96 56.515)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a6c3f08-95ea-402c-8a8b-7245d5568543")
-	)
-	(junction
-		(at 240.03 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2735aea7-3074-45c4-a49a-75fef8c5a73b")
 	)
 	(junction
 		(at 115.57 63.5)
@@ -1961,12 +1967,6 @@
 		(uuid "48c2c24c-0c90-4b2e-9d84-5ab33edf6e75")
 	)
 	(junction
-		(at 167.64 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53621ada-a1d8-4ae1-aae0-6a1d67c8d584")
-	)
-	(junction
 		(at 80.645 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1985,10 +1985,16 @@
 		(uuid "6d7db6af-1be6-4bae-b9fb-823005dec3bc")
 	)
 	(junction
-		(at 167.64 111.76)
+		(at 168.275 99.695)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "788dd527-be31-4c52-bb72-a13e8ecd8d6a")
+		(uuid "6f28537b-7332-4c6a-afdc-0893be39ce4f")
+	)
+	(junction
+		(at 205.105 99.695)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83e4e27e-04a6-480c-a439-f5897112b7d5")
 	)
 	(junction
 		(at 71.12 93.98)
@@ -2003,10 +2009,10 @@
 		(uuid "b4a36284-44c6-4855-86f0-ae7fb0d902ca")
 	)
 	(junction
-		(at 130.81 96.52)
+		(at 132.08 99.695)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8a53b26-8364-45a1-bc73-0514da4f88bc")
+		(uuid "bba4c8c3-e85a-4b93-b9cc-09e8fd09f03b")
 	)
 	(junction
 		(at 180.34 53.34)
@@ -2019,6 +2025,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "caa02c60-c018-4807-bccd-c90b61c3d996")
+	)
+	(junction
+		(at 241.3 99.695)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d705bbe9-5859-4578-9957-d4c7f041e319")
 	)
 	(junction
 		(at 53.975 56.515)
@@ -2038,35 +2050,9 @@
 		(color 0 0 0 0)
 		(uuid "e9aab306-c7a1-4c5b-918e-e9a343fcafab")
 	)
-	(junction
-		(at 240.03 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff93d859-b489-49e0-9751-a43accbbed5a")
-	)
 	(no_connect
 		(at 76.2 65.405)
 		(uuid "60fa9c9f-f7cc-485d-a6b7-32e65399acbd")
-	)
-	(wire
-		(pts
-			(xy 167.64 100.33) (xy 161.29 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04e518b1-ff46-4eac-a4dd-f23fb3a27914")
-	)
-	(wire
-		(pts
-			(xy 167.64 100.33) (xy 172.72 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "097147b3-7c79-46e7-a031-11f82ef9e5b6")
 	)
 	(polyline
 		(pts
@@ -2100,16 +2086,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 96.52) (xy 130.81 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14d05ab1-eb47-4ed9-bc93-03571b51a47a")
-	)
-	(wire
-		(pts
 			(xy 115.57 52.07) (xy 115.57 53.34)
 		)
 		(stroke
@@ -2117,16 +2093,6 @@
 			(type default)
 		)
 		(uuid "15b98911-384f-4aff-bb4b-3350fe7e1363")
-	)
-	(wire
-		(pts
-			(xy 137.16 96.52) (xy 130.81 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1695f0f8-fd8e-4171-9ca1-8316528db3d5")
 	)
 	(wire
 		(pts
@@ -2140,23 +2106,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 101.6) (xy 208.28 105.41)
+			(xy 205.105 99.695) (xy 205.105 102.235)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "187ef510-95cc-4afe-a845-70c0c28919c7")
-	)
-	(wire
-		(pts
-			(xy 158.75 111.76) (xy 167.64 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a489bdb-d798-4ea1-9134-b27b70d5a66c")
+		(uuid "190a1cfd-a7bf-45b9-b4e5-80fc15135ca7")
 	)
 	(wire
 		(pts
@@ -2180,13 +2136,23 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 104.14) (xy 240.03 101.6)
+			(xy 132.08 99.695) (xy 132.08 102.235)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e36bc9a-4ace-49d5-a5e3-d89022f81451")
+		(uuid "1f9d84c7-146e-468a-9746-9d2e0203fd1c")
+	)
+	(wire
+		(pts
+			(xy 168.275 99.695) (xy 171.45 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21bd04ae-66ab-4fa5-8fe2-120e99d86ceb")
 	)
 	(wire
 		(pts
@@ -2230,16 +2196,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 113.03) (xy 240.03 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28c73a84-e667-4c93-ba73-f08a244d7ea9")
-	)
-	(wire
-		(pts
 			(xy 80.645 100.33) (xy 80.645 104.14)
 		)
 		(stroke
@@ -2257,16 +2213,6 @@
 			(type default)
 		)
 		(uuid "30461b21-e1b8-426a-ac1f-1cdc03448131")
-	)
-	(wire
-		(pts
-			(xy 218.44 110.49) (xy 218.44 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38824668-bc99-429e-b0fa-aafb0bec1540")
 	)
 	(wire
 		(pts
@@ -2290,13 +2236,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 111.76) (xy 149.86 109.22)
+			(xy 132.08 107.315) (xy 132.08 109.855)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a1a4003-d713-4311-8812-31a32538337c")
+		(uuid "3de6a4b3-9e89-49ae-9c3d-fdd419f299f1")
 	)
 	(wire
 		(pts
@@ -2318,6 +2264,16 @@
 		)
 		(uuid "43312ba3-a6a9-471d-b6d2-d2be3bb288cc")
 	)
+	(wire
+		(pts
+			(xy 145.415 99.695) (xy 132.08 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43eb122e-e7a2-4e7e-810c-c2b61a154d1d")
+	)
 	(polyline
 		(pts
 			(xy 85.09 123.825) (xy 41.91 123.825)
@@ -2337,16 +2293,6 @@
 			(type default)
 		)
 		(uuid "448e724f-3b92-4507-98c6-4c9c832ab6ad")
-	)
-	(wire
-		(pts
-			(xy 226.06 113.03) (xy 222.25 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49902f1f-94d1-4c91-b0c8-fa484c861004")
 	)
 	(wire
 		(pts
@@ -2380,13 +2326,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 107.95) (xy 130.81 114.3)
+			(xy 132.08 95.25) (xy 132.08 99.695)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52b731e4-1f85-4f62-ac2c-649f2b99902e")
+		(uuid "5312a054-ea47-4fc8-89e5-ca5d8c06eaa3")
 	)
 	(wire
 		(pts
@@ -2410,13 +2356,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 101.6) (xy 208.28 101.6)
+			(xy 212.09 102.235) (xy 218.44 102.235)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ab53171-9265-458b-b65e-606e5c3a15a9")
+		(uuid "5ba8b8ac-2443-412c-8d8c-58d48b5ada49")
+	)
+	(wire
+		(pts
+			(xy 168.275 109.855) (xy 168.275 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d70a065-5a94-41a1-9012-767e533d5054")
 	)
 	(wire
 		(pts
@@ -2430,16 +2386,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 97.79) (xy 203.2 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "602b14d8-0c11-419c-8fe4-d30f83bb9796")
-	)
-	(wire
-		(pts
 			(xy 153.67 58.42) (xy 153.67 69.85)
 		)
 		(stroke
@@ -2447,6 +2393,16 @@
 			(type default)
 		)
 		(uuid "64426d6b-8f96-4851-a733-cf185810bca6")
+	)
+	(wire
+		(pts
+			(xy 168.275 102.235) (xy 168.275 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66504afa-d78e-432b-b663-781cc06f1dd0")
 	)
 	(wire
 		(pts
@@ -2480,13 +2436,23 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 113.03) (xy 222.25 110.49)
+			(xy 168.275 99.695) (xy 160.655 99.695)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b77d914-08c2-4d11-b752-fa565097bcf8")
+		(uuid "6e405f18-8c32-42fb-b956-360114bd7b4f")
+	)
+	(wire
+		(pts
+			(xy 205.105 95.25) (xy 205.105 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb0319f-a128-4237-a8e2-b1d110957c0e")
 	)
 	(wire
 		(pts
@@ -2500,16 +2466,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 102.87) (xy 167.64 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f4ea35d-f0f7-40cb-8b77-626f991d441e")
-	)
-	(wire
-		(pts
 			(xy 90.805 109.22) (xy 94.615 109.22)
 		)
 		(stroke
@@ -2520,23 +2476,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 97.79) (xy 203.2 104.14)
+			(xy 241.3 109.855) (xy 241.3 107.315)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e152db9-edc6-4be9-a057-2fa9b4fad111")
+		(uuid "7e019fc3-96ce-40dc-9c4e-1ef1cb038593")
 	)
 	(wire
 		(pts
-			(xy 240.03 101.6) (xy 245.11 101.6)
+			(xy 212.09 106.045) (xy 212.09 102.235)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8495ab6b-ecd5-46e1-924b-5415c28fa8e7")
+		(uuid "847303fb-a059-4bee-a8d7-48de48f6f940")
 	)
 	(wire
 		(pts
@@ -2557,26 +2513,6 @@
 			(type default)
 		)
 		(uuid "8bd063bd-620b-46a1-9c17-b9559ca06f43")
-	)
-	(wire
-		(pts
-			(xy 153.67 111.76) (xy 149.86 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bf92254-acd5-47a4-9962-daa0d0af4b48")
-	)
-	(wire
-		(pts
-			(xy 137.16 100.33) (xy 135.89 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bf95462-cedb-4e02-b34c-84cd90fcb7d1")
 	)
 	(wire
 		(pts
@@ -2640,16 +2576,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 101.6) (xy 233.68 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97d64663-d0ff-4673-b2c5-235eba97b6de")
-	)
-	(wire
-		(pts
 			(xy 71.12 92.075) (xy 71.12 93.98)
 		)
 		(stroke
@@ -2688,6 +2614,16 @@
 		)
 		(uuid "a44d28e5-079f-4fca-ab4e-9d087e472b09")
 	)
+	(wire
+		(pts
+			(xy 241.3 99.695) (xy 233.68 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54f4925-451e-406d-bd9a-7f6bf8e03906")
+	)
 	(polyline
 		(pts
 			(xy 85.09 142.875) (xy 85.09 123.825)
@@ -2700,23 +2636,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 113.03) (xy 240.03 115.57)
+			(xy 139.065 106.045) (xy 139.065 102.235)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a90cfeff-554f-4331-a068-6284974c2911")
-	)
-	(wire
-		(pts
-			(xy 135.89 100.33) (xy 135.89 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9886a19-dd5b-4fa4-81b8-c3ebd20f7287")
+		(uuid "ae506148-6bac-4362-8eff-b2dab39410b2")
 	)
 	(wire
 		(pts
@@ -2770,16 +2696,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 113.03) (xy 240.03 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b986801f-a6e0-4925-aa99-2892707b4c69")
-	)
-	(wire
-		(pts
 			(xy 120.65 53.34) (xy 134.62 53.34)
 		)
 		(stroke
@@ -2790,43 +2706,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 109.22) (xy 203.2 115.57)
+			(xy 218.44 99.695) (xy 205.105 99.695)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb6779a8-b978-4c81-9f4d-732d56a090cd")
-	)
-	(wire
-		(pts
-			(xy 167.64 111.76) (xy 167.64 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc348547-7215-4fc6-b802-979b13f04bb8")
-	)
-	(wire
-		(pts
-			(xy 167.64 111.76) (xy 167.64 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd98a396-9091-404f-8752-01522b92c67d")
-	)
-	(wire
-		(pts
-			(xy 146.05 109.22) (xy 146.05 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdce8f6b-bd4b-4d90-99ee-fbd54c13ff26")
+		(uuid "bd503521-af17-4f8c-afe1-06765f0e94df")
 	)
 	(wire
 		(pts
@@ -2837,16 +2723,6 @@
 			(type default)
 		)
 		(uuid "bdfd96b5-7dcb-445e-92b4-6c780a6b1df3")
-	)
-	(wire
-		(pts
-			(xy 130.81 96.52) (xy 130.81 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0065e4d-f07b-44f9-9d46-94847d8ea15b")
 	)
 	(wire
 		(pts
@@ -2867,6 +2743,36 @@
 			(type default)
 		)
 		(uuid "c2ae26c2-ed72-49ba-ac13-df47ec6ea865")
+	)
+	(wire
+		(pts
+			(xy 241.3 99.695) (xy 244.475 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3080a8e-d934-4ddf-a0a1-6ce2d31192bf")
+	)
+	(wire
+		(pts
+			(xy 241.3 102.235) (xy 241.3 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4807ff0-78c4-4a1e-b4bb-9c612a5edf03")
+	)
+	(wire
+		(pts
+			(xy 205.105 107.315) (xy 205.105 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c567947c-3919-4900-a69f-65d611e05540")
 	)
 	(wire
 		(pts
@@ -2917,16 +2823,6 @@
 			(type default)
 		)
 		(uuid "cf2cbde8-e667-4792-ab93-dec3b7345ed2")
-	)
-	(wire
-		(pts
-			(xy 209.55 97.79) (xy 203.2 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0f88ae6-6801-4f18-b78c-daf65f14b6fe")
 	)
 	(wire
 		(pts
@@ -2987,6 +2883,16 @@
 			(type default)
 		)
 		(uuid "e1055b36-7912-4945-bd26-42ca71388cae")
+	)
+	(wire
+		(pts
+			(xy 139.065 102.235) (xy 145.415 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18507c1-33f7-48be-b250-ac04b04e816a")
 	)
 	(wire
 		(pts
@@ -3134,17 +3040,6 @@
 		)
 		(uuid "0ede306c-1e0a-4649-9b2b-13471b15bd91")
 	)
-	(text "Iq: 90uA\nIstby: 0.01uA"
-		(exclude_from_sim no)
-		(at 172.72 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "11a69bef-fe15-4a1a-b509-6e290129958e")
-	)
 	(text "Reference: T-Call-A7670-V1.1"
 		(exclude_from_sim no)
 		(at 105.918 76.2 0)
@@ -3155,17 +3050,6 @@
 			(justify left bottom)
 		)
 		(uuid "26f5692f-aa58-4a23-b672-ef0cd44c0725")
-	)
-	(text "Iq: 90uA\nIstby: 0.01uA"
-		(exclude_from_sim no)
-		(at 245.364 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d91e611-764e-4b12-8cfd-503223c4df2a")
 	)
 	(text "GNSS 3V3 Main Power"
 		(exclude_from_sim no)
@@ -3254,18 +3138,6 @@
 		)
 		(uuid "209678ad-9f2f-4276-8b1f-cf2e8f69b5a3")
 	)
-	(hierarchical_label "GNSS_EN"
-		(shape input)
-		(at 135.89 104.14 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2fa0a124-7dfb-46ef-a657-ea68d9a9dfb5")
-	)
 	(hierarchical_label "GNSS_VBCKP_EN"
 		(shape input)
 		(at 94.615 109.22 0)
@@ -3280,7 +3152,7 @@
 	)
 	(hierarchical_label "GNSS_3V3"
 		(shape output)
-		(at 172.72 100.33 0)
+		(at 171.45 99.695 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3328,7 +3200,7 @@
 	)
 	(hierarchical_label "GNSS_EN"
 		(shape input)
-		(at 208.28 105.41 270)
+		(at 212.09 106.045 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3352,7 +3224,7 @@
 	)
 	(hierarchical_label "GNSS_2V8"
 		(shape output)
-		(at 245.11 101.6 0)
+		(at 244.475 99.695 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3361,6 +3233,18 @@
 			(justify left)
 		)
 		(uuid "e38b369e-57a0-4347-b119-d1b74e764d3e")
+	)
+	(hierarchical_label "GNSS_EN"
+		(shape input)
+		(at 139.065 106.045 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f620297a-264f-4cf8-9e94-5092adfc2876")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3436,7 +3320,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 167.64 105.41 0)
+		(at 168.275 104.775 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3444,7 +3328,7 @@
 		(dnp no)
 		(uuid "03ac2378-01b7-4d95-8142-4be6a89f815a")
 		(property "Reference" "C45"
-			(at 164.465 104.1463 0)
+			(at 165.1 103.5113 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,8 +3336,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
-			(at 164.465 106.6863 0)
+		(property "Value" "10u"
+			(at 165.1 106.0513 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,8 +3345,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 167.64 105.41 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 168.275 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,8 +3354,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2005261833_Murata-Electronics-GRM155Z71A105KE01D_C528974.pdf?_gl=1*ep026d*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcwOTY5NzgxOS43MC4xLjE3MDk2OTk5NTAuNDcuMC4w"
-			(at 167.64 105.41 0)
+		(property "Datasheet" "~"
+			(at 168.275 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,26 +3363,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 1uF X7R ±10% 0402 Multilayer Ceramic Capacitors"
-			(at 167.64 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 167.64 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM155Z71A105KE01D"
-			(at 167.64 105.41 0)
+		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 168.275 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +3373,7 @@
 			)
 		)
 		(property "Distributor" "LCSC"
-			(at 167.64 105.41 0)
+			(at 168.275 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,8 +3381,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C528974"
-			(at 167.64 105.41 0)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+			(at 168.275 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,8 +3390,44 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM155Z71A105KE01D_C528974.html"
-			(at 167.64 105.41 0)
+		(property "Distributor Part Number" "C19702"
+			(at 168.275 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" "1"
+			(at 168.275 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "Samsung Electro-Mechanics"
+			(at 168.275 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture Part Number" "CL10A106KP8NNNC"
+			(at 168.275 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 168.275 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,202 +3684,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 240.03 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12ef452c-9bc9-4b1d-82f9-81c56633e1ff")
-		(property "Reference" "#PWR098"
-			(at 240.03 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.03 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c4c898f-cc57-4c5e-a49f-215ec1e81ae7")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 203.2 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "144a4e15-1964-4291-8d05-6dc87862671c")
-		(property "Reference" "#PWR068"
-			(at 203.2 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 203.2 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92d08f4e-c49a-480d-9484-bee45bf9e740")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "14b02411-e2cb-4407-b7a3-bf4719c540b8")
-		(property "Reference" "#PWR066"
-			(at 130.81 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "671671c7-8aea-44c9-9ee5-cdbe0d3af5a4")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 80.01 132.715 0)
 		(mirror y)
@@ -4055,120 +3761,6 @@
 			(project "bwlr1e"
 				(path "/630c8da6-5464-4eef-824d-89618087f4b4"
 					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 203.2 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "176c32fd-7717-45c2-8c77-2478a59e719a")
-		(property "Reference" "C26"
-			(at 200.025 105.4163 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 200.025 107.9563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 203.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2005261833_Murata-Electronics-GRM155Z71A105KE01D_C528974.pdf?_gl=1*ep026d*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcwOTY5NzgxOS43MC4xLjE3MDk2OTk5NTAuNDcuMC4w"
-			(at 203.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 1uF X7R ±10% 0402 Multilayer Ceramic Capacitors"
-			(at 203.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 203.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM155Z71A105KE01D"
-			(at 203.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "LCSC"
-			(at 203.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "C528974"
-			(at 203.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM155Z71A105KE01D_C528974.html"
-			(at 203.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac5ee58a-e4ad-4e36-b314-2f641e3beab4")
-		)
-		(pin "2"
-			(uuid "6e1e4a07-699c-472f-a35c-e20f1bbe17be")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
-					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -4290,6 +3882,77 @@
 			(project "bwlc1a"
 				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
 					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 109.855 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a8def6b-81d6-4e3b-90e1-5a39ae1220fe")
+		(property "Reference" "#PWR099"
+			(at 132.08 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7c32eeb-df81-49ab-b36e-fd078d5760d7")
+		)
+		(instances
+			(project "bwlc1a"
+				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+			(project "bwlr1e"
+				(path "/630c8da6-5464-4eef-824d-89618087f4b4"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -4484,16 +4147,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 218.44 115.57 0)
+		(lib_id "Regulator_Linear:TPS7A0508PDBV")
+		(at 153.035 102.235 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "244d1ca4-f7f7-463f-a127-2c85162ab88a")
-		(property "Reference" "#PWR094"
-			(at 218.44 121.92 0)
+		(fields_autoplaced yes)
+		(uuid "2560bbaa-6585-4d39-bfb2-9409fc7da608")
+		(property "Reference" "U12"
+			(at 153.035 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS7A0333DBVR"
+			(at 153.035 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 153.035 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4501,25 +4181,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 218.44 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 115.57 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303010830_Texas-Instruments-TPS7A0328DBVR_C2862669.pdf"
+			(at 153.035 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,7 +4191,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 115.57 0)
+			(at 153.035 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,13 +4199,25 @@
 				(hide yes)
 			)
 		)
+		(pin "5"
+			(uuid "7fe777e5-9491-47e3-ac1d-75f2bd77b7f1")
+		)
 		(pin "1"
-			(uuid "400e6ebc-3141-44e4-9bd0-8b4aeaaffd06")
+			(uuid "f05a0ec6-1c1e-4ee9-98a5-96fa6b2def6b")
+		)
+		(pin "3"
+			(uuid "7a5218d3-8ed1-4187-a5e5-dc9aa7754ff6")
+		)
+		(pin "2"
+			(uuid "0964fb93-e060-4ca7-8f61-68cba6a0efd3")
+		)
+		(pin "4"
+			(uuid "64d23613-6da9-4403-9557-a372d8609832")
 		)
 		(instances
 			(project "bwlc1a"
 				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
-					(reference "#PWR094")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -4863,6 +4538,77 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 205.105 109.855 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42956a89-5e69-433e-9f64-5b49111b693b")
+		(property "Reference" "#PWR094"
+			(at 205.105 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.105 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.105 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.105 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.105 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b59a579a-57bc-4cdd-ba74-e0b2c2bed672")
+		)
+		(instances
+			(project "bwlc1a"
+				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+			(project "bwlr1e"
+				(path "/630c8da6-5464-4eef-824d-89618087f4b4"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 180.34 69.85 0)
 		(mirror y)
 		(unit 1)
@@ -5127,120 +4873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 240.03 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "484a10d3-8a90-4405-a2f1-244168c9bbd6")
-		(property "Reference" "C54"
-			(at 236.855 105.4163 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 236.855 107.9563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2005261833_Murata-Electronics-GRM155Z71A105KE01D_C528974.pdf?_gl=1*ep026d*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcwOTY5NzgxOS43MC4xLjE3MDk2OTk5NTAuNDcuMC4w"
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 1uF X7R ±10% 0402 Multilayer Ceramic Capacitors"
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM155Z71A105KE01D"
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "LCSC"
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "C528974"
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM155Z71A105KE01D_C528974.html"
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9b4e112-9ca3-459a-a401-c2238769de0d")
-		)
-		(pin "2"
-			(uuid "7057f338-9945-4096-9322-43838cb98968")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
-					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Q_NMOS_GSD")
 		(at 83.185 109.22 0)
 		(mirror y)
@@ -5320,6 +4952,204 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 241.3 104.775 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5117e51c-6ac8-4708-86ae-f47f62a68b1e")
+		(property "Reference" "C26"
+			(at 238.125 103.5113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 238.125 106.0513 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 241.3 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 241.3 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 241.3 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+			(at 241.3 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C19702"
+			(at 241.3 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" "1"
+			(at 241.3 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "Samsung Electro-Mechanics"
+			(at 241.3 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture Part Number" "CL10A106KP8NNNC"
+			(at 241.3 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 241.3 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3941689-2df5-4001-bf5e-9a06cfb60d7b")
+		)
+		(pin "2"
+			(uuid "a3ade2c8-3a43-4659-bd41-76ad9980d8c4")
+		)
+		(instances
+			(project "bwlc1a"
+				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 132.08 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53bb17f8-0392-4ffd-99dc-776498ddfbbc")
+		(property "Reference" "#PWR098"
+			(at 132.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 132.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fef08016-598a-4d85-97f4-c9712323d948")
+		)
+		(instances
+			(project "bwlc1a"
+				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 69.85 0)
 		(mirror y)
@@ -5380,71 +5210,6 @@
 			(project "bwlc1a"
 				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
 					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5e9c67eb-2506-4150-b1a7-492d47f1c434")
-		(property "Reference" "#PWR067"
-			(at 146.05 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ec15b32-160e-4beb-bc20-243281eb3711")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
-					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5582,25 +5347,25 @@
 		)
 	)
 	(symbol
-		(lib_id "bwlc1a:RT9193")
-		(at 222.25 101.6 0)
+		(lib_id "Regulator_Linear:TPS7A0508PDBV")
+		(at 226.06 102.235 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "734ecbbe-71aa-4369-b38b-2186e516c9c8")
+		(uuid "64e2d6a1-7499-4909-ab12-ede404eb4053")
 		(property "Reference" "U10"
-			(at 221.615 90.17 0)
+			(at 226.06 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RT9193-28GB"
-			(at 221.615 92.71 0)
+		(property "Value" "TPS7A0328DBVR"
+			(at 226.06 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5608,7 +5373,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 222.25 123.19 0)
+			(at 226.06 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5616,8 +5381,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809191953_Richtek-Tech-RT9193-28GB_C56731.pdf?_gl=1*16brzze*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcwOTY5NzgxOS43MC4xLjE3MDk2OTk3NDUuNTkuMC4w"
-			(at 222.25 125.73 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303010830_Texas-Instruments-TPS7A0328DBVR_C2862669.pdf"
+			(at 226.06 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,74 +5390,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LDO 300mA 70dB Fixed 2.8V Positive"
-			(at 222.25 101.6 0)
+		(property "Description" ""
+			(at 226.06 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "Richtek Tech"
-			(at 222.25 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RT9193-28GB"
-			(at 222.25 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "LCSC"
-			(at 222.25 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "C56731"
-			(at 222.25 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Richtek-Tech-RT9193-28GB_C56731.html"
-			(at 222.25 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "fb3eed26-67e1-4966-9a58-ab55cb76cfc8")
-		)
-		(pin "2"
-			(uuid "cd3ac02e-2be3-478b-9ac2-4bb6cfe2d457")
-		)
-		(pin "1"
-			(uuid "62b63bb7-78e5-4738-92dc-827cf48a286a")
-		)
-		(pin "4"
-			(uuid "1c7022d3-d6df-463f-93e5-ede4c9171614")
 		)
 		(pin "5"
-			(uuid "d75f36dc-04c6-4e90-b54d-e324085cc711")
+			(uuid "2ab6af19-1af6-4931-b190-39b1637265c2")
+		)
+		(pin "1"
+			(uuid "2cf5125e-5d69-4487-a39f-1ddb756b5c4c")
+		)
+		(pin "3"
+			(uuid "86a77c0f-6625-481e-9b33-b11d90b5ded5")
+		)
+		(pin "2"
+			(uuid "8485f1a4-7dff-4461-9ede-9d639d967a5f")
+		)
+		(pin "4"
+			(uuid "73cb034e-e452-4f56-8ad4-ff667c65c826")
 		)
 		(instances
 			(project "bwlc1a"
@@ -5705,15 +5425,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 114.3 0)
+		(at 241.3 109.855 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "76a55bc0-39a8-4f96-9d55-94ae2a4d43fa")
-		(property "Reference" "#PWR0101"
-			(at 167.64 120.65 0)
+		(uuid "730130a6-fe42-4c6b-bc8f-fc18dab47307")
+		(property "Reference" "#PWR068"
+			(at 241.3 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,7 +5442,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 118.11 0)
+			(at 241.3 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5730,7 +5450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 114.3 0)
+			(at 241.3 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,7 +5459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 114.3 0)
+			(at 241.3 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5748,7 +5468,78 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 114.3 0)
+			(at 241.3 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "470cdc45-f35b-4708-ad99-e7ab4e8651da")
+		)
+		(instances
+			(project "bwlc1a"
+				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+			(project "bwlr1e"
+				(path "/630c8da6-5464-4eef-824d-89618087f4b4"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.275 109.855 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76a55bc0-39a8-4f96-9d55-94ae2a4d43fa")
+		(property "Reference" "#PWR0101"
+			(at 168.275 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.275 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.275 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.275 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.275 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,6 +5761,72 @@
 			(project "Penguino-STM32WL-LoRa-E5"
 				(path "/c338af29-f8d9-4513-836a-55ed8bfc47d3"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 205.105 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f0d4ae6-f3d7-4358-b48f-c5ca8db20781")
+		(property "Reference" "#PWR093"
+			(at 205.105 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 205.105 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.105 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.105 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.105 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bb916d4-bcd6-4eed-96f6-3fc9893d13b2")
+		)
+		(instances
+			(project "bwlc1a"
+				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -6258,15 +6115,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 115.57 0)
+		(at 226.06 109.855 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "afcdd671-0b09-4855-b1a0-e870521cd0b1")
-		(property "Reference" "#PWR093"
-			(at 203.2 121.92 0)
+		(uuid "a70bf1ad-ed5f-48f2-941e-99247965d745")
+		(property "Reference" "#PWR067"
+			(at 226.06 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +6132,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 119.38 0)
+			(at 226.06 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6283,7 +6140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 115.57 0)
+			(at 226.06 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6292,7 +6149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 115.57 0)
+			(at 226.06 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6301,7 +6158,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 115.57 0)
+			(at 226.06 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,12 +6167,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cc10cde-12f5-40ff-aac7-f51e9f24bb74")
+			(uuid "e9549160-6d75-4247-911f-0466ecb1092b")
 		)
 		(instances
 			(project "bwlc1a"
 				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
-					(reference "#PWR093")
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+			(project "bwlr1e"
+				(path "/630c8da6-5464-4eef-824d-89618087f4b4"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -6539,6 +6402,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 132.08 104.775 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbe94833-c049-49ee-affb-930087383e21")
+		(property "Reference" "C44"
+			(at 128.905 103.5113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 128.905 106.0513 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 132.08 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 132.08 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 132.08 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+			(at 132.08 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C19702"
+			(at 132.08 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" "1"
+			(at 132.08 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "Samsung Electro-Mechanics"
+			(at 132.08 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture Part Number" "CL10A106KP8NNNC"
+			(at 132.08 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 132.08 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be12eded-9b80-4518-ba46-ebe7c4a91577")
+		)
+		(pin "2"
+			(uuid "bebe59ca-ddb1-4822-812d-f620fe634bba")
+		)
+		(instances
+			(project "bwlc1a"
+				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 115.57 52.07 0)
 		(unit 1)
@@ -6726,234 +6721,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 156.21 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c52ea22a-bd4d-418f-87c2-00dd813499f4")
-		(property "Reference" "C23"
-			(at 151.638 114.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22n"
-			(at 157.226 114.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 156.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-CC0402KRX7R9BB223_C107026.pdf?_gl=1*mf7hen*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcwOTY5NzgxOS43MC4xLjE3MDk2OTk5NTAuNDcuMC4w"
-			(at 156.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 22nF X7R ±10% 0402 Multilayer Ceramic Capacitors"
-			(at 156.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 156.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0402KRX7R9BB223"
-			(at 156.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "LCSC"
-			(at 156.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "C107026"
-			(at 156.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402KRX7R9BB223_C107026.html"
-			(at 156.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f1e6401-9b4f-496a-a0d7-79290f52b2cd")
-		)
-		(pin "2"
-			(uuid "c8c7fc74-3df0-4609-b7f2-05dedf021c7e")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 130.81 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5710a76-03c7-4e78-8e63-af63628b9d5a")
-		(property "Reference" "C24"
-			(at 127.635 104.1463 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 127.635 106.6863 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 130.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2005261833_Murata-Electronics-GRM155Z71A105KE01D_C528974.pdf?_gl=1*ep026d*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcwOTY5NzgxOS43MC4xLjE3MDk2OTk5NTAuNDcuMC4w"
-			(at 130.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 1uF X7R ±10% 0402 Multilayer Ceramic Capacitors"
-			(at 130.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 130.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM155Z71A105KE01D"
-			(at 130.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "LCSC"
-			(at 130.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "C528974"
-			(at 130.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM155Z71A105KE01D_C528974.html"
-			(at 130.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4178e1f-afbf-4ea5-96e8-f838fe4b140d")
-		)
-		(pin "2"
-			(uuid "7efaee23-f1ad-4717-8d62-2dd2e793e7e9")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 54.61 132.715 0)
 		(unit 1)
@@ -7039,128 +6806,6 @@
 			(project "feather_rak3172"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb"
 					(reference "#PWR0131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bwlc1a:RT9193")
-		(at 149.86 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9ea240a-09bf-4635-8e53-c1a5e800de8d")
-		(property "Reference" "U12"
-			(at 149.225 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RT9193-33GB"
-			(at 149.225 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 149.86 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811100910_Richtek-Tech-RT9193-33GB_C15651.pdf?_gl=1*16brzze*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcwOTY5NzgxOS43MC4xLjE3MDk2OTk3NDUuNTkuMC4w"
-			(at 149.86 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LDO 300mA 70dB Fixed 3.3V Positive"
-			(at 149.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Richtek Tech"
-			(at 149.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RT9193-33GB"
-			(at 149.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "LCSC"
-			(at 149.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "C15651"
-			(at 149.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Richtek-Tech-RT9193-33GB_C15651.html"
-			(at 149.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9a5a9f87-d1b1-4173-af53-b98825f27c0e")
-		)
-		(pin "2"
-			(uuid "fe612af1-2454-4999-b3e1-36b83d6ccc6a")
-		)
-		(pin "1"
-			(uuid "a00f2445-6bbd-47bf-975b-e8bba7b69762")
-		)
-		(pin "4"
-			(uuid "ff8143e8-bd48-41c8-885c-e8f49361aaed")
-		)
-		(pin "5"
-			(uuid "ff18f4f1-3d23-44f9-9b41-8c237a79ad90")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
-					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -7282,72 +6927,6 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 130.81 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0e829d6-dc97-4409-a3b8-4d65ee2889ca")
-		(property "Reference" "#PWR065"
-			(at 130.81 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 130.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e1a795d-dc19-4b79-82a9-af5be0aded6b")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
 		(at 53.975 50.165 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7407,6 +6986,209 @@
 			(project "bwlc1a"
 				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 205.105 104.775 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcb62741-5c1b-44cf-b72e-60f0ac532a58")
+		(property "Reference" "C24"
+			(at 201.93 103.5113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 201.93 106.0513 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 205.105 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.105 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 205.105 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 205.105 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+			(at 205.105 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C19702"
+			(at 205.105 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" "1"
+			(at 205.105 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "Samsung Electro-Mechanics"
+			(at 205.105 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture Part Number" "CL10A106KP8NNNC"
+			(at 205.105 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 205.105 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc44c418-1769-4610-85fd-b744d4482645")
+		)
+		(pin "2"
+			(uuid "c19f5d3a-b623-4dff-82ae-6f3f7240860e")
+		)
+		(instances
+			(project "bwlc1a"
+				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.035 109.855 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e689615f-b77c-4eb6-a4f1-1c1460a6aa52")
+		(property "Reference" "#PWR0100"
+			(at 153.035 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.035 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.035 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.035 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.035 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "757acf16-98ff-4adf-8161-d931c66d781b")
+		)
+		(instances
+			(project "bwlc1a"
+				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+			(project "bwlr1e"
+				(path "/630c8da6-5464-4eef-824d-89618087f4b4"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -7522,120 +7304,6 @@
 			(project "bwlc1a"
 				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
 					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 228.6 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eca2dc99-2606-49dc-8251-768bb40949a3")
-		(property "Reference" "C44"
-			(at 224.028 116.078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22n"
-			(at 229.616 116.078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-CC0402KRX7R9BB223_C107026.pdf?_gl=1*mf7hen*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcwOTY5NzgxOS43MC4xLjE3MDk2OTk5NTAuNDcuMC4w"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 22nF X7R ±10% 0402 Multilayer Ceramic Capacitors"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0402KRX7R9BB223"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "LCSC"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "C107026"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402KRX7R9BB223_C107026.html"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24137260-d600-49d7-8587-24fe5bf7f003")
-		)
-		(pin "2"
-			(uuid "e019d203-49b1-44ae-bf86-e30c75d6d52d")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/c42c1b26-c4d8-47f4-ac0f-5524ee8d9937"
-					(reference "C44")
 					(unit 1)
 				)
 			)
