@@ -5,3 +5,9 @@ hardware/kicad/library/3dmodels/NN03-310.step filter=lfs diff=lfs merge=lfs -tex
 hardware/kicad/library/3dmodels/* filter=lfs diff=lfs merge=lfs -text
 hardware/kicad/library/3dmodels filter=lfs diff=lfs merge=lfs -text
 hardware/kicad/library/3dmodels/NN03-320.step filter=lfs diff=lfs merge=lfs -text
+hardware/kicad/library/3dmodels/* filter=lfs diff=lfs merge=lfs -text
+hardware/kicad/library/3dmodels/ESP32-S3-MINI-1.STEP filter=lfs diff=lfs merge=lfs -text
+hardware/kicad/library/3dmodels/LGA-124_L24.0-W24.0-P1.0-A7670C-LASS.wrl filter=lfs diff=lfs merge=lfs -text
+hardware/kicad/library/3dmodels/SIM-SMD_SMN-304.wrl filter=lfs diff=lfs merge=lfs -text
+hardware/kicad/library/3dmodels/SW-SMD_L3.9-W2.9-H2.0-LS4.8.wrl filter=lfs diff=lfs merge=lfs -text
+hardware/kicad/library/3dmodels/SM04B-SRSS-TB.STEP filter=lfs diff=lfs merge=lfs -text
