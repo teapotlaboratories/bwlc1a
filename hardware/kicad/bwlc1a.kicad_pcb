@@ -5462,7 +5462,7 @@
 		(uuid "1b8b059a-dd63-4f48-bd97-17791b5e6fd3")
 		(at 187.25 83.36 90)
 		(property "Reference" "SW1"
-			(at 0 -4 270)
+			(at 0 -4 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ad8211b5-7543-42c3-8354-a4383d41df27")
@@ -5474,7 +5474,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 0 4 270)
+			(at 0 4 -90)
 			(layer "F.Fab")
 			(uuid "357e6178-b8cf-4185-9655-1dbd2b5ae182")
 			(effects
@@ -5521,7 +5521,7 @@
 			)
 		)
 		(property "Distributor" "LCSC"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2e5df872-6430-4b13-85c6-c3e23aeebfcf")
@@ -5533,7 +5533,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.lcsc.com/product-detail/Tactile-Switches_C-K-KMR233GLFG_C2689601.html"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "11a1ef69-f676-4d12-a43c-460d7aa9fed7")
@@ -5545,7 +5545,7 @@
 			)
 		)
 		(property "Distributor Part Number" "C2689601"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7ac69b2f-1c23-44c4-a362-acaf5c6cd640")
@@ -5557,7 +5557,7 @@
 			)
 		)
 		(property "Id" "46"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "68ffc717-3747-40b6-81fe-844f1b7fd07a")
@@ -5569,7 +5569,7 @@
 			)
 		)
 		(property "Manufacture" "C&K"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4ac3b5e2-f7a9-4a95-8733-8b42fd7923f9")
@@ -5581,7 +5581,7 @@
 			)
 		)
 		(property "Manufacture Part Number" "KMR233GLFG"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3cc5abcc-c8ca-4f44-8b4a-bc0758bf2cd8")
@@ -5593,7 +5593,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "008efaab-4c3b-4574-ac47-59f2fca2d4ed")
@@ -5697,7 +5697,7 @@
 			(uuid "894cd110-2886-4167-a7f3-2bd6f591144c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "f5b51a45-e162-43ff-b1c0-846fc9e85661")
 			(effects
