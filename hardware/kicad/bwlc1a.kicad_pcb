@@ -12627,14 +12627,14 @@
 			)
 		)
 	)
-	(footprint "Teapot:TeapotLogo"
+	(footprint "bwlc1a:TeapotLogo"
 		(layer "F.Cu")
 		(uuid "36f4b57e-fb3c-40ab-b8b0-b81cb8eaed4b")
 		(at 183.837 119.126)
 		(property "Reference" "G***"
 			(at 0 0.04 0)
 			(layer "F.Fab")
-			(uuid "a49eb72f-d674-4571-9681-78265222d98f")
+			(uuid "a3ca3abd-e98a-4966-9cd1-da496181317f")
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12646,7 +12646,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bc26ed65-2802-4e1d-b414-2a3f6edaba70")
+			(uuid "41f7f3d5-742f-4c0f-99fb-8a7e8a746b49")
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12659,7 +12659,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4866a07d-0097-4b40-b6a0-77a4b754a2ea")
+			(uuid "ef31abd9-88d8-4490-8ee0-2281b8d24185")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12671,7 +12671,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e15f59cb-8094-4f20-844e-6afbd4d79175")
+			(uuid "563be9e5-b719-44c1-ba7d-82b61186e974")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12683,7 +12683,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b66fc36c-ebca-4b3a-8743-d32a0ede0f6b")
+			(uuid "6d22284f-5b05-472b-976b-e120b70eed7b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12704,7 +12704,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "a6027cbc-eaff-4903-8996-526e3192f89e")
+			(uuid "cee55a51-462a-43f6-ac16-7dc72a7a30ef")
 		)
 		(fp_poly
 			(pts
@@ -12719,7 +12719,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "20f578af-4eb1-4912-a86a-ff2ba8ceab9a")
+			(uuid "c421df96-cbb8-44c5-bf07-b4686ea691f4")
 		)
 		(fp_poly
 			(pts
@@ -12790,7 +12790,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "0d70d2c8-bfc0-4f6d-ac48-897160f5ad83")
+			(uuid "e9fddfd1-ed6b-425a-942b-c17d41b9d9ad")
 		)
 		(fp_poly
 			(pts
@@ -12908,7 +12908,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "3692f2f4-5c73-4059-bf76-760fc0a8193f")
+			(uuid "671c3987-a458-48d4-83d2-cb4786e2de34")
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
