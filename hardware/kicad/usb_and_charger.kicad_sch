@@ -3267,9 +3267,9 @@
 		)
 		(uuid a76514a7-3aae-4faa-a455-53a91e5ff6c4)
 	)
-	(text "Charge LED"
+	(text "Orange Charge LED"
 		(exclude_from_sim no)
-		(at 219.71 81.28 90)
+		(at 220.218 88.392 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3291,7 +3291,7 @@
 		)
 		(uuid "28a72397-eeb0-41d3-8078-dc841bde6a8f")
 	)
-	(text "USB trace is less than \nCritical Length (2.4 inch) for\nUSB2.0 Full-speed specification.\n\nNo need for impedance control."
+	(text "USB trace is less than \nCritical Length (2.4 inch) for\nUSB2.0 Full-speed specification.\n\nImpedance control is not critical"
 		(exclude_from_sim no)
 		(at 125.095 121.92 0)
 		(effects
@@ -3314,6 +3314,17 @@
 			(justify left bottom)
 		)
 		(uuid "4dcd1a2f-19e8-493d-9ef0-f57d610d138b")
+	)
+	(text "750mA"
+		(exclude_from_sim no)
+		(at 135.89 65.024 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1c9ecc4-f181-4d3e-8f35-b82d5ec8a294")
 	)
 	(text "Charge Rate: 1A"
 		(exclude_from_sim no)
@@ -3602,7 +3613,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 175.895 86.36 90)
 			(effects
 				(font
@@ -3619,7 +3630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-072KL_C60488.pdf?_gl=1*12i6tb2*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODU1NDYuNDEuMC4w"
 			(at 177.8 86.36 0)
 			(effects
 				(font
@@ -3628,7 +3639,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±5% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 2kΩ 0402 Chip Resistor"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-072KL"
 			(at 177.8 86.36 0)
 			(effects
 				(font
@@ -3646,7 +3675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.html"
+		(property "Distributor Part Number" "C60488"
 			(at 177.8 86.36 0)
 			(effects
 				(font
@@ -3655,43 +3684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C25543"
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "37"
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0102TCE"
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-072KL_C60488.html"
 			(at 177.8 86.36 0)
 			(effects
 				(font
@@ -3892,7 +3885,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6V 锂离子/Polymer 1 500mA SOT-23-5 Battery Management ICs ROHS"
+		(property "Description" "6V Polymer 1 500mA SOT-23-5 Battery Management ICs"
+			(at 191.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Tech"
+			(at 191.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCP73831T-2ATI/OT"
 			(at 191.77 80.01 0)
 			(effects
 				(font
@@ -3910,15 +3921,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Battery-Management-ICs_Microchip-Tech-MCP73831T-2ATI-OT_C14879.html"
-			(at 191.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C14879"
 			(at 191.77 80.01 0)
 			(effects
@@ -3928,52 +3930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "51"
-			(at 191.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Microchip Tech"
-			(at 191.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "MCP73831T-2ATI/OT"
-			(at 191.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 191.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 191.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Battery-Management-ICs_Microchip-Tech-MCP73831T-2ATI-OT_C14879.html"
 			(at 191.77 80.01 0)
 			(effects
 				(font
@@ -4349,7 +4306,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 111.76 73.66 0)
 			(effects
 				(font
@@ -4358,7 +4315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2209151800_Leiditech-ESD5651N_C5173251.pdf?_gl=1*1pgfs12*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODQ2MDMuNjAuMC4w"
 			(at 111.76 73.66 0)
 			(effects
 				(font
@@ -4367,7 +4324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DFN1006 Electrostatic and Surge Protection (TVS/ESD) ROHS"
 			(at 111.76 73.66 0)
 			(effects
 				(font
@@ -4376,7 +4333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Manufacturer" "Leiditech"
 			(at 111.76 73.66 0)
 			(effects
 				(font
@@ -4385,7 +4342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "ESD5651N"
 			(at 111.76 73.66 0)
 			(effects
 				(font
@@ -4394,7 +4351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor" "LCSC"
 			(at 111.76 73.66 0)
 			(effects
 				(font
@@ -4403,16 +4360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
-			(at 111.76 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "C5173251"
 			(at 111.76 73.66 0)
 			(effects
 				(font
@@ -4807,7 +4755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf?_gl=1*1759sel*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODQ1MjIuNjAuMC4w"
 			(at 99.695 76.2 0)
 			(effects
 				(font
@@ -4825,7 +4773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 99.695 76.2 0)
 			(effects
 				(font
@@ -4834,7 +4782,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.html"
+		(property "Manufacturer Part Number" "0402WGF5101TCE"
+			(at 99.695 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 99.695 76.2 0)
 			(effects
 				(font
@@ -4852,34 +4809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "35"
-			(at 99.695 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 99.695 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGF5101TCE"
-			(at 99.695 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.html"
 			(at 99.695 76.2 0)
 			(effects
 				(font
@@ -4937,7 +4867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205251630_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
 			(at 85.09 83.82 0)
 			(effects
 				(font
@@ -4955,7 +4885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "Korean Hroparts Elec"
 			(at 81.28 83.82 0)
 			(effects
 				(font
@@ -4964,7 +4894,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-USB-span-Connectors_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html"
+		(property "Manufacturer Part Number" "TYPE-C-31-M-12"
+			(at 81.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 81.28 83.82 0)
 			(effects
 				(font
@@ -4982,34 +4921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "25"
-			(at 81.28 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Korean Hroparts Elec"
-			(at 81.28 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "TYPE-C-31-M-12"
-			(at 81.28 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-USB-span-Connectors_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html"
 			(at 81.28 83.82 0)
 			(effects
 				(font
@@ -5114,7 +5026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_YAGEO-CC0402KRX5R6BB104_C129131.pdf?_gl=1*r0uqho*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODUxMDUuMS4wLjA."
 			(at 132.715 73.025 0)
 			(effects
 				(font
@@ -5123,7 +5035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10V 100nF X5R ±10% 0402 Multilayer Ceramic Capacitors"
 			(at 132.715 73.025 0)
 			(effects
 				(font
@@ -5141,7 +5053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CC0402KRX5R6BB104"
+		(property "Manufacturer Part Number" "CC0402KRX5R6BB104"
 			(at 132.715 73.025 0)
 			(effects
 				(font
@@ -5150,7 +5062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Ceramic Capacitor 100nF 10% 10V X5R"
+		(property "Distributor" "LCSC"
 			(at 132.715 73.025 0)
 			(effects
 				(font
@@ -5159,7 +5071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor Part Number" "C129131"
 			(at 132.715 73.025 0)
 			(effects
 				(font
@@ -5168,25 +5080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
-			(at 132.715 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" ""
-			(at 132.715 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402KRX5R6BB104_C129131.html"
 			(at 132.715 73.025 0)
 			(effects
 				(font
@@ -5401,7 +5295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf?_gl=1*a0brkq*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODYwMzYuNjAuMC4w"
 			(at 166.37 79.375 0)
 			(effects
 				(font
@@ -5419,7 +5313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 166.37 79.375 0)
 			(effects
 				(font
@@ -5428,7 +5322,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
+			(at 166.37 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 166.37 79.375 0)
 			(effects
 				(font
@@ -5446,34 +5349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "1"
-			(at 166.37 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 166.37 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 166.37 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
 			(at 166.37 79.375 0)
 			(effects
 				(font
@@ -5507,15 +5383,15 @@
 		(dnp no)
 		(uuid "94ab863d-c8a7-445b-8716-1f9e43e9e84a")
 		(property "Reference" "F1"
-			(at 138.43 64.77 90)
+			(at 138.176 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0.75A"
-			(at 138.43 66.675 90)
+		(property "Value" "SMD0805P075TF"
+			(at 144.272 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5532,7 +5408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2403081022_RUILON-Shenzhen-Ruilongyuan-Elec-SMD0805P075TF_C20979.pdf?_gl=1*f8k81o*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODUxODAuNjAuMC4w"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -5541,7 +5417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6V 750mA 40A 1.5A 0805 Resettable Fuses"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -5550,34 +5426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "RUILON"
-			(at 138.43 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "SMD0805P075TF"
-			(at 138.43 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resettable Fuses 6V 750mA 40A 1.5A"
-			(at 138.43 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer" "RUILON(Shenzhen Ruilongyuan Elec)"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -5586,7 +5435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Manufacturer Part Number" "SMD0805P075TF"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -5595,7 +5444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor" "LCSC"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -5604,7 +5453,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Part Number" "C20979"
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Resettable-Fuses_RUILON-Shenzhen-Ruilongyuan-Elec-SMD0805P075TF_C20979.html"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -5805,7 +5663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311845_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.pdf?_gl=1*cej979*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODU3ODguNjAuMC4w"
 			(at 208.28 82.55 0)
 			(effects
 				(font
@@ -5823,7 +5681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 208.28 82.55 0)
 			(effects
 				(font
@@ -5832,7 +5690,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.html"
+		(property "Manufacturer Part Number" "0402WGJ0102TCE"
+			(at 208.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 208.28 82.55 0)
 			(effects
 				(font
@@ -5850,34 +5717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "37"
-			(at 208.28 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 208.28 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0102TCE"
-			(at 208.28 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.html"
 			(at 208.28 82.55 0)
 			(effects
 				(font
@@ -6003,7 +5843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf?_gl=1*4reut5*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODU5NDYuNjAuMC4w"
 			(at 227.33 79.375 0)
 			(effects
 				(font
@@ -6021,7 +5861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 227.33 79.375 0)
 			(effects
 				(font
@@ -6030,7 +5870,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
+			(at 227.33 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 227.33 79.375 0)
 			(effects
 				(font
@@ -6048,34 +5897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "1"
-			(at 227.33 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 227.33 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 227.33 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
 			(at 227.33 79.375 0)
 			(effects
 				(font
@@ -6135,7 +5957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108132230_TECH-PUBLIC-USBLC6-2SC6_C2827654.pdf?_gl=1*1nr4p97*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODUzMTcuNDQuMC4w"
 			(at 126.365 95.25 0)
 			(effects
 				(font
@@ -6153,7 +5975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "TECH PUBLIC"
 			(at 121.285 104.14 0)
 			(effects
 				(font
@@ -6162,7 +5984,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/ESD-Protection-Devices_TECH-PUBLIC-USBLC6-2SC6_C2827654.html"
+		(property "Manufacturer Part Number" "USBLC6-2SC6"
+			(at 121.285 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 121.285 104.14 0)
 			(effects
 				(font
@@ -6180,52 +6011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "52"
-			(at 121.285 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "TECH PUBLIC"
-			(at 121.285 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "USBLC6-2SC6"
-			(at 121.285 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 121.285 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 121.285 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/ESD-Protection-Devices_TECH-PUBLIC-USBLC6-2SC6_C2827654.html"
 			(at 121.285 104.14 0)
 			(effects
 				(font
@@ -6295,7 +6081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_TDK-MMZ1608B601CTAH0_C97120.pdf?_gl=1*506phw*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODUwNDYuNjAuMC4w"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -6304,7 +6090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "400mΩ ±25% 600Ω@100MHz 0603 Ferrite Beads"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -6314,24 +6100,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 127 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "MMZ1608B601CTAH0"
-			(at 127 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -6340,7 +6108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "MMZ1608B601CTAH0"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -6349,7 +6117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "LCSC"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -6358,7 +6126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "C97120"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -6367,7 +6135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Ferrite-Beads_TDK-MMZ1608B601CTAH0_C97120.html"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -6439,7 +6207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-CC0402KRX7R9BB103_C60133.pdf?_gl=1*ako6z0*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODQ5MzUuNjAuMC4w"
 			(at 120.015 73.025 0)
 			(effects
 				(font
@@ -6448,7 +6216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors"
 			(at 120.015 73.025 0)
 			(effects
 				(font
@@ -6466,7 +6234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CC0402KRX7R9BB103"
+		(property "Manufacturer Part Number" "CC0402KRX7R9BB103"
 			(at 120.015 73.025 0)
 			(effects
 				(font
@@ -6475,7 +6243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Ceramic Capacitor 10nF 10% 50V X7R"
+		(property "Distributor" "LCSC"
 			(at 120.015 73.025 0)
 			(effects
 				(font
@@ -6484,7 +6252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor Part Number" "C60133"
 			(at 120.015 73.025 0)
 			(effects
 				(font
@@ -6493,25 +6261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
-			(at 120.015 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" ""
-			(at 120.015 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402KRX7R9BB103_C60133.html"
 			(at 120.015 73.025 0)
 			(effects
 				(font
@@ -6557,7 +6307,7 @@
 		(dnp no)
 		(uuid "d8f4203f-3daf-48ce-8068-72d9f6674ae0")
 		(property "Reference" "D1"
-			(at 216.535 78.105 0)
+			(at 212.09 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,8 +6315,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Orange"
-			(at 216.535 69.85 0)
+		(property "Value" "E6C0603SEAC1UDA"
+			(at 216.916 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +6333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2203301730_EKINGLUX-E6C0603SEAC1UDA_C375450.pdf?_gl=1*pv3h19*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODU4NDEuNy4wLjA."
 			(at 213.995 76.2 90)
 			(effects
 				(font
@@ -6592,7 +6342,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Colorless transparence -40℃~+90℃ 605nm Orange 120° 0603 Light Emitting Diodes (LED) ROHS"
+		(property "Description" "Colorless transparence -40℃~+90℃ 605nm Orange 120° 0603 Light Emitting Diodes (LED)"
+			(at 213.995 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "EKINGLUX"
+			(at 213.995 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "E6C0603SEAC1UDA"
 			(at 213.995 76.2 0)
 			(effects
 				(font
@@ -6610,15 +6378,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_EKINGLUX-E6C0603SEAC1UDA_C375450.html"
-			(at 213.995 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C375450"
 			(at 213.995 76.2 0)
 			(effects
@@ -6628,34 +6387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "17"
-			(at 213.995 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "EKINGLUX"
-			(at 213.995 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "E6C0603SEAC1UDA"
-			(at 213.995 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_EKINGLUX-E6C0603SEAC1UDA_C375450.html"
 			(at 213.995 76.2 0)
 			(effects
 				(font
@@ -6713,7 +6445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf?_gl=1*1759sel*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODQ1MjIuNjAuMC4w"
 			(at 99.695 73.66 0)
 			(effects
 				(font
@@ -6731,7 +6463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 99.695 73.66 0)
 			(effects
 				(font
@@ -6740,7 +6472,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.html"
+		(property "Manufacturer Part Number" "0402WGF5101TCE"
+			(at 99.695 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 99.695 73.66 0)
 			(effects
 				(font
@@ -6758,34 +6499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "35"
-			(at 99.695 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 99.695 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGF5101TCE"
-			(at 99.695 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.html"
 			(at 99.695 73.66 0)
 			(effects
 				(font
