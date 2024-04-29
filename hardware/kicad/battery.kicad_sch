@@ -1155,7 +1155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Teapot:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "bwlc1a:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 93.345 55.88 0)
 			(effects
 				(font
