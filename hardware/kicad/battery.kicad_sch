@@ -1147,7 +1147,7 @@
 				)
 			)
 		)
-		(property "Value" "JST-2PH"
+		(property "Value" "S2B-PH-SM4-TB(LF)(SN)"
 			(at 86.995 58.42 0)
 			(effects
 				(font
@@ -1164,7 +1164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2102031704_JST-S2B-PH-SM4-TB-LF-SN_C295747.pdf?_gl=1*1e18khi*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxNDM2Mzg4Ni43NS4xLjE3MTQzNjM5NTAuNjAuMC4w"
 			(at 93.345 55.88 0)
 			(effects
 				(font
@@ -1209,7 +1209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "24"
+		(property "Manufacturer" "JST"
 			(at 93.345 55.88 0)
 			(effects
 				(font
@@ -1218,52 +1218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture" "JST Sales America Inc."
-			(at 93.345 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 93.345 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 93.345 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
-			(at 93.345 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 93.345 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "S2B-PH-SM4-TB(LF)(SN)"
 			(at 93.345 55.88 0)
 			(effects
 				(font
@@ -1556,7 +1511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30V 4.3A 48mΩ@10V,4.3A 1.4W 3V@250uA"
 			(at 127 49.53 0)
 			(effects
 				(font
