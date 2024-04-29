@@ -1148,7 +1148,7 @@
 			)
 		)
 		(property "Value" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 86.995 58.42 0)
+			(at 86.614 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,6 +1182,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "JST"
+			(at 93.345 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "S2B-PH-SM4-TB(LF)(SN)"
+			(at 93.345 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor" "LCSC"
 			(at 93.345 55.88 0)
 			(effects
@@ -1201,24 +1219,6 @@
 			)
 		)
 		(property "Distributor Part Number" "C295747"
-			(at 93.345 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 93.345 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "S2B-PH-SM4-TB(LF)(SN)"
 			(at 93.345 55.88 0)
 			(effects
 				(font
