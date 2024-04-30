@@ -3336,7 +3336,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 165.1 106.0513 0)
 			(effects
 				(font
@@ -3354,7 +3354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B105KO8NNNC_C59782.pdf"
 			(at 168.275 104.775 0)
 			(effects
 				(font
@@ -3363,7 +3363,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 1uF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 168.275 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 168.275 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B105KO8NNNC"
 			(at 168.275 104.775 0)
 			(effects
 				(font
@@ -3381,7 +3399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Distributor Part Number" "C59782"
 			(at 168.275 104.775 0)
 			(effects
 				(font
@@ -3390,43 +3408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C19702"
-			(at 168.275 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "1"
-			(at 168.275 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 168.275 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 168.275 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B105KO8NNNC_C59782.html"
 			(at 168.275 104.775 0)
 			(effects
 				(font
@@ -3569,7 +3551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
 			(at 115.57 58.42 0)
 			(effects
 				(font
@@ -3587,7 +3569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 115.57 58.42 0)
 			(effects
 				(font
@@ -3596,7 +3578,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 115.57 58.42 0)
 			(effects
 				(font
@@ -3614,52 +3605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "1"
-			(at 115.57 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 115.57 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 115.57 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 115.57 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 115.57 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
 			(at 115.57 58.42 0)
 			(effects
 				(font
@@ -3800,7 +3746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1203T5E_C25808.pdf"
 			(at 165.1 58.42 0)
 			(effects
 				(font
@@ -3809,7 +3755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 120kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 165.1 58.42 0)
 			(effects
 				(font
@@ -3818,7 +3764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 165.1 58.42 0)
 			(effects
 				(font
@@ -3827,7 +3773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "0603WAF1203T5E"
 			(at 165.1 58.42 0)
 			(effects
 				(font
@@ -3836,7 +3782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor" "LCSC"
 			(at 165.1 58.42 0)
 			(effects
 				(font
@@ -3845,7 +3791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor Part Number" "C25808"
 			(at 165.1 58.42 0)
 			(effects
 				(font
@@ -3854,16 +3800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
-			(at 165.1 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1203T5E_C25808.html"
 			(at 165.1 58.42 0)
 			(effects
 				(font
@@ -3993,7 +3930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811021412_Chilisin-Elec-LVS303015-2R2M-N_C285837.pdf"
 			(at 158.75 53.34 0)
 			(effects
 				(font
@@ -4002,7 +3939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "2.3A 2.2uH Shielded Power Inductors ±20% SMD,3x3mm Power Inductors ROHS"
 			(at 158.75 53.34 0)
 			(effects
 				(font
@@ -4011,7 +3948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Chilisin Elec"
 			(at 158.75 53.34 0)
 			(effects
 				(font
@@ -4020,7 +3957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "LVS303015-2R2M-N "
 			(at 158.75 53.34 0)
 			(effects
 				(font
@@ -4029,7 +3966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "LCSC"
 			(at 158.75 53.34 0)
 			(effects
 				(font
@@ -4038,7 +3975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "C285837"
 			(at 158.75 53.34 0)
 			(effects
 				(font
@@ -4047,7 +3984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Power-Inductors_Chilisin-Elec-LVS303015-2R2M-N_C285837.html"
 			(at 158.75 53.34 0)
 			(effects
 				(font
@@ -4107,7 +4044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1004T5E_C22935.pdf"
 			(at 93.345 114.3 0)
 			(effects
 				(font
@@ -4116,7 +4053,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 1MΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 93.345 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 93.345 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF1004T5E"
+			(at 93.345 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 93.345 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C22935"
+			(at 93.345 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1004T5E_C22935.html"
 			(at 93.345 114.3 0)
 			(effects
 				(font
@@ -4181,7 +4163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303010830_Texas-Instruments-TPS7A0328DBVR_C2862669.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2302220600_Texas-Instruments-TPS7A0333DBVR_C2873330.pdf"
 			(at 153.035 89.535 0)
 			(effects
 				(font
@@ -4190,7 +4172,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "55dB@(1kHz) 200mA null 3.3V Positive electrode 6V SOT-23-5 Linear Voltage Regulators (LDO) ROHS"
+			(at 153.035 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 153.035 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TPS7A0333DBVR"
+			(at 153.035 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 153.035 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C2873330"
+			(at 153.035 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Texas-Instruments-TPS7A0333DBVR_C2873330.html"
 			(at 153.035 102.235 0)
 			(effects
 				(font
@@ -4261,7 +4288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
 			(at 93.98 62.23 0)
 			(effects
 				(font
@@ -4279,7 +4306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 93.98 62.23 0)
 			(effects
 				(font
@@ -4288,7 +4315,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
+			(at 93.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 93.98 62.23 0)
 			(effects
 				(font
@@ -4306,61 +4342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "1"
-			(at 93.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 93.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 93.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 93.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
-			(at 93.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 93.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
 			(at 93.98 62.23 0)
 			(effects
 				(font
@@ -4421,7 +4403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1004T5E_C22935.pdf"
 			(at 80.645 97.79 0)
 			(effects
 				(font
@@ -4430,7 +4412,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 1MΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 80.645 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 80.645 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF1004T5E"
+			(at 80.645 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 80.645 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C22935"
+			(at 80.645 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1004T5E_C22935.html"
 			(at 80.645 97.79 0)
 			(effects
 				(font
@@ -4494,7 +4521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Silergy-Corp-SY8089A1AAC_C479074.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001171834_Silergy-Corp-SY8089A1AAC_C479074.pdf"
 			(at 143.51 43.18 0)
 			(effects
 				(font
@@ -4503,7 +4530,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SOT-23-5 DC-DC Converters ROHS"
+			(at 143.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Silergy Corp"
+			(at 143.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SY8089A1AAC"
+			(at 143.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 143.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C479074"
+			(at 143.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Silergy-Corp-SY8089A1AAC_C479074.html"
 			(at 143.51 55.88 0)
 			(effects
 				(font
@@ -4776,7 +4848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
 			(at 53.975 62.23 0)
 			(effects
 				(font
@@ -4794,7 +4866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 53.975 62.23 0)
 			(effects
 				(font
@@ -4803,7 +4875,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
+			(at 53.975 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 53.975 62.23 0)
 			(effects
 				(font
@@ -4821,34 +4902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "1"
-			(at 53.975 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 53.975 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 53.975 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
 			(at 53.975 62.23 0)
 			(effects
 				(font
@@ -4909,7 +4963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806090918_Diodes-Incorporated-DMG1012UW-7_C156390.pdf"
 			(at 83.185 109.22 0)
 			(effects
 				(font
@@ -4918,7 +4972,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20V 1A 450mΩ@4.5V,600mA 290mW 1V@250uA 1PCSNChannel SOT-323-3 MOSFETs ROHS"
+			(at 83.185 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 83.185 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "DMG1012UW-7 "
+			(at 83.185 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 83.185 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C156390"
+			(at 83.185 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/MOSFETs_Diodes-Incorporated-DMG1012UW-7_C156390.html"
 			(at 83.185 109.22 0)
 			(effects
 				(font
@@ -4969,7 +5068,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 238.125 106.0513 0)
 			(effects
 				(font
@@ -4987,7 +5086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B105KO8NNNC_C59782.pdf"
 			(at 241.3 104.775 0)
 			(effects
 				(font
@@ -4996,7 +5095,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 1uF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 241.3 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 241.3 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B105KO8NNNC"
 			(at 241.3 104.775 0)
 			(effects
 				(font
@@ -5014,7 +5131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Distributor Part Number" "C59782"
 			(at 241.3 104.775 0)
 			(effects
 				(font
@@ -5023,43 +5140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C19702"
-			(at 241.3 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "1"
-			(at 241.3 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 241.3 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 241.3 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B105KO8NNNC_C59782.html"
 			(at 241.3 104.775 0)
 			(effects
 				(font
@@ -5259,16 +5340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 76.2 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Linear Voltage Regulators 75dB@(1kHz) 600mA 3.3V"
+		(property "Description" " 75dB@(1kHz) 600mA null 3.3V Positive electrode 5.5V TSOT-23-5 Linear Voltage Regulators (LDO) ROHS"
 			(at 76.2 56.515 0)
 			(effects
 				(font
@@ -5381,7 +5453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303010830_Texas-Instruments-TPS7A0328DBVR_C2862669.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303010830_Texas-Instruments-TPS7A0328DBVR_C2862669.pdf"
 			(at 226.06 89.535 0)
 			(effects
 				(font
@@ -5390,7 +5462,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" " 55dB@(1kHz) 200mA null 2.8V Positive electrode 6V SOT-23-5 Linear Voltage Regulators (LDO) ROHS"
+			(at 226.06 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 226.06 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TPS7A0328DBVR"
+			(at 226.06 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 226.06 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C2862669"
+			(at 226.06 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Texas-Instruments-TPS7A0328DBVR_C2862669.html"
 			(at 226.06 102.235 0)
 			(effects
 				(font
@@ -5601,7 +5718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081617_Murata-Electronics-GRM188R60J476ME15D_C140782.pdf"
 			(at 170.18 58.42 0)
 			(effects
 				(font
@@ -5610,7 +5727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 47uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 170.18 58.42 0)
 			(effects
 				(font
@@ -5619,7 +5736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 170.18 58.42 0)
 			(effects
 				(font
@@ -5628,7 +5745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM188R60J476ME15D"
 			(at 170.18 58.42 0)
 			(effects
 				(font
@@ -5637,7 +5754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "LCSC"
 			(at 170.18 58.42 0)
 			(effects
 				(font
@@ -5646,7 +5763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "C140782"
 			(at 170.18 58.42 0)
 			(effects
 				(font
@@ -5655,7 +5772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM188R60J476ME15D_C140782.html"
 			(at 170.18 58.42 0)
 			(effects
 				(font
@@ -5869,7 +5986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PMV32UP-2938736.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2201211500_TECH-PUBLIC-PMV32UP_C2959851.pdf"
 			(at 73.66 104.14 0)
 			(effects
 				(font
@@ -5878,7 +5995,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SOT-23 MOSFETs ROHS"
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TECH PUBLIC"
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PMV32UP"
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C2959851"
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/MOSFETs_TECH-PUBLIC-PMV32UP_C2959851.html"
 			(at 73.66 104.14 0)
 			(effects
 				(font
@@ -6287,7 +6449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
 			(at 180.34 58.42 0)
 			(effects
 				(font
@@ -6305,7 +6467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 180.34 58.42 0)
 			(effects
 				(font
@@ -6314,7 +6476,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
+			(at 180.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 180.34 58.42 0)
 			(effects
 				(font
@@ -6332,52 +6503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "1"
-			(at 180.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 180.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 180.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 180.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 180.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
 			(at 180.34 58.42 0)
 			(effects
 				(font
@@ -6437,7 +6563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B105KO8NNNC_C59782.pdf"
 			(at 132.08 104.775 0)
 			(effects
 				(font
@@ -6446,7 +6572,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 1uF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 132.08 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 132.08 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B105KO8NNNC"
 			(at 132.08 104.775 0)
 			(effects
 				(font
@@ -6464,7 +6608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Distributor Part Number" "C59782"
 			(at 132.08 104.775 0)
 			(effects
 				(font
@@ -6473,43 +6617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C19702"
-			(at 132.08 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "1"
-			(at 132.08 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 132.08 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 132.08 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B105KO8NNNC_C59782.html"
 			(at 132.08 104.775 0)
 			(effects
 				(font
@@ -6633,7 +6741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010230_UNI-ROYAL-Uniroyal-Elec-0603WAF2002T5E_C4184.pdf"
 			(at 165.1 66.04 0)
 			(effects
 				(font
@@ -6642,7 +6750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 20kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 165.1 66.04 0)
 			(effects
 				(font
@@ -6651,7 +6759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 165.1 66.04 0)
 			(effects
 				(font
@@ -6660,7 +6768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "0603WAF2002T5E"
 			(at 165.1 66.04 0)
 			(effects
 				(font
@@ -6669,7 +6777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor" "LCSC"
 			(at 165.1 66.04 0)
 			(effects
 				(font
@@ -6678,7 +6786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor Part Number" "C4184"
 			(at 165.1 66.04 0)
 			(effects
 				(font
@@ -6687,16 +6795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
-			(at 165.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF2002T5E_C4184.html"
 			(at 165.1 66.04 0)
 			(effects
 				(font
@@ -6847,7 +6946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271710_Samsung-Electro-Mechanics-CL10B104KO8NNNC_C66501.pdf"
 			(at 190.5 58.42 0)
 			(effects
 				(font
@@ -6856,7 +6955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 190.5 58.42 0)
 			(effects
 				(font
@@ -6865,7 +6964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 190.5 58.42 0)
 			(effects
 				(font
@@ -6874,7 +6973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KO8NNNC"
 			(at 190.5 58.42 0)
 			(effects
 				(font
@@ -6883,7 +6982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "LCSC"
 			(at 190.5 58.42 0)
 			(effects
 				(font
@@ -6892,7 +6991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "C66501"
 			(at 190.5 58.42 0)
 			(effects
 				(font
@@ -6901,7 +7000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KO8NNNC_C66501.html"
 			(at 190.5 58.42 0)
 			(effects
 				(font
@@ -7027,7 +7126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B105KO8NNNC_C59782.pdf"
 			(at 205.105 104.775 0)
 			(effects
 				(font
@@ -7036,7 +7135,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 1uF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 205.105 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 205.105 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B105KO8NNNC"
 			(at 205.105 104.775 0)
 			(effects
 				(font
@@ -7054,7 +7171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Distributor Part Number" "C59782"
 			(at 205.105 104.775 0)
 			(effects
 				(font
@@ -7063,43 +7180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C19702"
-			(at 205.105 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "1"
-			(at 205.105 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 205.105 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 205.105 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B105KO8NNNC_C59782.html"
 			(at 205.105 104.775 0)
 			(effects
 				(font
@@ -7231,7 +7312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271710_Samsung-Electro-Mechanics-CL10B104KO8NNNC_C66501.pdf"
 			(at 120.65 58.42 0)
 			(effects
 				(font
@@ -7240,7 +7321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 120.65 58.42 0)
 			(effects
 				(font
@@ -7249,7 +7330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 120.65 58.42 0)
 			(effects
 				(font
@@ -7258,7 +7339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KO8NNNC"
 			(at 120.65 58.42 0)
 			(effects
 				(font
@@ -7267,7 +7348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "LCSC"
 			(at 120.65 58.42 0)
 			(effects
 				(font
@@ -7276,7 +7357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "C66501"
 			(at 120.65 58.42 0)
 			(effects
 				(font
@@ -7285,7 +7366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KO8NNNC_C66501.html"
 			(at 120.65 58.42 0)
 			(effects
 				(font

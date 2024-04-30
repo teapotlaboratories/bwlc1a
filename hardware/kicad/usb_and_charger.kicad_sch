@@ -3630,7 +3630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-072KL_C60488.pdf?_gl=1*12i6tb2*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODU1NDYuNDEuMC4w"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-072KL_C60488.pdf"
 			(at 177.8 86.36 0)
 			(effects
 				(font
@@ -3639,7 +3639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 2kΩ 0402 Chip Resistor"
+		(property "Description" " 62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 2kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 177.8 86.36 0)
 			(effects
 				(font
@@ -4315,7 +4315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2209151800_Leiditech-ESD5651N_C5173251.pdf?_gl=1*1pgfs12*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODQ2MDMuNjAuMC4w"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209151800_Leiditech-ESD5651N_C5173251.pdf"
 			(at 111.76 73.66 0)
 			(effects
 				(font
@@ -4755,7 +4755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf?_gl=1*1759sel*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODQ1MjIuNjAuMC4w"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
 			(at 99.695 76.2 0)
 			(effects
 				(font
@@ -5026,7 +5026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_YAGEO-CC0402KRX5R6BB104_C129131.pdf?_gl=1*r0uqho*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODUxMDUuMS4wLjA."
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_YAGEO-CC0402KRX5R6BB104_C129131.pdf"
 			(at 132.715 73.025 0)
 			(effects
 				(font
@@ -5035,7 +5035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 100nF X5R ±10% 0402 Multilayer Ceramic Capacitors"
+		(property "Description" "10V 100nF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 132.715 73.025 0)
 			(effects
 				(font
@@ -5295,7 +5295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf?_gl=1*a0brkq*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODYwMzYuNjAuMC4w"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
 			(at 166.37 79.375 0)
 			(effects
 				(font
@@ -5408,7 +5408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2403081022_RUILON-Shenzhen-Ruilongyuan-Elec-SMD0805P075TF_C20979.pdf?_gl=1*f8k81o*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODUxODAuNjAuMC4w"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403081022_RUILON-Shenzhen-Ruilongyuan-Elec-SMD0805P075TF_C20979.pdf"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -5417,7 +5417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6V 750mA 40A 1.5A 0805 Resettable Fuses"
+		(property "Description" " 6V 750mA 40A 1.5A 0805 Resettable Fuses ROHS"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -5663,7 +5663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311845_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.pdf?_gl=1*cej979*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODU3ODguNjAuMC4w"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311845_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.pdf"
 			(at 208.28 82.55 0)
 			(effects
 				(font
@@ -5672,7 +5672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±5% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 208.28 82.55 0)
 			(effects
 				(font
@@ -5843,7 +5843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf?_gl=1*4reut5*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODU5NDYuNjAuMC4w"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
 			(at 227.33 79.375 0)
 			(effects
 				(font
@@ -5957,7 +5957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108132230_TECH-PUBLIC-USBLC6-2SC6_C2827654.pdf?_gl=1*1nr4p97*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODUzMTcuNDQuMC4w"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108132230_TECH-PUBLIC-USBLC6-2SC6_C2827654.pdf"
 			(at 126.365 95.25 0)
 			(effects
 				(font
@@ -5966,7 +5966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "±30kV SOT-23-6 ESD Protection Devices ROHS"
+		(property "Description" "6A 6V 5V SOT-23-6 Electrostatic and Surge Protection (TVS/ESD) ROHS"
 			(at 121.285 104.14 0)
 			(effects
 				(font
@@ -6081,7 +6081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_TDK-MMZ1608B601CTAH0_C97120.pdf?_gl=1*506phw*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODUwNDYuNjAuMC4w"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_TDK-MMZ1608B601CTAH0_C97120.pdf"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -6090,7 +6090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "400mΩ ±25% 600Ω@100MHz 0603 Ferrite Beads"
+		(property "Description" "400mΩ ±25% 600Ω@100MHz 0603 Ferrite Beads ROHS"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -6207,7 +6207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-CC0402KRX7R9BB103_C60133.pdf?_gl=1*ako6z0*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODQ5MzUuNjAuMC4w"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0402KRX7R9BB103_C60133.pdf"
 			(at 120.015 73.025 0)
 			(effects
 				(font
@@ -6216,7 +6216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors"
+		(property "Description" "50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 120.015 73.025 0)
 			(effects
 				(font
@@ -6333,7 +6333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2203301730_EKINGLUX-E6C0603SEAC1UDA_C375450.pdf?_gl=1*pv3h19*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODU4NDEuNy4wLjA."
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2203301730_EKINGLUX-E6C0603SEAC1UDA_C375450.pdf"
 			(at 213.995 76.2 90)
 			(effects
 				(font
@@ -6445,7 +6445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf?_gl=1*1759sel*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxMDQ4NDM0OC43NC4xLjE3MTA0ODQ1MjIuNjAuMC4w"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
 			(at 99.695 73.66 0)
 			(effects
 				(font

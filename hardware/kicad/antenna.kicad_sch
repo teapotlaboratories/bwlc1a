@@ -2439,17 +2439,6 @@
 		)
 		(uuid "40cd7710-8bdb-429a-bf2a-369402a428dd")
 	)
-	(text "resistor\nround edge\nbattery di bawah\ncek sch\nuser LED\n"
-		(exclude_from_sim no)
-		(at 98.425 142.875 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "543e22c3-9578-4ef8-9ca2-277a80ccc202")
-	)
 	(text "Antenna and Matching Network"
 		(exclude_from_sim no)
 		(at 206.375 121.285 0)
@@ -2474,17 +2463,6 @@
 		)
 		(uuid "5d70390a-1c62-4b3d-b062-aba37e60bfa2")
 	)
-	(text "2 potential antenna design:\n- TE Technologies\n- Ignion"
-		(exclude_from_sim no)
-		(at 17.907 96.647 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b2fc791-cc19-4535-a40f-4df20e613424")
-	)
 	(text "EXT/TEST"
 		(exclude_from_sim no)
 		(at 69.85 76.2 0)
@@ -2495,17 +2473,6 @@
 			(justify left bottom)
 		)
 		(uuid "82aebf33-e634-47f9-875c-088156b26b3f")
-	)
-	(text "TODO: change to use 2 ignion antenna. \n       All rf switch sub-section most \n       likely will need to be removed\n	  (DONE)"
-		(exclude_from_sim no)
-		(at 95.885 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99ba3049-10cf-4cc5-a338-4ffae1b783b3")
 	)
 	(text "* common antenna range :\n	824MHz~960MHz\n	1710MHz~2170MHz \n	1710MHz~2690MHz"
 		(exclude_from_sim no)
@@ -2630,7 +2597,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "DNP"
 			(at 54.61 33.0263 0)
 			(effects
 				(font
@@ -2657,7 +2624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DNP"
+		(property "Description" ""
 			(at 52.07 31.115 0)
 			(effects
 				(font
@@ -2666,7 +2633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "-"
+		(property "Manufacturer" ""
 			(at 52.07 31.115 0)
 			(effects
 				(font
@@ -2675,7 +2642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "-"
+		(property "Manufacturer Part Number" ""
 			(at 52.07 31.115 0)
 			(effects
 				(font
@@ -2684,7 +2651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "-"
+		(property "Distributor" ""
 			(at 52.07 31.115 0)
 			(effects
 				(font
@@ -2693,7 +2660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "16"
+		(property "Distributor Part Number" ""
 			(at 52.07 31.115 0)
 			(effects
 				(font
@@ -2702,25 +2669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture" "-"
-			(at 52.07 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "-"
-			(at 52.07 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" ""
 			(at 52.07 31.115 0)
 			(effects
 				(font
@@ -2763,7 +2712,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "DNP"
 			(at 54.61 68.5862 0)
 			(effects
 				(font
@@ -2790,7 +2739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DNP"
+		(property "Description" ""
 			(at 52.07 67.31 0)
 			(effects
 				(font
@@ -2799,7 +2748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "-"
+		(property "Manufacturer" ""
 			(at 52.07 67.31 0)
 			(effects
 				(font
@@ -2808,7 +2757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "-"
+		(property "Manufacturer Part Number" ""
 			(at 52.07 67.31 0)
 			(effects
 				(font
@@ -2817,7 +2766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "-"
+		(property "Distributor" ""
 			(at 52.07 67.31 0)
 			(effects
 				(font
@@ -2826,7 +2775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "16"
+		(property "Distributor Part Number" ""
 			(at 52.07 67.31 0)
 			(effects
 				(font
@@ -2835,25 +2784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture" "-"
-			(at 52.07 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "-"
-			(at 52.07 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" ""
 			(at 52.07 67.31 0)
 			(effects
 				(font
@@ -2976,7 +2907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.pdf"
 			(at 67.945 24.13 0)
 			(effects
 				(font
@@ -2985,7 +2916,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 67.945 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 67.945 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ0000TCE"
 			(at 67.945 24.13 0)
 			(effects
 				(font
@@ -3003,15 +2952,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
-			(at 67.945 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C21376"
 			(at 67.945 24.13 0)
 			(effects
@@ -3021,34 +2961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "45"
-			(at 67.945 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 67.945 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0000TCE"
-			(at 67.945 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
 			(at 67.945 24.13 0)
 			(effects
 				(font
@@ -3097,7 +3010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 92.71 0)
 			(effects
 				(font
@@ -3106,7 +3019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF0000T5E_C21189.pdf"
 			(at 160.02 92.71 0)
 			(effects
 				(font
@@ -3115,7 +3028,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "100mW Thick Film Resistors 75V ±1% 0Ω 0603 Chip Resistor - Surface Mount ROHS "
+			(at 160.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 160.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF0000T5E"
 			(at 160.02 92.71 0)
 			(effects
 				(font
@@ -3133,7 +3064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
+		(property "Distributor Part Number" "C21189"
 			(at 160.02 92.71 0)
 			(effects
 				(font
@@ -3142,43 +3073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C21376"
-			(at 160.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "45"
-			(at 160.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 160.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0000TCE"
-			(at 160.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF0000T5E_C21189.html"
 			(at 160.02 92.71 0)
 			(effects
 				(font
@@ -3375,7 +3270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" ""
 			(at 62.865 27.94 0)
 			(effects
 				(font
@@ -3384,7 +3279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" ""
 			(at 62.865 27.94 0)
 			(effects
 				(font
@@ -3393,7 +3288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
+		(property "Manufacturer Part Number" ""
 			(at 62.865 27.94 0)
 			(effects
 				(font
@@ -3402,7 +3297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C21376"
+		(property "Distributor" ""
 			(at 62.865 27.94 0)
 			(effects
 				(font
@@ -3411,7 +3306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "45"
+		(property "Distributor Part Number" ""
 			(at 62.865 27.94 0)
 			(effects
 				(font
@@ -3420,25 +3315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 62.865 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0000TCE"
-			(at 62.865 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" ""
 			(at 62.865 27.94 0)
 			(effects
 				(font
@@ -3497,7 +3374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF0000T5E_C21189.pdf"
 			(at 219.71 59.055 0)
 			(effects
 				(font
@@ -3506,7 +3383,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14mΩ ±25% 30Ω@100MHz 0805 Ferrite Beads ROHS"
+		(property "Description" "100mW Thick Film Resistors 75V ±1% 0Ω 0603 Chip Resistor - Surface Mount ROHS"
+			(at 219.71 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 219.71 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF0000T5E"
 			(at 219.71 59.055 0)
 			(effects
 				(font
@@ -3524,7 +3419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Ferrite-Beads_Murata-Electronics-BLM21PG300SN1D_C16903.html"
+		(property "Distributor Part Number" "C21189"
 			(at 219.71 59.055 0)
 			(effects
 				(font
@@ -3533,43 +3428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C16903"
-			(at 219.71 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "23"
-			(at 219.71 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Murata Electronics"
-			(at 219.71 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "BLM21PG300SN1D"
-			(at 219.71 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF0000T5E_C21189.html"
 			(at 219.71 59.055 0)
 			(effects
 				(font
@@ -3627,7 +3486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0100.pdf"
 			(at 118.745 24.13 0)
 			(effects
 				(font
@@ -3636,7 +3495,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.3 nH Unshielded Drum Core, Wirewound Inductor 3.15 A 12mOhm Max 0402 (1005 Metric)"
+			(at 118.745 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 118.745 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LQW15AN1N3C80D"
+			(at 118.745 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 118.745 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "490-14709-1-ND"
+			(at 118.745 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/LQW15AN1N3C80D/4422080"
 			(at 118.745 24.13 0)
 			(effects
 				(font
@@ -3695,7 +3599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1HR40WB01-01.pdf"
 			(at 200.66 46.99 0)
 			(effects
 				(font
@@ -3704,7 +3608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14mΩ ±25% 30Ω@100MHz 0805 Ferrite Beads ROHS"
+		(property "Description" "0.4 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 200.66 46.99 0)
 			(effects
 				(font
@@ -3713,7 +3617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "Murata Electronics"
 			(at 200.66 46.99 0)
 			(effects
 				(font
@@ -3722,7 +3626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Ferrite-Beads_Murata-Electronics-BLM21PG300SN1D_C16903.html"
+		(property "Manufacturer Part Number" "GJM1555C1HR40WB01D"
 			(at 200.66 46.99 0)
 			(effects
 				(font
@@ -3731,7 +3635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C16903"
+		(property "Distributor" "DigiKey"
 			(at 200.66 46.99 0)
 			(effects
 				(font
@@ -3740,7 +3644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "23"
+		(property "Distributor Part Number" "490-11249-1-ND"
 			(at 200.66 46.99 0)
 			(effects
 				(font
@@ -3749,25 +3653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture" "Murata Electronics"
-			(at 200.66 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "BLM21PG300SN1D"
-			(at 200.66 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1HR40WB01D/2593249"
 			(at 200.66 46.99 0)
 			(effects
 				(font
@@ -3816,7 +3702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 172.72 92.71 0)
 			(effects
 				(font
@@ -3825,7 +3711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2107272240_Murata-Electronics-LQW18AN10NG80D_C668467.pdf"
 			(at 172.72 92.71 0)
 			(effects
 				(font
@@ -3834,7 +3720,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.6A 10nH ±2% 0603 Power Inductors ROHS "
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LQW18AN10NG80"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C668467"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Power-Inductors_Murata-Electronics-LQW18AN10NG80D_C668467.html"
 			(at 172.72 92.71 0)
 			(effects
 				(font
@@ -3894,7 +3825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209151800_Leiditech-ESD5651N_C5173251.pdf"
 			(at 33.02 29.845 0)
 			(effects
 				(font
@@ -3903,7 +3834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DFN1006 Electrostatic and Surge Protection (TVS/ESD) ROHS"
 			(at 33.02 29.845 0)
 			(effects
 				(font
@@ -3912,7 +3843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Manufacturer" "Leiditech"
 			(at 33.02 29.845 0)
 			(effects
 				(font
@@ -3921,7 +3852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "ESD5651N"
 			(at 33.02 29.845 0)
 			(effects
 				(font
@@ -3930,7 +3861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor" "LCSC"
 			(at 33.02 29.845 0)
 			(effects
 				(font
@@ -3939,16 +3870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
-			(at 33.02 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "C5173251"
 			(at 33.02 29.845 0)
 			(effects
 				(font
@@ -4017,7 +3939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209151800_Leiditech-ESD5651N_C5173251.pdf"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -4026,7 +3948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DFN1006 Electrostatic and Surge Protection (TVS/ESD) ROHS"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -4035,7 +3957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Manufacturer" "Leiditech"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -4044,7 +3966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "ESD5651N"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -4053,7 +3975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor" "LCSC"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -4062,16 +3984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
-			(at 33.02 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "C5173251"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -4142,7 +4055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ignion.io/files/DS_NN03-310.pdf"
 			(at 238.125 29.21 0)
 			(effects
 				(font
@@ -4151,7 +4064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "700MHz, 800MHz, 850MHz, 900MHz, 1.7GHz, 1.8GHz, 1.9GHz, 2GHz, 2.1GHz, 2.3GHz, 2.5GHz, 2.6GHz, 1.561GHz, 1.575GHz, 1.606GHz, 2.45GHz, 3.5GHz, 3.7GHz, 3.8GHz 2G/3G/4G/5G, Bluetooth, GNSS, ISM, LTE, UWB, Wi-Fi Chip RF Antenna 698MHz ~ 3.8GHz 2.4dBi Solder Surface Mount"
 			(at 238.125 29.21 0)
 			(effects
 				(font
@@ -4160,43 +4073,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
+		(property "Manufacturer" "Ignion"
 			(at 238.125 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 217.805 29.21 0)
+		(property "Manufacturer Part Number" "NN03-310"
+			(at 238.125 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
-			(at 215.265 29.21 0)
+		(property "Distributor" "DigiKey"
+			(at 238.125 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Fractus Antennas"
-			(at 220.345 29.21 0)
+		(property "Distributor Part Number" "2115-NN03-310CT-ND"
+			(at 238.125 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ignion/NN03-310/10108235"
+			(at 238.125 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4255,7 +4173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.pdf"
 			(at 57.15 60.325 0)
 			(effects
 				(font
@@ -4264,7 +4182,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 57.15 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 57.15 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ0000TCE"
 			(at 57.15 60.325 0)
 			(effects
 				(font
@@ -4282,15 +4218,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
-			(at 57.15 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C21376"
 			(at 57.15 60.325 0)
 			(effects
@@ -4300,34 +4227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "45"
-			(at 57.15 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 57.15 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0000TCE"
-			(at 57.15 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
 			(at 57.15 60.325 0)
 			(effects
 				(font
@@ -4453,7 +4353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-GJM1555C1H2R0WB01D_C88885.pdf"
 			(at 126.365 31.115 0)
 			(effects
 				(font
@@ -4462,7 +4362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DNP"
+		(property "Description" "50V 2pF C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 126.365 31.115 0)
 			(effects
 				(font
@@ -4471,7 +4371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "-"
+		(property "Manufacturer" "Murata Electronics"
 			(at 126.365 31.115 0)
 			(effects
 				(font
@@ -4480,7 +4380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "-"
+		(property "Manufacturer Part Number" "GJM1555C1H2R0WB01D"
 			(at 126.365 31.115 0)
 			(effects
 				(font
@@ -4489,7 +4389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "-"
+		(property "Distributor" "LCSC"
 			(at 126.365 31.115 0)
 			(effects
 				(font
@@ -4498,7 +4398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "16"
+		(property "Distributor Part Number" "C88885"
 			(at 126.365 31.115 0)
 			(effects
 				(font
@@ -4507,25 +4407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture" "-"
-			(at 126.365 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "-"
-			(at 126.365 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GJM1555C1H2R0WB01D_C88885.html"
 			(at 126.365 31.115 0)
 			(effects
 				(font
@@ -4642,7 +4524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 166.37 99.06 0)
 			(effects
 				(font
@@ -4651,7 +4533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0102.pdf"
 			(at 166.37 99.06 0)
 			(effects
 				(font
@@ -4660,7 +4542,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9.5 nH Unshielded Drum Core, Wirewound Inductor 1.6 A 52mOhm Max 0603 (1608 Metric)"
+			(at 166.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 166.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LQW18AN9N5G80D"
+			(at 166.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 166.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "490-LQW18AN9N5G80DCT-ND"
+			(at 166.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/LQW18AN9N5G80D/10705986"
 			(at 166.37 99.06 0)
 			(effects
 				(font
@@ -4718,7 +4645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.pdf"
 			(at 47.625 60.325 0)
 			(effects
 				(font
@@ -4727,7 +4654,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 47.625 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 47.625 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ0000TCE"
 			(at 47.625 60.325 0)
 			(effects
 				(font
@@ -4755,42 +4700,6 @@
 			)
 		)
 		(property "Distributor Part Number" "C21376"
-			(at 47.625 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "45"
-			(at 47.625 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 47.625 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0000TCE"
-			(at 47.625 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
 			(at 47.625 60.325 0)
 			(effects
 				(font
@@ -4848,7 +4757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2012231509_BAT-WIRELESS-BWIPX-1-001E_C496552.pdf"
 			(at 74.295 69.85 0)
 			(effects
 				(font
@@ -4857,7 +4766,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 Inner needle IPEX Board Edge 6GHz 50Ω SMD RF Connectors / Coaxial Connectors ROHS"
+			(at 74.295 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BAT WIRELESS"
+			(at 74.295 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BWIPX-1-001E"
+			(at 74.295 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 74.295 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C496552"
+			(at 74.295 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/RF-Connectors-Coaxial-Connectors_BAT-WIRELESS-BWIPX-1-001E_C496552.html"
 			(at 74.295 69.85 0)
 			(effects
 				(font
@@ -4918,7 +4872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.pdf"
 			(at 37.465 24.13 0)
 			(effects
 				(font
@@ -4927,7 +4881,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 37.465 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 37.465 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ0000TCE"
 			(at 37.465 24.13 0)
 			(effects
 				(font
@@ -4945,15 +4917,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
-			(at 37.465 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C21376"
 			(at 37.465 24.13 0)
 			(effects
@@ -4963,34 +4926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "45"
-			(at 37.465 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 37.465 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0000TCE"
-			(at 37.465 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
 			(at 37.465 24.13 0)
 			(effects
 				(font
@@ -5049,7 +4985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0102.pdf"
 			(at 200.66 59.055 0)
 			(effects
 				(font
@@ -5058,7 +4994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14mΩ ±25% 30Ω@100MHz 0805 Ferrite Beads ROHS"
+		(property "Description" "11 nH Unshielded Drum Core, Wirewound Inductor 1.6 A 52mOhm Max 0603 (1608 Metric)"
 			(at 200.66 59.055 0)
 			(effects
 				(font
@@ -5067,7 +5003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "Murata Electronics"
 			(at 200.66 59.055 0)
 			(effects
 				(font
@@ -5076,7 +5012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Ferrite-Beads_Murata-Electronics-BLM21PG300SN1D_C16903.html"
+		(property "Manufacturer Part Number" "LQW18AN11NG80D"
 			(at 200.66 59.055 0)
 			(effects
 				(font
@@ -5085,7 +5021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C16903"
+		(property "Distributor" "DigiKey"
 			(at 200.66 59.055 0)
 			(effects
 				(font
@@ -5094,7 +5030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "23"
+		(property "Distributor Part Number" "490-LQW18AN11NG80DCT-ND"
 			(at 200.66 59.055 0)
 			(effects
 				(font
@@ -5103,25 +5039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture" "Murata Electronics"
-			(at 200.66 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "BLM21PG300SN1D"
-			(at 200.66 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/LQW18AN11NG80D/4906015"
 			(at 200.66 59.055 0)
 			(effects
 				(font
@@ -5244,7 +5162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H1R4WB01-01.pdf"
 			(at 163.83 24.13 0)
 			(effects
 				(font
@@ -5253,7 +5171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DNP"
+		(property "Description" "1.4 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 163.83 24.13 0)
 			(effects
 				(font
@@ -5262,7 +5180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "-"
+		(property "Manufacturer" "Murata Electronics"
 			(at 163.83 24.13 0)
 			(effects
 				(font
@@ -5271,7 +5189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "-"
+		(property "Manufacturer Part Number" "GJM1555C1H1R4WB01D"
 			(at 163.83 24.13 0)
 			(effects
 				(font
@@ -5280,7 +5198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "-"
+		(property "Distributor" "DigiKey"
 			(at 163.83 24.13 0)
 			(effects
 				(font
@@ -5289,7 +5207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "16"
+		(property "Distributor Part Number" "490-11198-1-ND"
 			(at 163.83 24.13 0)
 			(effects
 				(font
@@ -5298,25 +5216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture" "-"
-			(at 163.83 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "-"
-			(at 163.83 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H1R4WB01D/2592886"
 			(at 163.83 24.13 0)
 			(effects
 				(font
@@ -5439,7 +5339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW15AN3N0G80D_C412272.pdf"
 			(at 146.685 24.13 0)
 			(effects
 				(font
@@ -5448,7 +5348,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.35A 3nH ±2% 0402 Power Inductors ROHS"
+			(at 146.685 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 146.685 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LQW15AN3N0G80D"
+			(at 146.685 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 146.685 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C412272"
+			(at 146.685 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Power-Inductors_Murata-Electronics-LQW15AN3N0G80D_C412272.html"
 			(at 146.685 24.13 0)
 			(effects
 				(font
@@ -5565,7 +5510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 137.795 31.115 0)
 			(effects
 				(font
@@ -5574,7 +5519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0102.pdf"
 			(at 137.795 31.115 0)
 			(effects
 				(font
@@ -5583,7 +5528,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FIXED IND 4.3NH 2.1A 0.036OHM SM"
+			(at 137.795 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 137.795 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LQW18AN4N3G80D"
+			(at 137.795 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 137.795 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "490-LQW18AN4N3G80DCT-ND"
+			(at 137.795 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/LQW18AN4N3G80D/10694957"
 			(at 137.795 31.115 0)
 			(effects
 				(font
@@ -5626,7 +5616,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "DNP"
 			(at 44.45 33.0263 0)
 			(effects
 				(font
@@ -5653,7 +5643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DNP"
+		(property "Description" ""
 			(at 41.91 31.115 0)
 			(effects
 				(font
@@ -5662,7 +5652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "-"
+		(property "Manufacturer" ""
 			(at 41.91 31.115 0)
 			(effects
 				(font
@@ -5671,7 +5661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "-"
+		(property "Manufacturer Part Number" ""
 			(at 41.91 31.115 0)
 			(effects
 				(font
@@ -5680,7 +5670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "-"
+		(property "Distributor" ""
 			(at 41.91 31.115 0)
 			(effects
 				(font
@@ -5689,7 +5679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "16"
+		(property "Distributor Part Number" ""
 			(at 41.91 31.115 0)
 			(effects
 				(font
@@ -5698,25 +5688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture" "-"
-			(at 41.91 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "-"
-			(at 41.91 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" ""
 			(at 41.91 31.115 0)
 			(effects
 				(font
@@ -5905,7 +5877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.pdf"
 			(at 219.71 46.99 0)
 			(effects
 				(font
@@ -5914,7 +5886,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14mΩ ±25% 30Ω@100MHz 0805 Ferrite Beads ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 219.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 219.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ0000TCE"
 			(at 219.71 46.99 0)
 			(effects
 				(font
@@ -5932,7 +5922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Ferrite-Beads_Murata-Electronics-BLM21PG300SN1D_C16903.html"
+		(property "Distributor Part Number" "C21376"
 			(at 219.71 46.99 0)
 			(effects
 				(font
@@ -5941,43 +5931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C16903"
-			(at 219.71 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "23"
-			(at 219.71 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Murata Electronics"
-			(at 219.71 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "BLM21PG300SN1D"
-			(at 219.71 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
 			(at 219.71 46.99 0)
 			(effects
 				(font
@@ -6035,7 +5989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 62.865 64.135 0)
 			(effects
 				(font
@@ -6044,7 +5998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" ""
 			(at 62.865 64.135 0)
 			(effects
 				(font
@@ -6053,7 +6007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" ""
 			(at 62.865 64.135 0)
 			(effects
 				(font
@@ -6062,7 +6016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
+		(property "Manufacturer Part Number" ""
 			(at 62.865 64.135 0)
 			(effects
 				(font
@@ -6071,7 +6025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C21376"
+		(property "Distributor" ""
 			(at 62.865 64.135 0)
 			(effects
 				(font
@@ -6080,7 +6034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "45"
+		(property "Distributor Part Number" ""
 			(at 62.865 64.135 0)
 			(effects
 				(font
@@ -6089,25 +6043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 62.865 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0000TCE"
-			(at 62.865 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" ""
 			(at 62.865 64.135 0)
 			(effects
 				(font
@@ -6165,7 +6101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.pdf"
 			(at 67.945 60.325 0)
 			(effects
 				(font
@@ -6174,7 +6110,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" " 62.5mW Thick Film Resistors 50V ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 67.945 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 67.945 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ0000TCE"
 			(at 67.945 60.325 0)
 			(effects
 				(font
@@ -6192,15 +6146,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
-			(at 67.945 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C21376"
 			(at 67.945 60.325 0)
 			(effects
@@ -6210,34 +6155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "45"
-			(at 67.945 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 67.945 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0000TCE"
-			(at 67.945 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
 			(at 67.945 60.325 0)
 			(effects
 				(font
@@ -6295,7 +6213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H470FB01-01.pdf"
 			(at 178.435 24.13 0)
 			(effects
 				(font
@@ -6304,7 +6222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DNP"
+		(property "Description" "47 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 178.435 24.13 0)
 			(effects
 				(font
@@ -6313,7 +6231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "-"
+		(property "Manufacturer" "Murata Electronics"
 			(at 178.435 24.13 0)
 			(effects
 				(font
@@ -6322,7 +6240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "-"
+		(property "Manufacturer Part Number" "GJM1555C1H470FB01D"
 			(at 178.435 24.13 0)
 			(effects
 				(font
@@ -6331,7 +6249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "-"
+		(property "Distributor" "DigiKey"
 			(at 178.435 24.13 0)
 			(effects
 				(font
@@ -6340,7 +6258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "16"
+		(property "Distributor Part Number" "490-16376-1-ND"
 			(at 178.435 24.13 0)
 			(effects
 				(font
@@ -6349,25 +6267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture" "-"
-			(at 178.435 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "-"
-			(at 178.435 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H470FB01D/7363120"
 			(at 178.435 24.13 0)
 			(effects
 				(font
@@ -6425,7 +6325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.pdf"
 			(at 57.15 24.13 0)
 			(effects
 				(font
@@ -6434,7 +6334,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ0000TCE"
 			(at 57.15 24.13 0)
 			(effects
 				(font
@@ -6452,15 +6370,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
-			(at 57.15 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C21376"
 			(at 57.15 24.13 0)
 			(effects
@@ -6470,34 +6379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "45"
-			(at 57.15 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 57.15 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0000TCE"
-			(at 57.15 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
 			(at 57.15 24.13 0)
 			(effects
 				(font
@@ -6540,7 +6422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "DNP"
 			(at 44.45 69.2213 0)
 			(effects
 				(font
@@ -6567,7 +6449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DNP"
+		(property "Description" ""
 			(at 41.91 67.31 0)
 			(effects
 				(font
@@ -6576,7 +6458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "-"
+		(property "Manufacturer" ""
 			(at 41.91 67.31 0)
 			(effects
 				(font
@@ -6585,7 +6467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "-"
+		(property "Manufacturer Part Number" ""
 			(at 41.91 67.31 0)
 			(effects
 				(font
@@ -6594,7 +6476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "-"
+		(property "Distributor" ""
 			(at 41.91 67.31 0)
 			(effects
 				(font
@@ -6603,7 +6485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "16"
+		(property "Distributor Part Number" ""
 			(at 41.91 67.31 0)
 			(effects
 				(font
@@ -6612,25 +6494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture" "-"
-			(at 41.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "-"
-			(at 41.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" ""
 			(at 41.91 67.31 0)
 			(effects
 				(font
@@ -6756,7 +6620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0100.pdf"
 			(at 172.72 31.115 0)
 			(effects
 				(font
@@ -6765,7 +6629,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.1 nH Unshielded Drum Core, Wirewound Inductor 1.6 A 56mOhm Max 0402 (1005 Metric)"
+			(at 172.72 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 172.72 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LQW15AN6N1B80D"
+			(at 172.72 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 172.72 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "490-7666-1-ND"
+			(at 172.72 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/LQW15AN6N1B80D/4292379"
 			(at 172.72 31.115 0)
 			(effects
 				(font
@@ -7036,7 +6945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.pdf"
 			(at 37.465 60.325 0)
 			(effects
 				(font
@@ -7045,7 +6954,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 37.465 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 37.465 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ0000TCE"
 			(at 37.465 60.325 0)
 			(effects
 				(font
@@ -7063,15 +6990,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
-			(at 37.465 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C21376"
 			(at 37.465 60.325 0)
 			(effects
@@ -7081,34 +6999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "45"
-			(at 37.465 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 37.465 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0000TCE"
-			(at 37.465 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
 			(at 37.465 60.325 0)
 			(effects
 				(font
@@ -7166,7 +7057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2012231509_BAT-WIRELESS-BWIPX-1-001E_C496552.pdf"
 			(at 74.295 33.655 0)
 			(effects
 				(font
@@ -7175,7 +7066,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 Inner needle IPEX Board Edge 6GHz 50Ω SMD RF Connectors / Coaxial Connectors ROHS"
+			(at 74.295 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BAT WIRELESS"
+			(at 74.295 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BWIPX-1-001E"
+			(at 74.295 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 74.295 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C496552"
+			(at 74.295 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/RF-Connectors-Coaxial-Connectors_BAT-WIRELESS-BWIPX-1-001E_C496552.html"
 			(at 74.295 33.655 0)
 			(effects
 				(font
@@ -7301,7 +7237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.pdf"
 			(at 47.625 24.13 0)
 			(effects
 				(font
@@ -7310,7 +7246,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 47.625 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 47.625 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ0000TCE"
 			(at 47.625 24.13 0)
 			(effects
 				(font
@@ -7328,15 +7282,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
-			(at 47.625 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C21376"
 			(at 47.625 24.13 0)
 			(effects
@@ -7346,34 +7291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "45"
-			(at 47.625 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 47.625 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0000TCE"
-			(at 47.625 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
 			(at 47.625 24.13 0)
 			(effects
 				(font
@@ -7435,7 +7353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4329/NN03-320_Jan2021.pdf"
 			(at 210.82 95.25 0)
 			(effects
 				(font
@@ -7444,7 +7362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.561GHz, 1.575GHz, 1.606GHz, 2.45GHz, 3.5GHz, 3.7GHz, 3.4Ghz, 4.0GHz, 4.5GHz, 5.0GHz , 5.5GHz, 6.1GHz, 6.6GHz, 7.1GHz, 7.7GHz, 8.2GHz, 8.7GHz, 9.2GHz, 9.8GHz, 10.3GHz 5G, Beidou, BT, Galileo, GNSS, GPS, UWB Chip RF Antenna 1.56GHz ~ 10.6GHz 2.6dBi Solder Surface Mount"
 			(at 210.82 95.25 0)
 			(effects
 				(font
@@ -7453,47 +7371,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
-			(at 210.82 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 190.5 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
-			(at 187.96 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Fractus Antennas"
-			(at 193.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Ignion"
 			(at 210.82 95.25 0)
 			(effects
 				(font
@@ -7502,7 +7380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NN03-320"
 			(at 210.82 95.25 0)
 			(effects
 				(font
@@ -7511,7 +7389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 210.82 95.25 0)
 			(effects
 				(font
@@ -7520,7 +7398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "2115-NN03-320CT-ND"
 			(at 210.82 95.25 0)
 			(effects
 				(font
@@ -7529,7 +7407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ignion/NN03-320/10440477"
 			(at 210.82 95.25 0)
 			(effects
 				(font
@@ -7596,7 +7474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081710_Murata-Electronics-GJM1555C1H1R2WB01D_C76899.pdf"
 			(at 156.21 31.115 0)
 			(effects
 				(font
@@ -7605,7 +7483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DNP"
+		(property "Description" "50V 1.2pF C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 156.21 31.115 0)
 			(effects
 				(font
@@ -7614,7 +7492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "-"
+		(property "Manufacturer" "Murata Electronics"
 			(at 156.21 31.115 0)
 			(effects
 				(font
@@ -7623,7 +7501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "-"
+		(property "Manufacturer Part Number" "GJM1555C1H1R2WB01D"
 			(at 156.21 31.115 0)
 			(effects
 				(font
@@ -7632,7 +7510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "-"
+		(property "Distributor" "LCSC"
 			(at 156.21 31.115 0)
 			(effects
 				(font
@@ -7641,7 +7519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "16"
+		(property "Distributor Part Number" "C76899"
 			(at 156.21 31.115 0)
 			(effects
 				(font
@@ -7650,25 +7528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture" "-"
-			(at 156.21 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "-"
-			(at 156.21 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GJM1555C1H1R2WB01D_C76899.html"
 			(at 156.21 31.115 0)
 			(effects
 				(font
