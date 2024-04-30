@@ -4718,6 +4718,17 @@
 		)
 		(uuid "014d7cc4-b5f2-4757-b7b2-56072119a004")
 	)
+	(text "Red"
+		(exclude_from_sim no)
+		(at 175.768 123.444 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05955753-1d7a-48a7-8a67-ddaad3dc326b")
+	)
 	(text "Reset Button"
 		(exclude_from_sim no)
 		(at 241.173 76.581 0)
@@ -4792,6 +4803,17 @@
 			(justify left bottom)
 		)
 		(uuid "526ffd38-33d8-463c-90ac-451e7e7b7036")
+	)
+	(text "Green"
+		(exclude_from_sim no)
+		(at 160.02 125.73 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57640328-c74f-4a88-a69d-e6349db35d78")
 	)
 	(text "strapping pin"
 		(exclude_from_sim no)
@@ -5307,7 +5329,7 @@
 		(dnp no)
 		(uuid "00e33e1b-e4d6-4c77-8858-d62651c80385")
 		(property "Reference" "J3"
-			(at 31.75 163.83 0)
+			(at 35.306 150.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5315,8 +5337,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "JTAG_10PIN"
-			(at 48.895 187.325 0)
+		(property "Value" "Tag-Connect_TC2050-IDC-NL"
+			(at 30.48 151.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5333,7 +5355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
+		(property "Datasheet" ""
 			(at 34.29 196.215 90)
 			(effects
 				(font
@@ -5342,7 +5364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DNP"
+		(property "Description" ""
 			(at 43.18 164.465 0)
 			(effects
 				(font
@@ -5351,7 +5373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "-"
+		(property "Manufacturer" ""
 			(at 43.18 164.465 0)
 			(effects
 				(font
@@ -5360,7 +5382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "-"
+		(property "Manufacturer Part Number" ""
 			(at 43.18 164.465 0)
 			(effects
 				(font
@@ -5369,7 +5391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "-"
+		(property "Distributor" ""
 			(at 43.18 164.465 0)
 			(effects
 				(font
@@ -5378,7 +5400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "26"
+		(property "Distributor Part Number" ""
 			(at 43.18 164.465 0)
 			(effects
 				(font
@@ -5387,25 +5409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture" "-"
-			(at 43.18 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "-"
-			(at 43.18 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" ""
 			(at 43.18 164.465 0)
 			(effects
 				(font
@@ -5490,7 +5494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2203281730_C-K-KMR233GLFG_C2689601.pdf"
 			(at 245.11 113.03 0)
 			(effects
 				(font
@@ -5499,7 +5503,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.01A Brick nogging SPST - NO 300gf 32V SMD Tactile Switches ROHS"
+		(property "Description" "Round Button 10mA Brick nogging SPST - NO 300gf 32V SMD Tactile Switches ROHS"
+			(at 240.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 240.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KMR233GLFG"
 			(at 240.03 113.03 0)
 			(effects
 				(font
@@ -5517,15 +5539,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Tactile-Switches_C-K-KMR233GLFG_C2689601.html"
-			(at 240.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C2689601"
 			(at 240.03 113.03 0)
 			(effects
@@ -5535,61 +5548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "29"
-			(at 240.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "C&K"
-			(at 240.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "KMR233GLFG"
-			(at 240.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 240.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
-			(at 240.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 240.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Tactile-Switches_C-K-KMR233GLFG_C2689601.html"
 			(at 240.03 113.03 0)
 			(effects
 				(font
@@ -5649,7 +5608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 191.135 117.475 0)
 			(effects
 				(font
@@ -5658,7 +5617,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 1MΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 191.135 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 191.135 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 191.135 117.475 0)
 			(effects
 				(font
@@ -5676,7 +5653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1004TCE_C26083.html"
+		(property "Distributor Part Number" "C25744"
 			(at 191.135 117.475 0)
 			(effects
 				(font
@@ -5685,43 +5662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C26083"
-			(at 191.135 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "42"
-			(at 191.135 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 191.135 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGF1004TCE"
-			(at 191.135 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
 			(at 191.135 117.475 0)
 			(effects
 				(font
@@ -5865,7 +5806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 236.855 50.165 0)
 			(effects
 				(font
@@ -5883,7 +5824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 236.855 50.165 0)
 			(effects
 				(font
@@ -5892,7 +5833,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.html"
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+			(at 236.855 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 236.855 50.165 0)
 			(effects
 				(font
@@ -5910,34 +5860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "3"
-			(at 236.855 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 236.855 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "CL05B104KO5NNNC"
-			(at 236.855 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.html"
 			(at 236.855 50.165 0)
 			(effects
 				(font
@@ -6200,7 +6123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 183.515 43.18 0)
 			(effects
 				(font
@@ -6209,7 +6132,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 1MΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 183.515 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 183.515 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 183.515 43.18 0)
 			(effects
 				(font
@@ -6227,7 +6168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1004TCE_C26083.html"
+		(property "Distributor Part Number" "C25744"
 			(at 183.515 43.18 0)
 			(effects
 				(font
@@ -6236,70 +6177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C26083"
-			(at 183.515 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "42"
-			(at 183.515 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 183.515 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGF1004TCE"
-			(at 183.515 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 183.515 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
-			(at 183.515 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 183.515 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
 			(at 183.515 43.18 0)
 			(effects
 				(font
@@ -6359,7 +6237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGJ0472TCE_C25940.pdf"
 			(at 44.45 107.95 0)
 			(effects
 				(font
@@ -6368,7 +6246,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 44.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 44.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ0472TCE"
 			(at 44.45 107.95 0)
 			(effects
 				(font
@@ -6386,15 +6282,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0472TCE_C25940.html"
-			(at 44.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C25940"
 			(at 44.45 107.95 0)
 			(effects
@@ -6404,34 +6291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "39"
-			(at 44.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 44.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0472TCE"
-			(at 44.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0472TCE_C25940.html"
 			(at 44.45 107.95 0)
 			(effects
 				(font
@@ -6575,7 +6435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 104.14 36.83 0)
 			(effects
 				(font
@@ -6593,7 +6453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 104.14 36.83 0)
 			(effects
 				(font
@@ -6602,7 +6462,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.html"
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 104.14 36.83 0)
 			(effects
 				(font
@@ -6620,34 +6489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "3"
-			(at 104.14 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 104.14 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "CL05B104KO5NNNC"
-			(at 104.14 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.html"
 			(at 104.14 36.83 0)
 			(effects
 				(font
@@ -6893,7 +6735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404180925_Seiko-Epson-Q13FC13500004_C32346.pdf"
 			(at 45.085 53.34 0)
 			(effects
 				(font
@@ -6911,7 +6753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "Seiko Epson"
 			(at 45.085 53.34 0)
 			(effects
 				(font
@@ -6920,7 +6762,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Crystals_Seiko-Epson-Q13FC1350000400_C32346.html"
+		(property "Manufacturer Part Number" "Q13FC1350000400"
+			(at 45.085 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 45.085 53.34 0)
 			(effects
 				(font
@@ -6938,34 +6789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "60"
-			(at 45.085 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Seiko Epson"
-			(at 45.085 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "Q13FC1350000400"
-			(at 45.085 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Crystals_Seiko-Epson-Q13FC1350000400_C32346.html"
 			(at 45.085 53.34 0)
 			(effects
 				(font
@@ -7442,7 +7266,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Yellow"
+		(property "Value" "LTST-C191KGKT"
 			(at 165.1 114.935 0)
 			(effects
 				(font
@@ -7461,7 +7285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811100910_Lite-On-LTST-C191KGKT_C125098.pdf"
 			(at 162.56 121.285 90)
 			(effects
 				(font
@@ -7470,7 +7294,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Colorless transparence -40℃~+90℃ 605nm Orange 120° 0603 Light Emitting Diodes (LED) ROHS"
+		(property "Description" "20mA 35mcd -55℃~+85℃ 567.5nm~576.5nm Green-yellow 130° 75mW 2V 0603 Light Emitting Diodes (LED) ROHS"
+			(at 162.56 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 162.56 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191KGKT"
 			(at 162.56 121.285 0)
 			(effects
 				(font
@@ -7488,7 +7330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_EKINGLUX-E6C0603SEAC1UDA_C375450.html"
+		(property "Distributor Part Number" "C125098"
 			(at 162.56 121.285 0)
 			(effects
 				(font
@@ -7497,43 +7339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C375450"
-			(at 162.56 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "17"
-			(at 162.56 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "EKINGLUX"
-			(at 162.56 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "E6C0603SEAC1UDA"
-			(at 162.56 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Lite-On-LTST-C191KGKT_C125098.html"
 			(at 162.56 121.285 0)
 			(effects
 				(font
@@ -7665,16 +7471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 57.785 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 62.5mW ±1% 22Ω"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±100ppm/℃ 22Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 57.785 52.705 0)
 			(effects
 				(font
@@ -7990,7 +7787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.pdf"
 			(at 39.37 49.53 0)
 			(effects
 				(font
@@ -8008,7 +7805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 39.37 49.53 0)
 			(effects
 				(font
@@ -8017,7 +7814,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.html"
+		(property "Manufacturer Part Number" "0402CG120J500NT"
+			(at 39.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 39.37 49.53 0)
 			(effects
 				(font
@@ -8035,34 +7841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "5"
-			(at 39.37 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "FH (Guangdong Fenghua Advanced Tech)"
-			(at 39.37 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402CG120J500NT"
-			(at 39.37 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.html"
 			(at 39.37 49.53 0)
 			(effects
 				(font
@@ -8123,7 +7902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
 			(at 94.615 36.83 0)
 			(effects
 				(font
@@ -8141,7 +7920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 94.615 36.83 0)
 			(effects
 				(font
@@ -8150,7 +7929,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
+			(at 94.615 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 94.615 36.83 0)
 			(effects
 				(font
@@ -8168,34 +7956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "1"
-			(at 94.615 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 94.615 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 94.615 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
 			(at 94.615 36.83 0)
 			(effects
 				(font
@@ -8495,7 +8256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209151800_Leiditech-ESD5651N_C5173251.pdf"
 			(at 88.9 177.165 0)
 			(effects
 				(font
@@ -8504,7 +8265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DFN1006 Electrostatic and Surge Protection (TVS/ESD) ROHS"
 			(at 88.9 177.165 0)
 			(effects
 				(font
@@ -8513,7 +8274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Manufacturer" "Leiditech"
 			(at 88.9 177.165 0)
 			(effects
 				(font
@@ -8522,7 +8283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "ESD5651N"
 			(at 88.9 177.165 0)
 			(effects
 				(font
@@ -8531,7 +8292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor" "LCSC"
 			(at 88.9 177.165 0)
 			(effects
 				(font
@@ -8540,16 +8301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
-			(at 88.9 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "C5173251"
 			(at 88.9 177.165 0)
 			(effects
 				(font
@@ -8839,7 +8591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Manufacturer" "Espressif Systems"
 			(at 114.3 83.185 0)
 			(effects
 				(font
@@ -8848,7 +8600,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/WiFi-Modules_Espressif-Systems-ESP32-S3-MINI-1-N4R2_C3013941.html"
+		(property "Manufacturer Part Number" "ESP32-S3-MINI-1-N4R2"
+			(at 114.3 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
 			(at 114.3 83.185 0)
 			(effects
 				(font
@@ -8866,52 +8627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "56"
-			(at 114.3 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "Espressif Systems"
-			(at 114.3 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "ESP32-S3-MINI-1-N4R2"
-			(at 114.3 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 114.3 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 114.3 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/WiFi-Modules_Espressif-Systems-ESP32-S3-MINI-1-N4R2_C3013941.html"
 			(at 114.3 83.185 0)
 			(effects
 				(font
@@ -9142,7 +8858,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Green"
+		(property "Value" "LTST-C191KRKT"
 			(at 172.72 114.935 0)
 			(effects
 				(font
@@ -9161,7 +8877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231512_Lite-On-LTST-C191KRKT_C125099.pdf"
 			(at 170.18 121.285 90)
 			(effects
 				(font
@@ -9170,7 +8886,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Colorless transparence -40℃~+90℃ 605nm Orange 120° 0603 Light Emitting Diodes (LED) ROHS"
+		(property "Description" "20mA 54mcd -55℃~+85℃ 631nm Red 130° 75mW 2V 0603 Light Emitting Diodes (LED) ROHS"
+			(at 170.18 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 170.18 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191KRKT"
 			(at 170.18 121.285 0)
 			(effects
 				(font
@@ -9188,7 +8922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_EKINGLUX-E6C0603SEAC1UDA_C375450.html"
+		(property "Distributor Part Number" "C125099"
 			(at 170.18 121.285 0)
 			(effects
 				(font
@@ -9197,43 +8931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C375450"
-			(at 170.18 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "17"
-			(at 170.18 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "EKINGLUX"
-			(at 170.18 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "E6C0603SEAC1UDA"
-			(at 170.18 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Lite-On-LTST-C191KRKT_C125099.html"
 			(at 170.18 121.285 0)
 			(effects
 				(font
@@ -9359,7 +9057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2203281730_C-K-KMR233GLFG_C2689601.pdf"
 			(at 250.19 50.165 0)
 			(effects
 				(font
@@ -9368,7 +9066,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.01A Brick nogging SPST - NO 300gf 32V SMD Tactile Switches ROHS"
+		(property "Description" "Round Button 10mA Brick nogging SPST - NO 300gf 32V SMD Tactile Switches ROHS"
+			(at 245.11 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 245.11 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KMR233GLFG"
 			(at 245.11 50.165 0)
 			(effects
 				(font
@@ -9386,15 +9102,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Tactile-Switches_C-K-KMR233GLFG_C2689601.html"
-			(at 245.11 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C2689601"
 			(at 245.11 50.165 0)
 			(effects
@@ -9404,52 +9111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "46"
-			(at 245.11 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "C&K"
-			(at 245.11 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "KMR233GLFG"
-			(at 245.11 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 245.11 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 245.11 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Tactile-Switches_C-K-KMR233GLFG_C2689601.html"
 			(at 245.11 50.165 0)
 			(effects
 				(font
@@ -9696,7 +9358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 177.8 43.18 0)
 			(effects
 				(font
@@ -9705,7 +9367,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 1MΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 177.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 177.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 177.8 43.18 0)
 			(effects
 				(font
@@ -9723,7 +9403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1004TCE_C26083.html"
+		(property "Distributor Part Number" "C25744"
 			(at 177.8 43.18 0)
 			(effects
 				(font
@@ -9732,43 +9412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C26083"
-			(at 177.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "42"
-			(at 177.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 177.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGF1004TCE"
-			(at 177.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
 			(at 177.8 43.18 0)
 			(effects
 				(font
@@ -10227,7 +9871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108132030_TECH-PUBLIC-ESDA6V1W5-TP_C970036.pdf"
 			(at 64.77 173.99 0)
 			(effects
 				(font
@@ -10236,7 +9880,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SOT-323-5 ESD Protection Devices ROHS"
+		(property "Description" "SOT-353 Electrostatic and Surge Protection (TVS/ESD) ROHS"
+			(at 61.595 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TECH PUBLIC"
+			(at 61.595 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ESDA6V1W5-TP"
 			(at 61.595 177.165 0)
 			(effects
 				(font
@@ -10254,15 +9916,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-Protection-Devices_TECH-PUBLIC-ESDA6V1W5-TP_C970036.html"
-			(at 61.595 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C970036"
 			(at 61.595 177.165 0)
 			(effects
@@ -10272,34 +9925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "20"
-			(at 61.595 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "TECH PUBLIC"
-			(at 61.595 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "ESDA6V1W5-TP"
-			(at 61.595 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-Protection-Devices_TECH-PUBLIC-ESDA6V1W5-TP_C970036.html"
 			(at 61.595 177.165 0)
 			(effects
 				(font
@@ -10366,7 +9992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311845_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.pdf"
 			(at 170.18 127.635 0)
 			(effects
 				(font
@@ -10375,7 +10001,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±5% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 170.18 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 170.18 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ0102TCE"
 			(at 170.18 127.635 0)
 			(effects
 				(font
@@ -10393,15 +10037,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.html"
-			(at 170.18 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C25543"
 			(at 170.18 127.635 0)
 			(effects
@@ -10411,34 +10046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "37"
-			(at 170.18 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 170.18 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0102TCE"
-			(at 170.18 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.html"
 			(at 170.18 127.635 0)
 			(effects
 				(font
@@ -10589,7 +10197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGJ0472TCE_C25940.pdf"
 			(at 38.735 107.95 0)
 			(effects
 				(font
@@ -10598,7 +10206,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 38.735 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 38.735 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ0472TCE"
 			(at 38.735 107.95 0)
 			(effects
 				(font
@@ -10616,15 +10242,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0472TCE_C25940.html"
-			(at 38.735 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C25940"
 			(at 38.735 107.95 0)
 			(effects
@@ -10634,34 +10251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "39"
-			(at 38.735 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 38.735 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0472TCE"
-			(at 38.735 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0472TCE_C25940.html"
 			(at 38.735 107.95 0)
 			(effects
 				(font
@@ -10721,7 +10311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 196.85 116.84 0)
 			(effects
 				(font
@@ -10730,7 +10320,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 1MΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 196.85 116.84 0)
 			(effects
 				(font
@@ -10748,7 +10356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1004TCE_C26083.html"
+		(property "Distributor Part Number" "C25744"
 			(at 196.85 116.84 0)
 			(effects
 				(font
@@ -10757,43 +10365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C26083"
-			(at 196.85 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "42"
-			(at 196.85 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 196.85 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGF1004TCE"
-			(at 196.85 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
 			(at 196.85 116.84 0)
 			(effects
 				(font
@@ -10985,7 +10557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 245.11 34.925 0)
 			(effects
 				(font
@@ -10994,7 +10566,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 245.11 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 245.11 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 245.11 34.925 0)
 			(effects
 				(font
@@ -11012,15 +10602,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
-			(at 245.11 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C25744"
 			(at 245.11 34.925 0)
 			(effects
@@ -11030,34 +10611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "40"
-			(at 245.11 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 245.11 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGF1002TCE"
-			(at 245.11 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
 			(at 245.11 34.925 0)
 			(effects
 				(font
@@ -11348,7 +10902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209151800_Leiditech-ESD5651N_C5173251.pdf"
 			(at 80.645 177.165 0)
 			(effects
 				(font
@@ -11357,7 +10911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DFN1006 Electrostatic and Surge Protection (TVS/ESD) ROHS"
 			(at 80.645 177.165 0)
 			(effects
 				(font
@@ -11366,7 +10920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Manufacturer" "Leiditech"
 			(at 80.645 177.165 0)
 			(effects
 				(font
@@ -11375,7 +10929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "ESD5651N"
 			(at 80.645 177.165 0)
 			(effects
 				(font
@@ -11384,7 +10938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor" "LCSC"
 			(at 80.645 177.165 0)
 			(effects
 				(font
@@ -11393,16 +10947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
-			(at 80.645 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "C5173251"
 			(at 80.645 177.165 0)
 			(effects
 				(font
@@ -11479,17 +11024,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 240.03 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 62.5mW ±1% 5.1kΩ"
-			(at 240.03 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11617,7 +11153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311845_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.pdf"
 			(at 162.56 127.635 0)
 			(effects
 				(font
@@ -11626,7 +11162,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±5% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 162.56 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 162.56 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ0102TCE"
 			(at 162.56 127.635 0)
 			(effects
 				(font
@@ -11644,15 +11198,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.html"
-			(at 162.56 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor Part Number" "C25543"
 			(at 162.56 127.635 0)
 			(effects
@@ -11662,34 +11207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "37"
-			(at 162.56 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 162.56 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0102TCE"
-			(at 162.56 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.html"
 			(at 162.56 127.635 0)
 			(effects
 				(font
@@ -11932,7 +11450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.pdf"
 			(at 39.37 57.15 0)
 			(effects
 				(font
@@ -11942,6 +11460,24 @@
 			)
 		)
 		(property "Description" "50V 12pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 39.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 39.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402CG120J500NT"
 			(at 39.37 57.15 0)
 			(effects
 				(font
@@ -11969,42 +11505,6 @@
 			)
 		)
 		(property "Distributor Part Number" "C1547"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "5"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "FH (Guangdong Fenghua Advanced Tech)"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402CG120J500NT"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
 			(at 39.37 57.15 0)
 			(effects
 				(font
@@ -12249,7 +11749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 184.785 117.475 0)
 			(effects
 				(font
@@ -12258,7 +11758,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 1MΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" " 62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 184.785 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 184.785 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 184.785 117.475 0)
 			(effects
 				(font
@@ -12276,7 +11794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1004TCE_C26083.html"
+		(property "Distributor Part Number" "C25744"
 			(at 184.785 117.475 0)
 			(effects
 				(font
@@ -12285,43 +11803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C26083"
-			(at 184.785 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" "42"
-			(at 184.785 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 184.785 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGF1004TCE"
-			(at 184.785 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
 			(at 184.785 117.475 0)
 			(effects
 				(font
