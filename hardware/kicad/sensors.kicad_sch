@@ -2567,7 +2567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf?_gl=1*15oda6t*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcxNDQxNTczMy43Ny4xLjE3MTQ0MTY0MTMuMTEuMC4w"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 86.995 97.79 0)
 			(effects
 				(font
@@ -2576,7 +2576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 86.995 97.79 0)
 			(effects
 				(font
@@ -3467,7 +3467,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Qwiic"
+		(property "Value" "SM04B-SRSS-TB(LF)(SN)"
 			(at 182.245 120.015 0)
 			(effects
 				(font
@@ -3494,7 +3494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 1x4P 4P 1 SR Tin 1mm 4 -25℃~+85℃ 1A Copper Alloy Surface Mount，Right Angle SMD,P=1mm,Surface Mount，Right Angle Wire To Board Connector ROHS"
+		(property "Description" "1x4P 4P 1 SR Tin 1mm 4 -25℃~+85℃ 1A Copper Alloy Surface Mount，Right Angle SMD,P=1mm,Surface Mount，Right Angle Wire To Board Connector ROHS"
 			(at 179.07 122.555 0)
 			(effects
 				(font

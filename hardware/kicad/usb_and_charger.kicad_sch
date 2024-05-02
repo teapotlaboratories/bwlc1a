@@ -3326,7 +3326,7 @@
 		)
 		(uuid "d1c9ecc4-f181-4d3e-8f35-b82d5ec8a294")
 	)
-	(text "Charge Rate: 1A"
+	(text "Charge Rate: 500mA"
 		(exclude_from_sim no)
 		(at 170.815 98.425 0)
 		(effects
@@ -3639,7 +3639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 2kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 2kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 177.8 86.36 0)
 			(effects
 				(font
@@ -4738,7 +4738,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 100.965 78.105 90)
 			(effects
 				(font
@@ -5026,7 +5026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_YAGEO-CC0402KRX5R6BB104_C129131.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 132.715 73.025 0)
 			(effects
 				(font
@@ -5035,7 +5035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 100nF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 132.715 73.025 0)
 			(effects
 				(font
@@ -5044,7 +5044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 132.715 73.025 0)
 			(effects
 				(font
@@ -5053,7 +5053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0402KRX5R6BB104"
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
 			(at 132.715 73.025 0)
 			(effects
 				(font
@@ -5071,7 +5071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C129131"
+		(property "Distributor Part Number" "C1525"
 			(at 132.715 73.025 0)
 			(effects
 				(font
@@ -5080,7 +5080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402KRX5R6BB104_C129131.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.html"
 			(at 132.715 73.025 0)
 			(effects
 				(font
@@ -5417,7 +5417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 6V 750mA 40A 1.5A 0805 Resettable Fuses ROHS"
+		(property "Description" "6V 750mA 40A 1.5A 0805 Resettable Fuses ROHS"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -6428,7 +6428,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 100.965 71.755 90)
 			(effects
 				(font

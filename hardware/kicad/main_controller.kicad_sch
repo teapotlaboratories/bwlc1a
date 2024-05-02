@@ -4840,6 +4840,16 @@
 		)
 		(uuid "630d84ef-dc28-4a3f-8f39-503e447f7e26")
 	)
+	(text "RESET"
+		(exclude_from_sim no)
+		(at 258.064 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "64523868-658f-4ed7-802c-90f5a12f0a64")
+	)
 	(text "Octal SPI"
 		(exclude_from_sim no)
 		(at 108.585 111.76 0)
@@ -4888,6 +4898,16 @@
 			(justify left bottom)
 		)
 		(uuid "c90ebe0b-7a9b-47ba-a4df-62a3997e729d")
+	)
+	(text "BOOT"
+		(exclude_from_sim no)
+		(at 236.982 113.284 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0010a89-f584-463b-a25f-ad757c0a0467")
 	)
 	(text "strapping pin"
 		(exclude_from_sim no)
@@ -5476,7 +5496,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "KMR233GLFG"
 			(at 243.84 114.3 90)
 			(effects
 				(font
@@ -5590,7 +5610,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 193.675 117.475 90)
 			(effects
 				(font
@@ -6105,7 +6125,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 180.975 38.735 90)
 			(effects
 				(font
@@ -6219,7 +6239,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4k7"
 			(at 46.99 107.315 90)
 			(effects
 				(font
@@ -7462,7 +7482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF220JTCE_C25092.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF220JTCE_C25092.pdf"
 			(at 57.785 52.705 0)
 			(effects
 				(font
@@ -7471,7 +7491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±100ppm/℃ 22Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors ±1% ±100ppm/℃ 22Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 57.785 52.705 0)
 			(effects
 				(font
@@ -7516,7 +7536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF220JTCE_C25092.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF220JTCE_C25092.html"
 			(at 57.785 52.705 0)
 			(effects
 				(font
@@ -8247,7 +8267,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 88.9 177.165 0)
 			(effects
 				(font
@@ -9039,8 +9059,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RESET"
-			(at 255.27 51.435 90)
+		(property "Value" "KMR233GLFG"
+			(at 261.874 51.562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9340,7 +9360,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 175.26 38.735 90)
 			(effects
 				(font
@@ -9880,7 +9900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SOT-353 Electrostatic and Surge Protection (TVS/ESD) ROHS"
+		(property "Description" "SOT-323-5 ESD Protection Devices ROHS"
 			(at 61.595 177.165 0)
 			(effects
 				(font
@@ -10179,7 +10199,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4k7"
 			(at 41.91 107.315 90)
 			(effects
 				(font
@@ -10293,7 +10313,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 200.025 117.475 90)
 			(effects
 				(font
@@ -10893,7 +10913,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 80.645 177.165 0)
 			(effects
 				(font
@@ -10998,7 +11018,7 @@
 				)
 			)
 		)
-		(property "Value" "5K1"
+		(property "Value" "5k1"
 			(at 236.22 99.695 0)
 			(effects
 				(font
@@ -11015,7 +11035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
 			(at 240.03 99.06 0)
 			(effects
 				(font
@@ -11024,7 +11044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 240.03 99.06 0)
 			(effects
 				(font
@@ -11731,7 +11751,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 187.325 117.475 90)
 			(effects
 				(font
@@ -11758,7 +11778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 184.785 117.475 0)
 			(effects
 				(font

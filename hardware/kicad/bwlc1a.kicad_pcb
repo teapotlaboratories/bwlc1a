@@ -926,7 +926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -938,7 +938,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 144.8845 84.328 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -961,7 +961,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -973,7 +973,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C19702"
+		(property "Distributor Part Number" "C14663"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -985,43 +985,7 @@
 				)
 			)
 		)
-		(property "Id" "1"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "38ad5cf2-dad7-4a26-aad3-d2e8dedd3344")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d095b82-e640-45a5-a9a6-c8a6348fb824")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "01d442d9-f1db-4693-9d42-90043b75d539")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1033,35 +997,11 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4305817b-873f-431a-8230-fc0a252b1230")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fa303a8e-a9af-4d62-a2aa-c3ed5c2ef1f7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c25ecab1-99ff-49c9-90e9-4cb9ab4d43fd")
 			(effects
 				(font
 					(size 1 1)
@@ -2451,7 +2391,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-BLM21PG300SN1D_C16903.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2511,55 +2451,7 @@
 				)
 			)
 		)
-		(property "Id" "23"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d96e019f-4158-4d3e-9830-bc6207cbd1c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture" "Murata Electronics"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cccc5836-4e27-4b52-aa94-67b1440ae149")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "BLM21PG300SN1D"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8e225aa6-b6ed-4d67-aabc-8a9d3b9adb0e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a72c471-5164-4995-9d89-30d868752261")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2572,7 +2464,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "BLM21PG300SN1D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2772,7 +2664,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2784,7 +2676,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 183.515 82.296 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2831,11 +2723,12 @@
 				)
 			)
 		)
-		(property "Id" "40"
-			(at 0 0 0)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5088bbbe-0f68-42ca-a8df-b52c25fd7daa")
+			(uuid "1639187a-dab8-4aab-8788-c3ff6aacc2cc")
 			(effects
 				(font
 					(size 1 1)
@@ -2843,35 +2736,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "065eac28-3343-420b-822f-203dc24a9d3a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGF1002TCE"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f8df9aca-4caa-4907-9e26-444365d1fda0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3bd81174-f91c-4c66-a5be-e925fa7cdc75")
+			(uuid "d6548ad8-5e6a-4060-ab08-e4fbdd683fd0")
 			(effects
 				(font
 					(size 1 1)
@@ -3383,6 +3253,71 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2645e402-1a36-4fb2-8cd4-0eba799f6afe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ae76341-4750-4994-acca-15cfcd65a210")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d3fd25a-63db-4c88-ae94-9403f0c17e83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a3f8e19-8f32-47c4-af05-3d2cb948574f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b9438f2-8eb6-4728-bb93-9cb75e7e9f25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ca79f09e-abdb-462a-9aab-98f2e37e5b23/024f58db-d0a0-4356-a60f-c5934966a3c1")
 		(sheetname "Antenna")
@@ -3570,7 +3505,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3582,7 +3517,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 1MΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 164.973 87.503 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3605,7 +3540,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1004TCE_C26083.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3617,7 +3552,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C26083"
+		(property "Distributor Part Number" "C25744"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3629,11 +3564,12 @@
 				)
 			)
 		)
-		(property "Id" "42"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e76fdb52-36d2-446d-bf8a-15c41f2f6eec")
+			(uuid "51ba485c-d96e-4c04-aafa-75c0b8b409bf")
 			(effects
 				(font
 					(size 1 1)
@@ -3641,35 +3577,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3ed188a-b9c4-485b-8e3d-5a13886010ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGF1004TCE"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "63925728-f430-4109-8080-268b3837b21c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "079e53aa-7d70-4278-a4bb-9d76efa25a2d")
+			(uuid "6dc6974a-00c8-4aa3-becb-80cbf363d0c7")
 			(effects
 				(font
 					(size 1 1)
@@ -3864,7 +3777,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3923,43 +3836,7 @@
 				)
 			)
 		)
-		(property "Id" "1"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f8c46be7-ad6f-44c0-ab62-3f9a8d10bd5a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b24fb2bd-f640-4020-81e6-359f8005462c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bcecf571-911a-41da-81a6-6b0f132041eb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3971,35 +3848,11 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "22803a83-628c-4348-89db-fefc44b8bea5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9849c4e2-5136-4c5c-b44c-f9435dadb144")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a9a6e0db-8213-4487-9318-2acb60338f23")
 			(effects
 				(font
 					(size 1 1)
@@ -5281,7 +5134,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2203281730_C-K-KMR233GLFG_C2689601.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5293,7 +5146,7 @@
 				)
 			)
 		)
-		(property "Description" "0.01A Brick nogging SPST - NO 300gf 32V SMD Tactile Switches ROHS"
+		(property "Description" "Round Button 10mA Brick nogging SPST - NO 300gf 32V SMD Tactile Switches ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5341,55 +5194,7 @@
 				)
 			)
 		)
-		(property "Id" "46"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68ffc717-3747-40b6-81fe-844f1b7fd07a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture" "C&K"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4ac3b5e2-f7a9-4a95-8733-8b42fd7923f9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "KMR233GLFG"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3cc5abcc-c8ca-4f44-8b4a-bc0758bf2cd8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "008efaab-4c3b-4574-ac47-59f2fca2d4ed")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "C&K"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5402,7 +5207,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "KMR233GLFG"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6265,6 +6070,71 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd4707c8-7fa0-4039-9748-3dbeb9668629")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25f95e9c-5457-41a6-b2c3-118239e733a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd8a5496-e2de-496e-af1b-f26fcd995e07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81275f45-c622-4c70-a242-c3a729cb8b2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1f5be25-6587-4025-8945-0c79f0c82c7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ca79f09e-abdb-462a-9aab-98f2e37e5b23/083af8a5-0614-427a-88b6-bf81b81d8437")
 		(sheetname "Antenna")
@@ -6452,7 +6322,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311845_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6464,7 +6334,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±5% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 178.757 100.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6511,11 +6381,12 @@
 				)
 			)
 		)
-		(property "Id" "37"
-			(at 0 0 0)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "673f04d0-ab71-4af9-9434-5f8b5bd6a385")
+			(uuid "69c777f8-2bab-4b13-a86a-f52f96b88527")
 			(effects
 				(font
 					(size 1 1)
@@ -6523,35 +6394,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "0402WGJ0102TCE"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e15c7514-4a8f-4c32-928d-5a9d1e12c00d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0102TCE"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6c5af3fc-61af-471c-8975-3a94fdfb8eb3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4c8932e3-5c0c-406c-9d74-ed91f3fc4178")
+			(uuid "4be2e082-5e69-4137-a417-62688517f65a")
 			(effects
 				(font
 					(size 1 1)
@@ -6705,17 +6553,17 @@
 			)
 		)
 	)
-	(footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H_Pad1.50x2.35mm_HandSolder"
+	(footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 		(layer "F.Cu")
 		(uuid "20753429-1175-43fb-8c31-9d164f863247")
 		(at 160.3614 92.6328)
-		(descr "Tantalum Capacitor SMD AVX-H (3528-15 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
+		(descr "Tantalum Capacitor SMD Kemet-T (3528-12 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C18"
 			(at 0 -2.35 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3abdc084-d1b9-40b3-8780-334f73dea14e")
+			(uuid "8550ebd6-7892-46bf-95aa-e8e84fddc3d7")
 			(effects
 				(font
 					(size 1 1)
@@ -6726,7 +6574,7 @@
 		(property "Value" "330uF"
 			(at 0 2.35 0)
 			(layer "F.Fab")
-			(uuid "3a479feb-d921-4bfc-b3f0-2d4619ba31a5")
+			(uuid "a78dc739-2fbf-4c73-b86d-6c5f12477712")
 			(effects
 				(font
 					(size 1 1)
@@ -6734,12 +6582,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H_Pad1.50x2.35mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d9a0529-b8db-4b42-8b25-d93a84d707ae")
+			(uuid "62f28740-4836-4040-9331-8b43a642e55f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +6599,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb47415a-9b21-4bab-8533-4618fccda466")
+			(uuid "8bb41cb9-42be-4cd8-8d6c-4aa87d13c4a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6763,10 +6611,75 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a232be44-4a51-43a0-adb8-6fa5e8ca41f5")
+			(uuid "407b39b6-9a4e-4f22-9167-04ba5ce68026")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80fd114c-5557-47a7-81b8-6b3b83360770")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7ee3750-2bc6-4324-a3c3-b52edb33e039")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e726cf4-d29e-4ad7-8589-6f4f5e4c791c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9369d612-06bd-4143-ab6e-4f188dbd5f6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66155402-7810-4c0c-8c75-2ab9d713869d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6776,74 +6689,74 @@
 		(sheetfile "cellular.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -2.635 -1.51)
-			(end -2.635 1.51)
+			(start -2.46 -1.51)
+			(end -2.46 1.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "94da8e0e-96b5-4a85-8e2a-3a31fa494468")
+			(uuid "31cedb55-935d-40a3-837f-887221571835")
 		)
 		(fp_line
-			(start -2.635 1.51)
+			(start -2.46 1.51)
 			(end 1.75 1.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3b946380-2794-47a3-a0c6-76879700d96b")
+			(uuid "a3c10595-319f-4c50-ac7d-d012d130871b")
 		)
 		(fp_line
 			(start 1.75 -1.51)
-			(end -2.635 -1.51)
+			(end -2.46 -1.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "98a13fe9-30ca-486d-9663-d5dd03ab52bc")
+			(uuid "ca8cb985-92e2-4124-8586-1146f5b7b0d7")
 		)
 		(fp_line
-			(start -2.62 -1.65)
-			(end 2.62 -1.65)
+			(start -2.45 -1.65)
+			(end 2.45 -1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "2afe987a-28fc-4302-871a-f2354ceef59e")
+			(uuid "d4bc0e44-ca47-4458-bd1d-4fd0fdab809a")
 		)
 		(fp_line
-			(start -2.62 1.65)
-			(end -2.62 -1.65)
+			(start -2.45 1.65)
+			(end -2.45 -1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e9055e62-2554-4654-8451-d46cfe93ce4c")
+			(uuid "166bf221-0fbe-432f-933b-de43f06a2b4a")
 		)
 		(fp_line
-			(start 2.62 -1.65)
-			(end 2.62 1.65)
+			(start 2.45 -1.65)
+			(end 2.45 1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "2c2a0b19-3b0b-42d5-8250-6ac8416125a6")
+			(uuid "18ff5452-27f5-447b-8ff7-c867d8404e67")
 		)
 		(fp_line
-			(start 2.62 1.65)
-			(end -2.62 1.65)
+			(start 2.45 1.65)
+			(end -2.45 1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "81ccbda1-c945-464b-9cba-b4cd46f37212")
+			(uuid "531a3718-6481-4a89-ae73-7342cdf89d44")
 		)
 		(fp_line
 			(start -1.75 -0.7)
@@ -6853,7 +6766,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9102d8f1-1029-4338-95e6-f802f1fcb552")
+			(uuid "9e9db380-6e39-4ed9-b71d-5a7539042d62")
 		)
 		(fp_line
 			(start -1.75 1.4)
@@ -6863,7 +6776,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7b8f540d-d1a8-461f-aa6b-35762a0be0e6")
+			(uuid "f476fc1a-fa96-495c-8dd0-d989adeb2c12")
 		)
 		(fp_line
 			(start -1.05 -1.4)
@@ -6873,7 +6786,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d7fc954e-bfe1-4e0d-9eeb-bcc0b7793a8d")
+			(uuid "5ca6e971-d33b-4dce-9912-4ae3f67e0656")
 		)
 		(fp_line
 			(start 1.75 -1.4)
@@ -6883,7 +6796,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8d0d45d5-6b14-40dc-a8e5-f34575ce2138")
+			(uuid "2c61c21a-13ee-4f65-9eea-68c69ab44735")
 		)
 		(fp_line
 			(start 1.75 1.4)
@@ -6893,12 +6806,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3fee773c-ffc3-4fff-a72b-3f0df953b3f1")
+			(uuid "8a70b147-3b7d-4637-b95a-594357ce6d38")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "382ae088-08b3-4340-a186-d04eb8aec7ca")
+			(uuid "addad4cd-3d3e-4d98-9b32-401388cf056e")
 			(effects
 				(font
 					(size 0.88 0.88)
@@ -6907,24 +6820,24 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.625 0)
-			(size 1.5 2.35)
+			(at -1.5375 0)
+			(size 1.325 2.35)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.166667)
+			(roundrect_rratio 0.188679)
 			(net 12 "/Cellular/CELL_BATT")
 			(pintype "passive")
-			(uuid "343ce832-b12d-46ea-a358-edafda6ca516")
+			(uuid "ec31c4f3-9485-4a04-accd-4b9e128ae49d")
 		)
 		(pad "2" smd roundrect
-			(at 1.625 0)
-			(size 1.5 2.35)
+			(at 1.5375 0)
+			(size 1.325 2.35)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.166667)
+			(roundrect_rratio 0.188679)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "409fc57e-1a1b-4cfd-82c3-c63309774855")
+			(uuid "1349f86e-147e-45a6-8d02-a1a5f6281646")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3528-15_AVX-H.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3528-12_Kemet-T.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7309,55 +7222,7 @@
 				)
 			)
 		)
-		(property "Id" "56"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "161060a1-5056-417b-a317-19677fae17eb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture" "Espressif Systems"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "325d000c-cd00-42c1-a6f2-3b487de22b70")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "ESP32-S3-MINI-1-N4R2"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de25ce43-eec5-4a6f-a8ce-fa40ce13ae1f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0032b8de-c09c-4ace-977b-4035ca676019")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Espressif Systems"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7370,7 +7235,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ESP32-S3-MINI-1-N4R2"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8381,7 +8246,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0603JRNPO9BN330_C107047.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8393,7 +8258,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 33pF NP0 ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS "
 			(at 130.660499 87.630002 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8416,7 +8281,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603JRNPO9BN330_C107047.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8428,7 +8293,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C19702"
+		(property "Distributor Part Number" "C107047"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8440,43 +8305,7 @@
 				)
 			)
 		)
-		(property "Id" "1"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f60f1bb-2d2f-4f70-bc6e-8b2b3a44c695")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "478c56e6-eae3-4427-a6d5-735c67b9e37e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "08ef481b-48c5-41b1-901f-b09632c6c0ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8488,35 +8317,11 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CC0603JRNPO9BN330"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "030c029e-37e6-4aae-b471-eb838bf118a4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18d99eca-dfee-4de9-ab73-9ae6b29a1082")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d77ebd8e-571d-4648-abec-c68b2365789c")
 			(effects
 				(font
 					(size 1 1)
@@ -8711,7 +8516,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209151800_Leiditech-ESDBW5V0A1_C5173252.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8770,11 +8575,12 @@
 				)
 			)
 		)
-		(property "Id" "19"
-			(at 0 0 0)
+		(property "Manufacturer" "Leiditech"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "26960498-eaec-449a-ade0-519bb631ef21")
+			(uuid "3f096895-c57c-4112-a614-a624c99a66bc")
 			(effects
 				(font
 					(size 1 1)
@@ -8782,35 +8588,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "Leiditech"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "ESDBW5V0A1"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c374fe04-2d5e-470e-af07-a233233dcc04")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "ESDBW5V0A1"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9f401914-5af9-43ba-935f-7c26427d76e5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dd82bf91-db96-4aea-b383-83959d0402f2")
+			(uuid "325cfcd5-1053-4a4a-89e7-0de8a92a1cb6")
 			(effects
 				(font
 					(size 1 1)
@@ -9823,7 +9606,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209151800_Leiditech-ESD5651N_C5173251.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9835,7 +9618,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DFN1006 Electrostatic and Surge Protection (TVS/ESD) ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9847,7 +9630,7 @@
 				)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "LCSC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9871,7 +9654,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "C5173251"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9883,7 +9666,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Leiditech"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9895,23 +9678,11 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ESD5651N"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef74326f-4a0a-4211-a46f-e3de46289d56")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22459ec4-c27d-41b0-8b26-e162230d04ad")
 			(effects
 				(font
 					(size 1 1)
@@ -10714,7 +10485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG330J500NT_C1562.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10773,11 +10544,12 @@
 				)
 			)
 		)
-		(property "Id" "11"
-			(at 0 0 0)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9a4e608-6df2-43cf-98b3-bc1b002db44f")
+			(uuid "b95d7770-a1d0-4fc4-bf7f-39d0224c2907")
 			(effects
 				(font
 					(size 1 1)
@@ -10785,35 +10557,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "FH (Guangdong Fenghua Advanced Tech)"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "0402CG330J500NT"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b67237e0-3269-4103-b8cd-1c362a042643")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "0402CG330J500NT"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "93504039-2bdc-4e1f-a82f-8184549b677e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8de2b6ee-0180-4077-b021-faa42bef4b4e")
+			(uuid "1641210f-c4e0-4702-8d5b-14dbbe39052f")
 			(effects
 				(font
 					(size 1 1)
@@ -11978,7 +11727,7 @@
 				)
 			)
 		)
-		(property "Value" "Yellow"
+		(property "Value" "LTST-C191KGKT"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "be79d858-5f87-4d1f-9d87-6f22c935e308")
@@ -12001,7 +11750,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811100910_Lite-On-LTST-C191KGKT_C125098.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12013,7 +11762,7 @@
 				)
 			)
 		)
-		(property "Description" "Colorless transparence -40℃~+90℃ 605nm Orange 120° 0603 Light Emitting Diodes (LED) ROHS"
+		(property "Description" "20mA 35mcd -55℃~+85℃ 567.5nm~576.5nm Green-yellow 130° 75mW 2V 0603 Light Emitting Diodes (LED) ROHS"
 			(at 180.914 97.987 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12036,7 +11785,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_EKINGLUX-E6C0603SEAC1UDA_C375450.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Lite-On-LTST-C191KGKT_C125098.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12048,7 +11797,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C375450"
+		(property "Distributor Part Number" "C125098"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12060,11 +11809,12 @@
 				)
 			)
 		)
-		(property "Id" "17"
-			(at 0 0 0)
+		(property "Manufacturer" "Lite-On"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00874f3f-c689-449d-b6e8-22df87878a23")
+			(uuid "4070cbb2-12d9-4aaa-b804-4420cb7d29ce")
 			(effects
 				(font
 					(size 1 1)
@@ -12072,35 +11822,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "EKINGLUX"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "LTST-C191KGKT"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bedb022-0746-4f8b-abe0-ea499f567029")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "E6C0603SEAC1UDA"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aa0c3700-e1f8-4057-a99a-a25afe61674b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5143265c-57c1-421a-9007-4afbe5181722")
+			(uuid "648bf287-4607-4f4b-9e28-0c7c4f0f9eee")
 			(effects
 				(font
 					(size 1 1)
@@ -15900,7 +15627,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.quectel.com/wp-content/uploads/2021/03/Quectel_L76-L_GNSS_Specification_V1.4.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15912,7 +15639,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Navigation BeiDou, Galileo, GLONASS, GPS, GNSS Transceiver Module 1.561GHz, 1.575GHz, 1.602GHz Antenna Not Included Surface Mount"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15924,7 +15651,7 @@
 				)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15936,7 +15663,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/quectel/L76L-M33/13278335"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15948,7 +15675,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "2958-L76L-M33CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15960,7 +15687,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Quectel"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15972,23 +15699,11 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "L76L-M33"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5235e763-1c07-45c5-8216-f4e531d8b550")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eeba70d9-7833-4c39-8972-cdec1764a864")
 			(effects
 				(font
 					(size 1 1)
@@ -16756,7 +16471,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16815,11 +16530,12 @@
 				)
 			)
 		)
-		(property "Id" "3"
-			(at 0 0 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae0ecbe8-2963-45c3-93fd-ec623fee5d6a")
+			(uuid "062089b3-4584-4633-bcc7-a7e1e04f4489")
 			(effects
 				(font
 					(size 1 1)
@@ -16827,35 +16543,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60210711-c876-4386-98e8-f58b9602d058")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "CL05B104KO5NNNC"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4a5b25ab-6201-4c95-9cb8-703bc86a8b90")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d92220af-ccf0-405f-9e35-7d6473b8e471")
+			(uuid "64275c5b-9fc1-4160-a20b-43200f098d1a")
 			(effects
 				(font
 					(size 1 1)
@@ -18233,7 +17926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18292,11 +17985,12 @@
 				)
 			)
 		)
-		(property "Id" "3"
-			(at 0 0 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8586fb0-9adc-421b-891d-fd5de4bc732d")
+			(uuid "44a2f632-640a-4174-8586-9304ffd4924a")
 			(effects
 				(font
 					(size 1 1)
@@ -18304,35 +17998,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dec02f9c-591e-4c70-aef7-221748772b27")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "CL05B104KO5NNNC"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "08d69f0f-1564-43bb-8dfb-aa9310e0b64e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e16c4096-800c-479d-b62e-7dd5a2b35249")
+			(uuid "3b4fc600-fb4d-4bae-b903-f32233ad874f")
 			(effects
 				(font
 					(size 1 1)
@@ -18799,7 +18470,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGJ0472TCE_C25940.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18811,7 +18482,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 183.517 92.184 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18858,11 +18529,12 @@
 				)
 			)
 		)
-		(property "Id" "39"
-			(at 0 0 0)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "11e6b865-058a-45e5-98e6-d70e7fcb66ed")
+			(uuid "0b81fcd9-8f8d-4d9b-b088-8d65c2d7de03")
 			(effects
 				(font
 					(size 1 1)
@@ -18870,35 +18542,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "0402WGJ0472TCE"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "53ede386-4721-4911-97fe-beb7362529ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0472TCE"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "272cdfa0-e209-4eb1-8e2f-3bda07e99b48")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "265806b9-e949-4029-8d12-85abfb62a17f")
+			(uuid "704c1ba0-7145-486c-915c-deb1c3e0c8e4")
 			(effects
 				(font
 					(size 1 1)
@@ -19428,7 +19077,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19487,11 +19136,12 @@
 				)
 			)
 		)
-		(property "Id" "1"
-			(at 0 0 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db5a3d4e-6fef-46f5-86da-d6b5de679e92")
+			(uuid "97b62053-7b00-4e84-8444-1f7882cf0880")
 			(effects
 				(font
 					(size 1 1)
@@ -19499,35 +19149,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed5f4acf-4862-4d82-8f32-6f365cdd1949")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a3b78444-919d-4b39-a93b-ffa982a6624c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b9d8d5a-aecf-4062-aecc-3da5df8c5cb5")
+			(uuid "07b62bbf-3d96-4000-a1f1-316219ff878f")
 			(effects
 				(font
 					(size 1 1)
@@ -20836,7 +20463,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20848,7 +20475,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 1MΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 164.9476 84.963 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20871,7 +20498,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1004TCE_C26083.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20883,7 +20510,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C26083"
+		(property "Distributor Part Number" "C25744"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20895,11 +20522,12 @@
 				)
 			)
 		)
-		(property "Id" "42"
-			(at 0 0 0)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "df40e434-7b49-4ab6-9186-d4a31cc0ec0b")
+			(uuid "4c9cbc0f-f177-486d-a67e-26b369b56178")
 			(effects
 				(font
 					(size 1 1)
@@ -20907,35 +20535,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7f0e6d78-ccd6-4ee0-a897-2ea618b1cffd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGF1004TCE"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23ffe991-1d51-481f-bf25-fcc1e7c96d41")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee6b055a-baaf-46ab-a5d4-06c104f36ae8")
+			(uuid "c38770a9-7ad4-4208-9895-42585e5fe8fd")
 			(effects
 				(font
 					(size 1 1)
@@ -23582,7 +23187,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0603JRNPO9BN330_C107047.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23594,7 +23199,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 33pF NP0 ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 144.8845 87.63 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23617,7 +23222,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603JRNPO9BN330_C107047.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23629,7 +23234,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C19702"
+		(property "Distributor Part Number" "C107047"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23641,43 +23246,7 @@
 				)
 			)
 		)
-		(property "Id" "1"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "29f3c9a7-353c-43ac-a5ce-3c2ad8b370a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "973971e5-bfea-4b40-a0b9-c6956f732e88")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7e9cbd7a-9fd4-49a0-8c40-4ff453e1e67b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23689,35 +23258,11 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CC0603JRNPO9BN330"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "753b0bf4-9a28-4c3d-bd67-16618dba8d6d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "27f24834-1c5f-42c6-9602-a4fd0b053557")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b3baf73-a502-43c3-8743-f8aa28080860")
 			(effects
 				(font
 					(size 1 1)
@@ -27139,7 +26684,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311845_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27151,7 +26696,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±5% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 180.914 100.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27198,11 +26743,12 @@
 				)
 			)
 		)
-		(property "Id" "37"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3482299b-62c4-4931-bdad-4a472adcdffb")
+			(uuid "8bcdc687-4d3d-4a2c-8ea8-42d2d66ee238")
 			(effects
 				(font
 					(size 1 1)
@@ -27210,35 +26756,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer Part Number" "0402WGJ0102TCE"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c12dd37b-f42e-4415-aad8-3d55ad9f0623")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0102TCE"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e3a7e2ec-083f-4d11-bc80-172dc6f9e381")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1ab39dbc-436f-43bf-9183-8b692200eaad")
+			(uuid "69d74fa1-644b-42e4-bb6b-ae844aa871e0")
 			(effects
 				(font
 					(size 1 1)
@@ -27433,7 +26956,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27445,7 +26968,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 1MΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 164.973 88.773 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27468,7 +26991,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1004TCE_C26083.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27480,7 +27003,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C26083"
+		(property "Distributor Part Number" "C25744"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27492,11 +27015,12 @@
 				)
 			)
 		)
-		(property "Id" "42"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "41cff992-6c95-4e36-87da-3f49cb5857b0")
+			(uuid "38932439-a7c4-4e29-ae56-5dea4bfb82de")
 			(effects
 				(font
 					(size 1 1)
@@ -27504,35 +27028,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0672927f-9418-4042-bc3e-e113151566b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGF1004TCE"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4bf5bb8d-7452-4cfd-9e1d-ed397bb7cd37")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "668f2465-9e68-4f1d-b9b8-428e16c12344")
+			(uuid "5b645db1-e310-4e43-8db6-f65b73e66c0e")
 			(effects
 				(font
 					(size 1 1)
@@ -27727,7 +27228,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KP5NNNC_C14445.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27786,11 +27287,12 @@
 				)
 			)
 		)
-		(property "Id" "12"
-			(at 0 0 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e22848c5-1bca-4f85-80bc-d898c9082d13")
+			(uuid "04bd4586-38ea-4c56-992f-777ac9b11baf")
 			(effects
 				(font
 					(size 1 1)
@@ -27798,35 +27300,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "CL05A105KP5NNNC"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ecd60fbc-773f-478c-bc46-58e8145f18d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "CL05A105KP5NNNC"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7b1acdf5-419f-4a0b-9ab2-0bb862a48ee0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89c3c9d5-6ce9-456e-b1a6-ae42f238c237")
+			(uuid "dd6b6b03-56da-4e2d-9f1f-7b5c049ec295")
 			(effects
 				(font
 					(size 1 1)
@@ -30873,7 +30352,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30885,7 +30364,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 130.6605 85.979 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30908,7 +30387,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30920,7 +30399,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C19702"
+		(property "Distributor Part Number" "C14663"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30932,43 +30411,7 @@
 				)
 			)
 		)
-		(property "Id" "1"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6142c6ab-4e10-4305-b7d1-815cbd11f94e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ed9397e7-bd33-4bf2-bb60-c9a08a670628")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2574dc16-9338-490f-8bcd-e7cd3eb57a50")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30980,35 +30423,11 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "98dfcd59-e8f5-432d-882d-45a65d672ebb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "30dedde5-e507-46fe-818f-025728f1c270")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2ca42497-a3a5-42e2-98fa-e529874a638b")
 			(effects
 				(font
 					(size 1 1)
@@ -32139,7 +31558,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209151800_Leiditech-ESD5651N_C5173251.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32151,7 +31570,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DFN1006 Electrostatic and Surge Protection (TVS/ESD) ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32163,7 +31582,7 @@
 				)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "LCSC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32187,7 +31606,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "C5173251"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32199,7 +31618,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Leiditech"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32211,23 +31630,11 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ESD5651N"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa2c4a5b-b1de-4a6a-b807-7f98312d35c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "88e982ae-dde6-4e65-a0df-19a93647f1bd")
 			(effects
 				(font
 					(size 1 1)
@@ -33067,7 +32474,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGJ0472TCE_C25940.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33079,7 +32486,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 183.517 90.932 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33126,11 +32533,12 @@
 				)
 			)
 		)
-		(property "Id" "39"
-			(at 0 0 0)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "78b1a6c9-e1cc-4bcd-93a9-89f8c3956c6b")
+			(uuid "d6e3dab1-25d0-4a54-86ce-7ffbfcef0b19")
 			(effects
 				(font
 					(size 1 1)
@@ -33138,35 +32546,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "0402WGJ0472TCE"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "491264e2-6cf3-4faa-9e1a-38ea89fdb83f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGJ0472TCE"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0f8ee054-5f9b-4ec8-ba9d-48eeb99ed50a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4301e8f6-dfd0-445b-a885-192ad1c43ba4")
+			(uuid "860fc68c-8202-4ebf-b203-8f9e1f8cb24b")
 			(effects
 				(font
 					(size 1 1)
@@ -33810,7 +33195,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33875,18 +33260,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c2b8d5a2-a650-4519-aa4b-576aee5966e1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" "Resistor 62.5mW ±1% 5.1kΩ"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24a6a17e-c054-48d2-a686-1510c759a857")
 			(effects
 				(font
 					(size 1 1)
@@ -34353,7 +33726,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201235_Murata-Electronics-GRM21BR60J107ME15L_C141660.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34412,11 +33785,12 @@
 				)
 			)
 		)
-		(property "Id" "13"
-			(at 0 0 0)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ddea989f-6b9e-44ce-b83f-f827b0874af8")
+			(uuid "fb526f21-b279-4090-a515-77a7cf541fd6")
 			(effects
 				(font
 					(size 1 1)
@@ -34424,35 +33798,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "Murata Electronics"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "GRM21BR60J107ME15L"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e514a173-eda3-422a-97fc-6ee827aad0f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "GRM21BR60J107ME15L"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ab0a43e8-f29f-4a3e-89c6-9c3d5734a0e4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e91fdb0f-9064-4939-93b9-73c68f9dff4c")
+			(uuid "838e721b-c975-4105-95f9-97dd1010db37")
 			(effects
 				(font
 					(size 1 1)
@@ -35477,17 +34828,17 @@
 			)
 		)
 	)
-	(footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H_Pad1.50x2.35mm_HandSolder"
+	(footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 		(layer "F.Cu")
 		(uuid "a712349a-7d6f-4079-91ba-84ed67483300")
 		(at 160.355 96.01)
-		(descr "Tantalum Capacitor SMD AVX-H (3528-15 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
+		(descr "Tantalum Capacitor SMD Kemet-T (3528-12 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C19"
 			(at 0 -2.35 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "25f77bd5-60a4-4076-bce5-59185a2f7f6a")
+			(uuid "ad5bbc74-538a-490f-9fa9-d9c90ead2a19")
 			(effects
 				(font
 					(size 1 1)
@@ -35498,7 +34849,7 @@
 		(property "Value" "330uF"
 			(at 0 2.35 0)
 			(layer "F.Fab")
-			(uuid "a980bfbb-3cbc-48c7-a539-92b8c05d5827")
+			(uuid "b3f03d81-def2-457b-9cb5-91ddd5e41772")
 			(effects
 				(font
 					(size 1 1)
@@ -35506,12 +34857,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H_Pad1.50x2.35mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "caabb385-c624-44b2-839f-76f3db09f9a3")
+			(uuid "683c73d4-9af6-4ccf-bff9-4b8166a574b0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35523,7 +34874,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6720a5a-b4d4-4567-9934-f418fd4e737f")
+			(uuid "a01b824e-a0f1-41d2-b4b7-e448ac8958eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35535,10 +34886,75 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24d321e6-e1ad-4090-b1ca-e1e482e99a7a")
+			(uuid "ad4d3979-502d-4c72-b5bd-8a402fb65a7e")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e283e69-7700-47d6-9418-e99a97e072e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e59e4da9-b0d7-4c6d-886b-c285b715cd2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfc3053f-db0a-4a58-b48a-5857c075396d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "743f9c8c-87d9-41ee-b8aa-c31e0d1e1acf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6e1b725-ae11-47d0-a1d6-c33c8f72d11e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -35548,74 +34964,74 @@
 		(sheetfile "cellular.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -2.635 -1.51)
-			(end -2.635 1.51)
+			(start -2.46 -1.51)
+			(end -2.46 1.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c91a5688-4f10-4078-ba68-3ba5091f0da6")
+			(uuid "f7d9d724-0bc3-499d-9dff-9b4ec1eed315")
 		)
 		(fp_line
-			(start -2.635 1.51)
+			(start -2.46 1.51)
 			(end 1.75 1.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d417f4e4-5d1d-46c3-a1fc-a762b2fc4818")
+			(uuid "0e37a8cf-3215-4805-9a89-94a13e8c366b")
 		)
 		(fp_line
 			(start 1.75 -1.51)
-			(end -2.635 -1.51)
+			(end -2.46 -1.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4447e95f-f6b7-4db1-9209-58b5636fe3db")
+			(uuid "190cbd81-6015-4f11-b97d-0a08baa3ee73")
 		)
 		(fp_line
-			(start -2.62 -1.65)
-			(end 2.62 -1.65)
+			(start -2.45 -1.65)
+			(end 2.45 -1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0a36dedd-e3ae-432a-a176-3fc57e53bb58")
+			(uuid "8f7ad555-c201-4f87-bf68-2cfd622a8ddd")
 		)
 		(fp_line
-			(start -2.62 1.65)
-			(end -2.62 -1.65)
+			(start -2.45 1.65)
+			(end -2.45 -1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1459a64c-9970-4869-b8dc-148cd65be4c8")
+			(uuid "5cda456d-5e1a-465d-8d3a-4d1546673228")
 		)
 		(fp_line
-			(start 2.62 -1.65)
-			(end 2.62 1.65)
+			(start 2.45 -1.65)
+			(end 2.45 1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3181c9f1-1346-4f29-8e5f-0e1f01cccd84")
+			(uuid "54eb8315-46df-4ccc-a125-e3ae6d8fce0c")
 		)
 		(fp_line
-			(start 2.62 1.65)
-			(end -2.62 1.65)
+			(start 2.45 1.65)
+			(end -2.45 1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c6791d22-37dc-4e1d-8c8c-171a71b00eba")
+			(uuid "ba03a9c4-1f56-4017-9616-450f9cde7c5c")
 		)
 		(fp_line
 			(start -1.75 -0.7)
@@ -35625,7 +35041,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3f28fca7-c789-485f-bf14-1822fbb10319")
+			(uuid "f3ae41f3-c065-408b-866d-ffe0c5c1fe15")
 		)
 		(fp_line
 			(start -1.75 1.4)
@@ -35635,7 +35051,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "586a8998-a825-4bbe-b4be-7474e793be97")
+			(uuid "3de4cc7c-0eb1-4c9f-8d7a-42b291ab8855")
 		)
 		(fp_line
 			(start -1.05 -1.4)
@@ -35645,7 +35061,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "664ffbfb-8d7e-4b2f-b903-072825303d02")
+			(uuid "a6699ff7-20e9-4322-8994-599c77bda317")
 		)
 		(fp_line
 			(start 1.75 -1.4)
@@ -35655,7 +35071,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a73f4fbc-cba0-4ada-ad86-d33dde457368")
+			(uuid "df94d2ee-302d-4db3-86db-e6d070b60dc7")
 		)
 		(fp_line
 			(start 1.75 1.4)
@@ -35665,12 +35081,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d9c7fad0-4011-442d-9016-764b346daff0")
+			(uuid "f44c2986-7744-4328-8aea-f1c254ad10d3")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "ef539b29-a06b-49fa-b371-bdf6f9001472")
+			(uuid "ed46c345-29f0-4b24-8acf-3ddf73aa53b0")
 			(effects
 				(font
 					(size 0.88 0.88)
@@ -35679,24 +35095,24 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.625 0)
-			(size 1.5 2.35)
+			(at -1.5375 0)
+			(size 1.325 2.35)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.166667)
+			(roundrect_rratio 0.188679)
 			(net 12 "/Cellular/CELL_BATT")
 			(pintype "passive")
-			(uuid "0ff72e17-8787-4532-b9b3-778de409a25c")
+			(uuid "3592b1ed-9d83-4326-8c9d-4c8b53d69ce3")
 		)
 		(pad "2" smd roundrect
-			(at 1.625 0)
-			(size 1.5 2.35)
+			(at 1.5375 0)
+			(size 1.325 2.35)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.166667)
+			(roundrect_rratio 0.188679)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "5419d2c8-f9f4-46d4-b589-620920c767a7")
+			(uuid "dd1fd976-c303-4a59-a25a-d28af9bd22be")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3528-15_AVX-H.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3528-12_Kemet-T.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35761,7 +35177,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±100ppm/℃ 22Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35826,18 +35242,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c746cdc-608e-4a1b-9027-0cf8e6daa860")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" "Resistor 62.5mW ±1% 22Ω"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55e4b423-0218-486c-a038-f7599659fed3")
 			(effects
 				(font
 					(size 1 1)
@@ -36326,7 +35730,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36385,11 +35789,12 @@
 				)
 			)
 		)
-		(property "Id" "5"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c1966e1-31b6-44e9-b31a-9cf241242476")
+			(uuid "e48327e7-ada5-40cb-9ee8-cc74f474838d")
 			(effects
 				(font
 					(size 1 1)
@@ -36397,35 +35802,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "Manufacturer Part Number" "0402CG120J500NT"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1986518-5b0e-4626-af8c-481941f12119")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "0402CG120J500NT"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c35e4641-2983-4828-b7a4-07d293b5c7ac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b61f812d-b435-4a35-8075-91169b7d2458")
+			(uuid "41b4b734-d35f-4283-8f5e-9d72e58c9c94")
 			(effects
 				(font
 					(size 1 1)
@@ -37167,7 +36549,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108132030_TECH-PUBLIC-ESDA6V1W5-TP_C970036.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37179,7 +36561,7 @@
 				)
 			)
 		)
-		(property "Description" "SOT-323-5 ESD Protection Devices ROHS"
+		(property "Description" "SOT-353 Electrostatic and Surge Protection (TVS/ESD) ROHS"
 			(at 184.023 88.519 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37226,11 +36608,12 @@
 				)
 			)
 		)
-		(property "Id" "20"
-			(at 0 0 0)
+		(property "Manufacturer" "TECH PUBLIC"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5b31da0a-55dc-4a78-8eed-aaeb8968366d")
+			(uuid "3d76d630-80a4-4381-a5ad-ba921b5379b3")
 			(effects
 				(font
 					(size 1 1)
@@ -37238,35 +36621,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "TECH PUBLIC"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "ESDA6V1W5-TP"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4adb5a8c-d31d-4886-9553-04872f513bd7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "ESDA6V1W5-TP"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cb61e3f3-5728-4e1a-89fe-5b75e2dbc796")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "45a7954a-6447-4388-8eea-b6554cd38f67")
+			(uuid "500575aa-f56a-410e-8185-6c8e695b1f8b")
 			(effects
 				(font
 					(size 1 1)
@@ -37498,7 +36858,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209151800_Leiditech-ESD5651N_C5173251.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37510,7 +36870,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DFN1006 Electrostatic and Surge Protection (TVS/ESD) ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37522,7 +36882,7 @@
 				)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "LCSC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37546,7 +36906,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "C5173251"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37558,7 +36918,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Leiditech"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37570,23 +36930,11 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ESD5651N"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5c2443cf-1e96-4d64-9a86-5c39df235e4b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "10147929-ddd7-44d9-90ed-a7db31bf1c1a")
 			(effects
 				(font
 					(size 1 1)
@@ -40505,7 +39853,7 @@
 				)
 			)
 		)
-		(property "Value" "Green"
+		(property "Value" "LTST-C191KRKT"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "aec307f0-c3ec-47b8-af9a-601811796213")
@@ -40528,7 +39876,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231512_Lite-On-LTST-C191KRKT_C125099.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40540,7 +39888,7 @@
 				)
 			)
 		)
-		(property "Description" "Colorless transparence -40℃~+90℃ 605nm Orange 120° 0603 Light Emitting Diodes (LED) ROHS"
+		(property "Description" "20mA 54mcd -55℃~+85℃ 631nm Red 130° 75mW 2V 0603 Light Emitting Diodes (LED) ROHS"
 			(at 178.757 97.987 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40563,7 +39911,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_EKINGLUX-E6C0603SEAC1UDA_C375450.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Lite-On-LTST-C191KRKT_C125099.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40575,7 +39923,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C375450"
+		(property "Distributor Part Number" "C125099"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40587,11 +39935,12 @@
 				)
 			)
 		)
-		(property "Id" "17"
-			(at 0 0 0)
+		(property "Manufacturer" "Lite-On"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "068992b8-4814-4242-b0d6-05801373f6db")
+			(uuid "5cbb85e9-6627-4cef-8585-2e7f0603352b")
 			(effects
 				(font
 					(size 1 1)
@@ -40599,35 +39948,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "EKINGLUX"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "LTST-C191KRKT"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96118796-3e78-44f8-b0b5-44004b53a44e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "E6C0603SEAC1UDA"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ca794086-6887-4167-9755-6a20840b42da")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "64eac690-a51f-4c47-a7c3-a23f261378eb")
+			(uuid "5bde4e5d-6000-4454-b2d2-206aabe21e80")
 			(effects
 				(font
 					(size 1 1)
@@ -41114,7 +40440,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2201121830_SIMCom-Wireless-Solutions-A7670C-MASL_C2891912.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41150,7 +40476,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/2G-3G-4G-5G-Modules_SIMCom-Wireless-Solutions-A7670C-LASE_C2888406.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/2G-3G-4G-5G-Modules_SIMCom-Wireless-Solutions-A7670C-MASL_C2891912.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41162,7 +40488,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C2888406"
+		(property "Distributor Part Number" "C2891912"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41174,55 +40500,7 @@
 				)
 			)
 		)
-		(property "Id" "59"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4e18e515-e129-4dcd-a110-25de6a66de80")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture" "SIMCom Wireless Solutions"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c4534285-b3c9-4d3c-80aa-b3dec5bdfebb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "A7670C-LASE"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e4047ae1-d249-4d32-91fc-230b117204e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "76c5227c-389d-4513-9204-4cec4da98a10")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "SIMCom Wireless Solutions"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41235,7 +40513,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "A7670C-MASL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42475,7 +41753,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42534,11 +41812,12 @@
 				)
 			)
 		)
-		(property "Id" "5"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6be3c5dd-857e-4d62-ae3a-7d1204ad0938")
+			(uuid "cd18e733-5bea-4b2d-8039-0d88974eb5c2")
 			(effects
 				(font
 					(size 1 1)
@@ -42546,35 +41825,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "Manufacturer Part Number" "0402CG120J500NT"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e5d670b-424a-46cd-a170-fd340385621a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "0402CG120J500NT"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7487b4a3-82f9-4354-8ecd-444070c3d857")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "236fc37a-e952-4b36-b792-ae032569e9af")
+			(uuid "719d0c18-c5f0-448e-9440-96a2947034a0")
 			(effects
 				(font
 					(size 1 1)
@@ -43336,7 +42592,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43395,11 +42651,12 @@
 				)
 			)
 		)
-		(property "Id" "3"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2b04d0b-372e-47b5-b0bc-83dfe63ed1b0")
+			(uuid "b3f4e0d2-ea89-4de9-974b-0b7b0f0558dd")
 			(effects
 				(font
 					(size 1 1)
@@ -43407,35 +42664,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c1a9b9a-4977-4316-83ae-76a9a5b3b5e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "CL05B104KO5NNNC"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b0e23c11-d485-4d77-b577-ec76f09d140a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e7635295-f8a2-4c69-a65a-837d5a1523f9")
+			(uuid "239d8ac5-fb86-48bf-ae4c-766a2c60e304")
 			(effects
 				(font
 					(size 1 1)
@@ -43630,7 +42864,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201235_Murata-Electronics-GRM21BR60J107ME15L_C141660.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43689,11 +42923,12 @@
 				)
 			)
 		)
-		(property "Id" "13"
-			(at 0 0 0)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "90895c11-0c53-4ab9-a5f6-0dfa105ce793")
+			(uuid "ce2fe758-83f7-4444-bc72-242c8849d0b2")
 			(effects
 				(font
 					(size 1 1)
@@ -43701,35 +42936,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "Murata Electronics"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "GRM21BR60J107ME15L"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9466ea43-8fde-491a-95a2-c646adbdba7e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "GRM21BR60J107ME15L"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1bbe1aba-3054-4a7f-8856-d8d4fbee51d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c2139524-84d9-4457-801e-9c949cade18a")
+			(uuid "10e6856d-a4ec-4e2c-a9f2-8ba26a701f6d")
 			(effects
 				(font
 					(size 1 1)
@@ -44180,7 +43392,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Logic-ICs_TI_TXB0106PWR_TXB0106PWR_C38253.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811082011_Texas-Instruments-TXB0106PWR_C38253.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44192,7 +43404,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.65V~5.5V 1 6 1.2V~3.6V 100Mbps TSSOP-16 Translators / Level Shifters ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44204,7 +43416,7 @@
 				)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "LCSC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44216,7 +43428,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Translators-Level-Shifters_Texas-Instruments-TXB0106PWR_C38253.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44228,7 +43440,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "C38253"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44240,7 +43452,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Texas Instruments"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44252,23 +43464,11 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "TXB0106PWR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f82bb089-370f-4a86-af84-b0d21e1846d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ec389046-186e-435f-97c3-85a21b664020")
 			(effects
 				(font
 					(size 1 1)
@@ -46187,7 +45387,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46199,7 +45399,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 1MΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" " 62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 169.164 97.409 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -46222,7 +45422,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1004TCE_C26083.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -46234,7 +45434,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C26083"
+		(property "Distributor Part Number" "C25744"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -46246,11 +45446,12 @@
 				)
 			)
 		)
-		(property "Id" "42"
-			(at 0 0 0)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c0b4bd9-ccbd-4f1f-bb89-50841d9e2c7a")
+			(uuid "1e16c351-3c5d-4d99-8238-0cf3720f8327")
 			(effects
 				(font
 					(size 1 1)
@@ -46258,35 +45459,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f1070ce-e1b0-4ebc-a968-6a332ba099c6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGF1004TCE"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e2aca105-0d3f-4605-b6e5-b62149d71e0a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b1c62797-1491-484a-987c-d91b203c50fb")
+			(uuid "f040c80f-8699-4c4a-96b2-dc9b0128b5d1")
 			(effects
 				(font
 					(size 1 1)
@@ -46481,7 +45659,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A475KP8NNNC_C1705.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46493,7 +45671,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "10V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 130.6605 84.328 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -46516,7 +45694,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A475KP8NNNC_C1705.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -46528,7 +45706,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C19702"
+		(property "Distributor Part Number" "C1705"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -46540,43 +45718,7 @@
 				)
 			)
 		)
-		(property "Id" "1"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "36529c34-705b-439e-a8a9-b1885344db9c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture" "Samsung Electro-Mechanics"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d5f623c-d68e-408d-9071-b39ac6591fe1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "CL10A106KP8NNNC"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ad951a56-87d8-4ebd-b39a-76cd186aa10c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -46588,35 +45730,11 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10A475KP8NNNC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "42eb7094-9258-4629-9046-fbcf85c8591b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "319255d8-db81-4bd8-8f96-4ff56dc4204c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0d2f2636-addb-4928-ab5e-45efc9276df3")
 			(effects
 				(font
 					(size 1 1)
@@ -47105,7 +46223,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404180925_Seiko-Epson-Q13FC13500004_C32346.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47164,11 +46282,12 @@
 				)
 			)
 		)
-		(property "Id" "60"
+		(property "Manufacturer" "Seiko Epson"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8466cfda-02c5-4fe2-9710-c8fcdb803978")
+			(uuid "0207df02-d63a-49ea-bd2a-edbeb258c7db")
 			(effects
 				(font
 					(size 1 1)
@@ -47176,35 +46295,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "Seiko Epson"
+		(property "Manufacturer Part Number" "Q13FC1350000400"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d09072b6-bd35-4d9e-8442-9d81fb54ae84")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "Q13FC1350000400"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a47f5ff-de41-4fe1-822e-d414a975daa3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a242767-76d9-48d1-8256-cc65c5505b4c")
+			(uuid "b44d04e2-91a2-441c-bfc2-80b7c051390b")
 			(effects
 				(font
 					(size 1 1)
@@ -47987,7 +47083,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0402JRNPO9BN100_C106199.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48046,11 +47142,12 @@
 				)
 			)
 		)
-		(property "Id" "10"
-			(at 0 0 0)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99fa910f-85fd-467d-8eff-f699d37d963f")
+			(uuid "ae1d6a72-e386-4518-8a96-45f34ab6ab17")
 			(effects
 				(font
 					(size 1 1)
@@ -48058,35 +47155,12 @@
 				)
 			)
 		)
-		(property "Manufacture" "YAGEO"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" "CC0402JRNPO9BN100"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c582ad1f-350b-4ba7-be9b-ece25c715d72")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "CC0402JRNPO9BN100"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7e63b347-f511-4367-96fc-5c3a7d4a4d7c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3cd5e7bc-4c5f-4f08-abee-01abff5a16a8")
+			(uuid "e625bd77-dcae-4282-98e1-779a482e7bcd")
 			(effects
 				(font
 					(size 1 1)
@@ -48557,7 +47631,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48569,7 +47643,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 1MΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 164.973 86.233 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48592,7 +47666,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1004TCE_C26083.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48604,7 +47678,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C26083"
+		(property "Distributor Part Number" "C25744"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48616,43 +47690,7 @@
 				)
 			)
 		)
-		(property "Id" "42"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3cbcfcb5-0746-4f0f-b32f-50cbb676081b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5d468f56-e523-4ffa-ada1-17e57f24e4aa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "0402WGF1004TCE"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3292c59-22f4-4abd-86ce-1a0a566b7300")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48664,35 +47702,11 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4112b88e-c18c-4e22-bf2d-5e82eae9ff9b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bf6cc4f7-dd46-4d0b-8407-ee897087cd66")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "78ff2535-49de-4074-b81a-21076946f1f1")
 			(effects
 				(font
 					(size 1 1)
@@ -48885,7 +47899,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2203281730_C-K-KMR233GLFG_C2689601.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48897,7 +47911,7 @@
 				)
 			)
 		)
-		(property "Description" "0.01A Brick nogging SPST - NO 300gf 32V SMD Tactile Switches ROHS"
+		(property "Description" "Round Button 10mA Brick nogging SPST - NO 300gf 32V SMD Tactile Switches ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48945,43 +47959,7 @@
 				)
 			)
 		)
-		(property "Id" "29"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b1818446-c6e4-4750-bf46-5cada9635749")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture" "C&K"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4c66f778-414d-4ac0-bfe9-3281f49936bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" "KMR233GLFG"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4c6fbeee-437c-487f-9d2b-7e5cdd54d2eb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "C&K"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -48993,35 +47971,11 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "KMR233GLFG"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1ccc4494-9a44-4469-bb05-ff6b63a74d4f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2a87ef9-ff28-4f95-86dd-11042bc76575")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "58fdd865-6fe1-4574-b598-7f85ad4b1da0")
 			(effects
 				(font
 					(size 1 1)
@@ -51813,7 +50767,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "JTAG_10PIN"
+		(property "Value" "Tag-Connect_TC2050-IDC-NL"
 			(at 0 -4.05 90)
 			(layer "B.Fab")
 			(uuid "5743dc72-1453-4053-bdc4-c7ce8f44fd99")
@@ -51837,7 +50791,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
+		(property "Datasheet" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51849,7 +50803,7 @@
 				)
 			)
 		)
-		(property "Description" "DNP"
+		(property "Description" ""
 			(at 178.562 86.36 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -51860,7 +50814,7 @@
 				)
 			)
 		)
-		(property "Distributor" "-"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -51873,7 +50827,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Link" "-"
+		(property "Distributor Link" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -51886,7 +50840,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Part Number" "-"
+		(property "Distributor Part Number" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -51899,11 +50853,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Id" "26"
-			(at 0 0 0)
+		(property "Manufacturer" ""
+			(at 0 0 -90)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d89db593-9d7e-4940-a89b-132f587364b5")
+			(uuid "2cb330a8-a840-4833-a419-bfd9717101f8")
 			(effects
 				(font
 					(size 1 1)
@@ -51912,37 +50867,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacture" "-"
-			(at 0 0 0)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 -90)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d15caf9d-3511-4f29-953f-937bdf89fd2e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacture Part Number" "-"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6a7d2056-9dbc-4fbb-8f37-cc2c312b925d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Type" "SMD"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "bd04c3d4-f946-4fb5-967e-17e5a88b425a")
+			(uuid "85548572-0ca6-4ba2-b221-187ee8d0460a")
 			(effects
 				(font
 					(size 1 1)
