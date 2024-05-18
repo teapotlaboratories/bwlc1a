@@ -60295,7 +60295,7 @@
 			)
 		)
 	)
-	(gr_text "REV.B"
+	(gr_text "REV 1"
 		(at 185.488 79.064 0)
 		(layer "F.SilkS" knockout)
 		(uuid "56e53209-dfab-4358-b565-2a89cd215a9b")
