@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "808f01a5-805c-4ef4-8483-08bed5d6dd40")
 	(paper "A4")
+	(title_block
+		(title "Cellular")
+		(date "2024-05-17")
+		(rev "1")
+		(company "Teapot Laboratories")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)

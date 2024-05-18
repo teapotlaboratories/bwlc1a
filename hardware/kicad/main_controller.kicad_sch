@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "04c00487-e8b5-4b4d-9c1f-6dae227fd68a")
 	(paper "A4")
+	(title_block
+		(title "Main Controller")
+		(date "2024-05-17")
+		(rev "1")
+		(company "Teapot Laboratories")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
 			(pin_names

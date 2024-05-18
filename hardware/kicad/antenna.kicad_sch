@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "92eb0dc8-6379-44e7-b19f-1c982e71e4c5")
 	(paper "A4")
+	(title_block
+		(title "Antenna")
+		(date "2024-05-17")
+		(rev "1")
+		(company "Teapot Laboratories")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers hide)

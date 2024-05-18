@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "388039b1-99cc-430f-bd4a-010573fde798")
 	(paper "A4")
+	(title_block
+		(title "Teapotlabs BWLC1A")
+		(date "2024-05-17")
+		(rev "1")
+		(company "Teapot Laboratories")
+	)
 	(lib_symbols)
 	(junction
 		(at 75.565 58.42)

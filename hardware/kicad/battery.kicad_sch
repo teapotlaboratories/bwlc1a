@@ -5,8 +5,10 @@
 	(uuid "34bd88fc-1826-4b19-a1d0-0be996a48d91")
 	(paper "A5")
 	(title_block
-		(date "2023-10-29")
-		(rev "2")
+		(title "Battery")
+		(date "2024-05-17")
+		(rev "1")
+		(company "Teapot Laboratories")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
