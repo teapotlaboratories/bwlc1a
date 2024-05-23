@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Antenna")
-		(date "2024-05-17")
-		(rev "1")
+		(date "2024-05-22")
+		(rev "2")
 		(company "Teapot Laboratories")
 	)
 	(lib_symbols
@@ -1819,7 +1819,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 121.793) (xy 81.28 121.793)
+			(xy 109.22 160.02) (xy 105.41 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2219,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 117.983) (xy 85.09 121.793)
+			(xy 109.22 156.21) (xy 109.22 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2302,6 +2302,18 @@
 		(uuid 7fa337c7-4113-4a9e-b896-275f5a052f2f)
 	)
 	(rectangle
+		(start 37.084 110.236)
+		(end 90.17 146.05)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 811e8517-b45e-4bcf-8163-fc69904b57a2)
+	)
+	(rectangle
 		(start 93.345 38.735)
 		(end 279.4 146.05)
 		(stroke
@@ -2326,8 +2338,8 @@
 		(uuid de461cf4-5fcb-4f18-b0df-00d56f1dca16)
 	)
 	(rectangle
-		(start 68.58 109.22)
-		(end 90.17 128.27)
+		(start 93.218 148.463)
+		(end 114.808 167.513)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2398,7 +2410,7 @@
 	)
 	(text "Sheets Connection"
 		(exclude_from_sim no)
-		(at 71.12 126.873 0)
+		(at 95.25 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2433,6 +2445,19 @@
 		)
 		(uuid "5d70390a-1c62-4b3d-b062-aba37e60bfa2")
 	)
+	(text "Trace characteristics"
+		(exclude_from_sim no)
+		(at 40.132 121.666 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "77600f0c-9747-4e9a-afc6-0a526c895748")
+	)
 	(text "EXT/TEST"
 		(exclude_from_sim no)
 		(at 69.215 97.79 0)
@@ -2443,6 +2468,19 @@
 			(justify left bottom)
 		)
 		(uuid "82aebf33-e634-47f9-875c-088156b26b3f")
+	)
+	(text "Coplanar Waveguide With Ground Characteristic"
+		(exclude_from_sim no)
+		(at 40.132 136.906 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "98ec6561-9dce-4f3e-91af-1ab043047e1b")
 	)
 	(text "GNSS Antenna Out"
 		(exclude_from_sim no)
@@ -2468,6 +2506,19 @@
 		)
 		(uuid "c4c005f1-1c72-421e-a710-df4a149f6fb9")
 	)
+	(text "Trace Characteristic"
+		(exclude_from_sim no)
+		(at 50.546 115.57 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc048cb7-ce18-4d2f-94b8-b8a1bb381583")
+	)
 	(text "place as close to the antenna feed"
 		(exclude_from_sim no)
 		(at 18.034 68.834 0)
@@ -2478,6 +2529,28 @@
 			(justify left bottom)
 		)
 		(uuid "dc14c0c3-96e0-4bfe-b4ee-4d6033777ce3")
+	)
+	(text "Relative Dielectric Constant: 4.56\nTrack Width : 0.33mm\nGap Width : 0.2mm\nDielectric Thickness : 0.1855mm"
+		(exclude_from_sim no)
+		(at 40.132 131.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de89132a-bcd6-4586-bfad-d4cbdce41836")
+	)
+	(text "Effective Dielectric Constant: 3.295\nCharacteristic Impedance: 49.9ohm"
+		(exclude_from_sim no)
+		(at 40.132 141.986 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e740b670-459f-4315-814a-02d47c90133b")
 	)
 	(text "Matching Network\n"
 		(exclude_from_sim no)
@@ -2492,7 +2565,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 81.28 121.793 180)
+		(at 105.41 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6713,7 +6786,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 85.09 117.983 0)
+		(at 109.22 156.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6722,7 +6795,7 @@
 		(dnp no)
 		(uuid "cf374551-94f3-43d8-b47e-4352fc441faf")
 		(property "Reference" "#PWR0114"
-			(at 85.09 121.793 0)
+			(at 109.22 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6731,7 +6804,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 82.55 114.173 0)
+			(at 106.68 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +6813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 117.983 0)
+			(at 109.22 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,7 +6822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 117.983 0)
+			(at 109.22 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6758,7 +6831,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 117.983 0)
+			(at 109.22 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
