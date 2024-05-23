@@ -62218,7 +62218,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "PCB3D_BR"
+	(gr_text "PCB3D_BR_BWLC1A"
 		(at 190.13 125.25 0)
 		(layer "F.Fab")
 		(uuid "a775f450-c7a4-4739-82de-c62db60b2287")
@@ -62230,7 +62230,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PCB3D_TL"
+	(gr_text "PCB3D_TL_BWLC1A"
 		(at 109.29 74.89 0)
 		(layer "F.Fab")
 		(uuid "c5652ba1-5c30-4f53-9b64-41aae0958a6b")
