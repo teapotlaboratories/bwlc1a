@@ -5502,7 +5502,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KMR233GLFG"
+		(property "Value" "TS-1088-AR02016"
 			(at 243.84 114.3 90)
 			(effects
 				(font
@@ -5520,7 +5520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2203281730_C-K-KMR233GLFG_C2689601.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 245.11 113.03 0)
 			(effects
 				(font
@@ -5529,7 +5529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Round Button 10mA Brick nogging SPST - NO 300gf 32V SMD Tactile Switches ROHS"
+		(property "Description" "50mA 4mm 100MΩ 100,000 Times 12V 160gf 3mm 2mm Round Button Brick nogging SPST SMD Tactile Switches ROHS"
 			(at 240.03 113.03 0)
 			(effects
 				(font
@@ -5538,7 +5538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "C&K"
+		(property "Manufacturer" "XUNPU"
 			(at 240.03 113.03 0)
 			(effects
 				(font
@@ -5547,7 +5547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "KMR233GLFG"
+		(property "Manufacturer Part Number" "TS-1088-AR02016"
 			(at 240.03 113.03 0)
 			(effects
 				(font
@@ -5565,7 +5565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C2689601"
+		(property "Distributor Part Number" "C720477"
 			(at 240.03 113.03 0)
 			(effects
 				(font
@@ -5574,7 +5574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Tactile-Switches_C-K-KMR233GLFG_C2689601.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1088-AR02016_C720477.html"
 			(at 240.03 113.03 0)
 			(effects
 				(font
@@ -9065,8 +9065,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "KMR233GLFG"
-			(at 261.874 51.562 90)
+		(property "Value" "TS-1088-AR02016"
+			(at 268.224 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9083,7 +9083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2203281730_C-K-KMR233GLFG_C2689601.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 250.19 50.165 0)
 			(effects
 				(font
@@ -9092,7 +9092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Round Button 10mA Brick nogging SPST - NO 300gf 32V SMD Tactile Switches ROHS"
+		(property "Description" "50mA 4mm 100MΩ 100,000 Times 12V 160gf 3mm 2mm Round Button Brick nogging SPST SMD Tactile Switches ROHS"
 			(at 245.11 50.165 0)
 			(effects
 				(font
@@ -9101,7 +9101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "C&K"
+		(property "Manufacturer" "XUNPU"
 			(at 245.11 50.165 0)
 			(effects
 				(font
@@ -9110,7 +9110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "KMR233GLFG"
+		(property "Manufacturer Part Number" "TS-1088-AR02016"
 			(at 245.11 50.165 0)
 			(effects
 				(font
@@ -9128,7 +9128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C2689601"
+		(property "Distributor Part Number" "C720477"
 			(at 245.11 50.165 0)
 			(effects
 				(font
@@ -9137,7 +9137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Tactile-Switches_C-K-KMR233GLFG_C2689601.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1088-AR02016_C720477.html"
 			(at 245.11 50.165 0)
 			(effects
 				(font
