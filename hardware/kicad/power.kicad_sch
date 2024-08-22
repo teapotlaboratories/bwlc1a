@@ -6945,12 +6945,12 @@
 					(reference "#PWR070")
 					(unit 1)
 				)
-				(path "/59b4123e-c7be-466b-a5db-658b8f0c1171/7fda2409-1758-4461-822b-801ba75fe202"
-					(reference "#PWR019")
-					(unit 1)
-				)
 				(path "/59b4123e-c7be-466b-a5db-658b8f0c1171/0bc89df9-c404-42cc-aab4-4237df7294d4"
 					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/59b4123e-c7be-466b-a5db-658b8f0c1171/7fda2409-1758-4461-822b-801ba75fe202"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
