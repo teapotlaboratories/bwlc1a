@@ -3343,16 +3343,6 @@
 	)
 	(wire
 		(pts
-			(xy 183.515 40.64) (xy 183.515 40.005)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03fe5940-ed76-4080-940a-b49f246b8c02")
-	)
-	(wire
-		(pts
 			(xy 44.45 102.87) (xy 44.45 105.41)
 		)
 		(stroke
@@ -3563,6 +3553,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 83.82) (xy 196.85 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ad2624-9893-44d7-bbc5-f784f9902f24")
+	)
+	(wire
+		(pts
 			(xy 61.595 161.925) (xy 102.87 161.925)
 		)
 		(stroke
@@ -3650,16 +3650,6 @@
 			(type default)
 		)
 		(uuid "3d185396-29cd-4769-8430-ccca3bf908d1")
-	)
-	(wire
-		(pts
-			(xy 177.8 45.72) (xy 177.8 65.405)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d1d2d57-a209-42a5-8291-896455440789")
 	)
 	(wire
 		(pts
@@ -3841,16 +3831,6 @@
 		)
 		(uuid "634ad8fe-a540-412a-8958-8dec7066716b")
 	)
-	(wire
-		(pts
-			(xy 191.135 73.025) (xy 198.755 73.025)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64c5dcda-6915-4f52-8fc9-9f01301f81fe")
-	)
 	(polyline
 		(pts
 			(xy 273.685 158.75) (xy 273.685 139.7)
@@ -3983,16 +3963,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 114.935) (xy 191.135 73.025)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87d39657-8087-4e07-b19b-c32e5b806e1a")
-	)
-	(wire
-		(pts
 			(xy 166.37 40.64) (xy 166.37 50.165)
 		)
 		(stroke
@@ -4003,6 +3973,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 114.3) (xy 193.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d14122-11b9-4bab-ad8c-b396bfba022b")
+	)
+	(wire
+		(pts
 			(xy 80.645 156.845) (xy 102.87 156.845)
 		)
 		(stroke
@@ -4010,16 +3990,6 @@
 			(type default)
 		)
 		(uuid "9031850c-cdc4-4b41-962d-d1b8a1a68736")
-	)
-	(wire
-		(pts
-			(xy 196.85 75.565) (xy 198.755 75.565)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91092efc-86d7-479b-a972-e86f7ed821fa")
 	)
 	(wire
 		(pts
@@ -4123,16 +4093,6 @@
 	)
 	(wire
 		(pts
-			(xy 183.515 67.945) (xy 186.69 67.945)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad4055ce-64d2-4c92-baa3-ef6188bafecc")
-	)
-	(wire
-		(pts
 			(xy 246.38 106.68) (xy 240.03 106.68)
 		)
 		(stroke
@@ -4163,16 +4123,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 120.015) (xy 191.135 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afe3a59a-a356-4099-90c1-5f5336e25c37")
-	)
-	(wire
-		(pts
 			(xy 59.055 167.005) (xy 59.055 172.085)
 		)
 		(stroke
@@ -4183,7 +4133,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 119.38) (xy 196.85 120.015)
+			(xy 193.04 119.38) (xy 193.04 120.015)
 		)
 		(stroke
 			(width 0)
@@ -4323,16 +4273,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 75.565) (xy 196.85 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb33cff0-0b61-40e0-9a1a-9b6ed5efbf31")
-	)
-	(wire
-		(pts
 			(xy 50.165 49.53) (xy 45.085 49.53)
 		)
 		(stroke
@@ -4360,16 +4300,6 @@
 			(type default)
 		)
 		(uuid "d28f9be8-3b9a-4096-a307-5240355664cb")
-	)
-	(wire
-		(pts
-			(xy 177.8 65.405) (xy 186.69 65.405)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2bce881-84c2-42f4-8508-18e3d8d07dca")
 	)
 	(wire
 		(pts
@@ -4460,16 +4390,6 @@
 			(type default)
 		)
 		(uuid "e53d2b09-50db-498b-b10b-836c716da552")
-	)
-	(wire
-		(pts
-			(xy 183.515 45.72) (xy 183.515 67.945)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5cb18e3-073c-4029-a6c6-447025f7fbc7")
 	)
 	(wire
 		(pts
@@ -4754,7 +4674,7 @@
 	)
 	(text "RESET"
 		(exclude_from_sim no)
-		(at 258.064 49.276 0)
+		(at 256.54 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5013,7 +4933,7 @@
 	)
 	(hierarchical_label "GNSS_RESET"
 		(shape output)
-		(at 186.69 65.405 0)
+		(at 189.23 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5021,7 +4941,7 @@
 			)
 			(justify left)
 		)
-		(uuid "02d9b2c2-d436-4dbc-a6ec-db5550628442")
+		(uuid "091f19b9-86a7-4d27-83c9-407777f2640c")
 	)
 	(hierarchical_label "CELL_EN"
 		(shape output)
@@ -5046,18 +4966,6 @@
 			(justify left)
 		)
 		(uuid "1c680e23-dc09-4053-b64d-282aa47af571")
-	)
-	(hierarchical_label "GNSS_RXD"
-		(shape output)
-		(at 168.275 78.105 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "307dc3b0-23a6-4a09-8fc0-c49985e9a980")
 	)
 	(hierarchical_label "CELL_STATUS"
 		(shape input)
@@ -5085,7 +4993,7 @@
 	)
 	(hierarchical_label "GNSS_EN"
 		(shape output)
-		(at 198.755 75.565 0)
+		(at 196.85 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5094,6 +5002,18 @@
 			(justify left)
 		)
 		(uuid "3bbb5db0-b002-450f-bb6e-0df8d53965c0")
+	)
+	(hierarchical_label "GNSS_FO"
+		(shape output)
+		(at 189.23 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4925eaff-8b94-4c38-bf55-165f44a07086")
 	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
@@ -5132,20 +5052,8 @@
 		(uuid "86e81174-ec32-42a0-9919-bc14d4bb5bab")
 	)
 	(hierarchical_label "GNSS_TXD"
-		(shape input)
-		(at 168.275 80.645 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "89ebeffd-95cc-46f2-892c-ed90d11c84fd")
-	)
-	(hierarchical_label "GNSS_FO"
 		(shape output)
-		(at 198.755 73.025 0)
+		(at 189.23 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5153,7 +5061,19 @@
 			)
 			(justify left)
 		)
-		(uuid "8dd8ec5d-a476-49e5-af07-dc073e5fdb2f")
+		(uuid "8c9398bd-cfb7-4ff9-af14-b26ae5464fbd")
+	)
+	(hierarchical_label "GNSS_EXTINT"
+		(shape output)
+		(at 189.23 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac9f45c5-5ead-4790-b6e8-5fb2a0bf6c9b")
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
@@ -5166,6 +5086,18 @@
 			(justify right)
 		)
 		(uuid "ae839bd1-9630-4b84-8067-8bd689093949")
+	)
+	(hierarchical_label "GNSS_STAT"
+		(shape input)
+		(at 189.23 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b42124dd-6331-4758-a1ab-cc5eb9b99a4f")
 	)
 	(hierarchical_label "IMU_INT"
 		(shape input)
@@ -5203,9 +5135,9 @@
 		)
 		(uuid "cbdb283e-a2ad-4a8f-ae8b-fe7d8810f878")
 	)
-	(hierarchical_label "GNSS_SDBY"
-		(shape output)
-		(at 186.69 67.945 0)
+	(hierarchical_label "GNSS_RXD"
+		(shape input)
+		(at 189.23 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5213,11 +5145,11 @@
 			)
 			(justify left)
 		)
-		(uuid "da4c09cb-6e6f-434c-9706-5c6956080718")
+		(uuid "d69dd462-0e52-496a-a585-9b8da3e6e345")
 	)
 	(hierarchical_label "GNSS_VBCKP_EN"
 		(shape output)
-		(at 168.275 83.185 0)
+		(at 189.23 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5499,120 +5431,6 @@
 			(project "bwlc1a"
 				(path "/388039b1-99cc-430f-bd4a-010573fde798/3774d0f3-a7e5-4b39-9680-0f9041fc211b"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 191.135 117.475 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07fc16fa-839b-4d12-a383-b0230131515a")
-		(property "Reference" "R8"
-			(at 193.675 121.285 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 193.675 117.475 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 191.135 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 191.135 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 191.135 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 191.135 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGF1002TCE"
-			(at 191.135 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "LCSC"
-			(at 191.135 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "C25744"
-			(at 191.135 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
-			(at 191.135 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16c3e08b-a1be-485c-9f4d-1fe9d6839fea")
-		)
-		(pin "2"
-			(uuid "a7413ff0-7926-496b-b538-2f3121da87d4")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/3774d0f3-a7e5-4b39-9680-0f9041fc211b"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5931,203 +5749,6 @@
 			(project "bwlc1a"
 				(path "/388039b1-99cc-430f-bd4a-010573fde798/3774d0f3-a7e5-4b39-9680-0f9041fc211b"
 					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 183.515 40.005 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18f57944-f2de-425a-a356-3cd76a46e966")
-		(property "Reference" "#PWR0117"
-			(at 183.515 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 180.975 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 183.515 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 183.515 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 183.515 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8dedd459-a892-473d-b716-3b298bdd4532")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/3774d0f3-a7e5-4b39-9680-0f9041fc211b"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-			(project "plantpal"
-				(path "/59b4123e-c7be-466b-a5db-658b8f0c1171"
-					(reference "#PWR049")
-					(unit 1)
-				)
-				(path "/59b4123e-c7be-466b-a5db-658b8f0c1171/0bc89df9-c404-42cc-aab4-4237df7294d4"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-			(project "bwlr1e"
-				(path "/630c8da6-5464-4eef-824d-89618087f4b4"
-					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 183.515 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b2b5d71-4b7a-4815-97c3-879ee8df32c9")
-		(property "Reference" "R33"
-			(at 180.975 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 180.975 38.735 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 183.515 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 183.515 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 183.515 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 183.515 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGF1002TCE"
-			(at 183.515 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "LCSC"
-			(at 183.515 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "C25744"
-			(at 183.515 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
-			(at 183.515 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "815af836-b511-4e76-a4e4-7d89cdb622c2")
-		)
-		(pin "2"
-			(uuid "e91fd2ba-421b-47c6-b074-f53c971f871c")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/3774d0f3-a7e5-4b39-9680-0f9041fc211b"
-					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -9702,71 +9323,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 191.135 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1d7d6a6-b11f-4d4a-9ac1-3f6e53b840f8")
-		(property "Reference" "#PWR034"
-			(at 191.135 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.135 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.135 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.135 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.135 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bdf35af-9421-4e39-9ec8-3ce12146fc2c")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/3774d0f3-a7e5-4b39-9680-0f9041fc211b"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:SP0504BAJT")
 		(at 61.595 177.165 0)
 		(unit 1)
@@ -10209,7 +9765,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 196.85 116.84 180)
+		(at 193.04 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10217,7 +9773,7 @@
 		(dnp no)
 		(uuid "c15bb2b2-ba0d-4dbc-b16d-76a0efe99de1")
 		(property "Reference" "R11"
-			(at 200.025 121.92 90)
+			(at 196.215 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +9782,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 200.025 117.475 90)
+			(at 196.215 117.475 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10235,7 +9791,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 196.85 116.84 0)
+			(at 193.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10244,7 +9800,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 196.85 116.84 0)
+			(at 193.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10253,7 +9809,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 196.85 116.84 0)
+			(at 193.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10262,7 +9818,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 196.85 116.84 0)
+			(at 193.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10271,7 +9827,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF1002TCE"
-			(at 196.85 116.84 0)
+			(at 193.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10280,7 +9836,7 @@
 			)
 		)
 		(property "Distributor" "LCSC"
-			(at 196.85 116.84 0)
+			(at 193.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10289,7 +9845,7 @@
 			)
 		)
 		(property "Distributor Part Number" "C25744"
-			(at 196.85 116.84 0)
+			(at 193.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10298,7 +9854,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
-			(at 196.85 116.84 0)
+			(at 193.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10323,7 +9879,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 120.015 0)
+		(at 193.04 120.015 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10331,7 +9887,7 @@
 		(dnp no)
 		(uuid "c1b0cbb2-0f54-4805-9ee9-ae3788e763c1")
 		(property "Reference" "#PWR057"
-			(at 196.85 126.365 0)
+			(at 193.04 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10340,7 +9896,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 123.825 0)
+			(at 193.04 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10348,7 +9904,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 120.015 0)
+			(at 193.04 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10357,7 +9913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 120.015 0)
+			(at 193.04 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10366,7 +9922,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 120.015 0)
+			(at 193.04 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)

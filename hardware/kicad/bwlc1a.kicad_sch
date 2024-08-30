@@ -55,16 +55,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.765 97.155) (xy 188.595 97.155)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08922cb6-8d8a-4aeb-8d33-f8ae62d55926")
-	)
-	(wire
-		(pts
 			(xy 167.005 67.945) (xy 188.595 67.945)
 		)
 		(stroke
@@ -82,16 +72,6 @@
 			(type default)
 		)
 		(uuid "0abf0e5c-d3be-46d8-abdd-77c7d3c15b0c")
-	)
-	(wire
-		(pts
-			(xy 175.26 92.075) (xy 188.595 92.075)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b93c7cc-e06a-40ca-8136-399d95878c5c")
 	)
 	(wire
 		(pts
@@ -135,16 +115,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 92.075) (xy 230.505 92.075)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "181af405-631b-48f7-a6b9-5a6982439bf8")
-	)
-	(wire
-		(pts
 			(xy 90.17 67.945) (xy 95.885 67.945)
 		)
 		(stroke
@@ -162,16 +132,6 @@
 			(type default)
 		)
 		(uuid "1df8ada9-c0ad-40dc-b10d-3eb8a124195e")
-	)
-	(wire
-		(pts
-			(xy 151.765 102.235) (xy 188.595 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f235fb1-315c-42ac-8f3c-f67564b4acf2")
 	)
 	(wire
 		(pts
@@ -295,26 +255,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.065 55.88) (xy 125.73 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63465970-fa2a-430a-8fe6-25b2add92f51")
-	)
-	(wire
-		(pts
-			(xy 151.765 99.695) (xy 188.595 99.695)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "668ca70e-5214-4436-9078-f8527e3f0751")
-	)
-	(wire
-		(pts
 			(xy 78.105 97.155) (xy 78.105 55.88)
 		)
 		(stroke
@@ -332,16 +272,6 @@
 			(type default)
 		)
 		(uuid "70500c93-e305-4322-adff-83467f84ad8d")
-	)
-	(wire
-		(pts
-			(xy 230.505 92.075) (xy 230.505 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7db98ba2-3072-49a2-b367-1aabd8f68fa2")
 	)
 	(wire
 		(pts
@@ -372,26 +302,6 @@
 			(type default)
 		)
 		(uuid "84d7a85d-26b7-4b47-b907-bf689ff16e55")
-	)
-	(wire
-		(pts
-			(xy 220.98 107.315) (xy 228.6 107.315)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aa4b99b-32fd-40b9-a321-e5fdc921a4b4")
-	)
-	(wire
-		(pts
-			(xy 151.765 107.315) (xy 188.595 107.315)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d93737e-a4c9-4304-b0eb-dbada1061727")
 	)
 	(wire
 		(pts
@@ -535,16 +445,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.765 104.775) (xy 188.595 104.775)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce77212f-200b-4a22-ac63-aadd263696b2")
-	)
-	(wire
-		(pts
 			(xy 151.765 92.075) (xy 172.085 92.075)
 		)
 		(stroke
@@ -562,26 +462,6 @@
 			(type default)
 		)
 		(uuid "d5fb5761-7f08-427e-ae77-e5141e5670d4")
-	)
-	(wire
-		(pts
-			(xy 139.065 60.96) (xy 125.73 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d68700b7-ff8b-4624-93a5-35d058edda27")
-	)
-	(wire
-		(pts
-			(xy 139.065 58.42) (xy 125.73 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d70e419f-cb8c-4fe6-a7ce-7a020de3b67f")
 	)
 	(wire
 		(pts
@@ -655,36 +535,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 86.995) (xy 188.595 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f773b0fc-205e-4450-a2a0-cd04103257cf")
-	)
-	(wire
-		(pts
-			(xy 230.505 57.15) (xy 234.315 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f87e5077-80ea-45cd-a6f8-b8b9665d5e01")
-	)
-	(wire
-		(pts
-			(xy 175.26 89.535) (xy 188.595 89.535)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa7f43d7-7c85-4dfc-a033-daa1df400ba9")
-	)
-	(wire
-		(pts
 			(xy 151.765 119.38) (xy 165.1 119.38)
 		)
 		(stroke
@@ -703,28 +553,6 @@
 		)
 		(uuid "fc3d9ba6-f6e6-4325-9307-b787d994449c")
 	)
-	(label "GNSS_3V3"
-		(at 139.065 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0c4c6e70-87cd-448a-8471-b454fa159cda")
-	)
-	(label "GNSS_VBCKP"
-		(at 139.065 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "135f1b6c-fbf4-4136-9f96-0a877e88ee5b")
-	)
 	(label "+BATT"
 		(at 180.34 121.92 0)
 		(fields_autoplaced yes)
@@ -735,28 +563,6 @@
 			(justify left bottom)
 		)
 		(uuid "28b8b54a-5fc1-4ff8-9a4b-0bc4d9587879")
-	)
-	(label "GNSS_VBCKP"
-		(at 175.26 86.995 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3882ea2b-4294-41f6-8416-f17f59fac21b")
-	)
-	(label "GNSS_2V8"
-		(at 139.065 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5002377d-51de-431e-9909-81cf4328b30a")
 	)
 	(label "+BATT"
 		(at 75.565 53.34 0)
@@ -769,17 +575,6 @@
 		)
 		(uuid "5016370c-a6e5-4b02-929d-d719caeafc38")
 	)
-	(label "GNSS_3V3"
-		(at 175.26 89.535 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b28e9bd-a69f-4f27-84d2-c25826856a19")
-	)
 	(label "+3V3"
 		(at 137.16 70.485 180)
 		(fields_autoplaced yes)
@@ -790,17 +585,6 @@
 			(justify right bottom)
 		)
 		(uuid "6475b062-f0d5-4f95-949c-cca18b167223")
-	)
-	(label "GNSS_2V8"
-		(at 175.26 92.075 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b7ea31e-3300-4c46-aa11-122c3d34a8a7")
 	)
 	(label "+3V3"
 		(at 180.34 119.38 0)
@@ -1168,105 +952,45 @@
 				(justify left top)
 			)
 		)
-		(pin "GNSS_3V3" input
-			(at 188.595 89.535 180)
+		(pin "GNSS_VBCKP" input
+			(at 188.595 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6c87b0f1-7fdd-44bd-9edb-2f968bc9ab5c")
+			(uuid "fa2e2c50-94b6-4ccb-b233-fc2322c1d288")
 		)
 		(pin "+BATT" input
-			(at 220.98 107.315 0)
+			(at 220.98 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "694f041e-deb7-4543-bc74-1ae55ffadfd1")
+			(uuid "2f349144-2866-46a2-a18c-e9473bc5bcd6")
 		)
-		(pin "GNSS_ANT" output
-			(at 220.98 92.075 0)
+		(pin "GNSS_3V3" input
+			(at 220.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dc0efb3e-fbb3-493f-a1b1-168a33994979")
+			(uuid "4215fb42-acc8-4385-8d36-926920009150")
 		)
 		(pin "GNSS_2V8" input
-			(at 188.595 92.075 180)
+			(at 220.98 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "296d6cb3-71da-42b4-8e31-9e172ef95788")
-		)
-		(pin "GNSS_VBCKP" input
-			(at 188.595 86.995 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c196b437-80b9-4cca-aad0-e1a7065b017a")
-		)
-		(pin "GNSS_RXD" input
-			(at 188.595 107.315 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d6adca4f-cf8e-4a28-b1b7-936a0f0c6e3a")
-		)
-		(pin "GNSS_TXD" output
-			(at 188.595 104.775 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "250ceab9-d584-4776-a76c-e219ba732a12")
-		)
-		(pin "GNSS_SDBY" input
-			(at 188.595 102.235 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6c92995a-d69e-476f-a008-04aa2eb6448d")
-		)
-		(pin "GNSS_FO" input
-			(at 188.595 99.695 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4363a01f-8e18-42aa-ba78-453b32c27d4e")
-		)
-		(pin "GNSS_RESET" input
-			(at 188.595 97.155 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "82ab27bd-94b0-4a9d-9ca0-21afbf1fbfdc")
+			(uuid "68c7e392-0cfe-4c17-be30-470542567a20")
 		)
 		(instances
 			(project "bwlc1a"

@@ -4209,16 +4209,6 @@
 	)
 	(wire
 		(pts
-			(xy 178.435 20.955) (xy 181.61 20.955)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bbd7989-e3e2-44e8-b464-ce055bd9cdd7")
-	)
-	(wire
-		(pts
 			(xy 82.55 99.06) (xy 85.725 99.06)
 		)
 		(stroke
@@ -4659,7 +4649,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 20.955) (xy 181.61 30.48)
+			(xy 181.61 22.86) (xy 181.61 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6857,7 +6847,7 @@
 	)
 	(hierarchical_label "CELL_BATT"
 		(shape input)
-		(at 178.435 20.955 180)
+		(at 181.61 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

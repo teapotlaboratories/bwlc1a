@@ -2522,7 +2522,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 138.43) (xy 54.61 142.24)
+			(xy 53.34 138.43) (xy 53.34 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2692,7 +2692,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 142.24) (xy 52.07 142.24)
+			(xy 53.34 142.24) (xy 50.8 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3186,7 +3186,7 @@
 	)
 	(hierarchical_label "+BATT"
 		(shape input)
-		(at 52.07 142.24 180)
+		(at 50.8 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6879,7 +6879,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 54.61 138.43 0)
+		(at 53.34 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6887,7 +6887,7 @@
 		(dnp no)
 		(uuid "c8551586-4aab-4398-baab-cf31702cf5a3")
 		(property "Reference" "#PWR0109"
-			(at 54.61 142.24 0)
+			(at 53.34 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,7 +6896,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 54.61 134.62 0)
+			(at 53.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,7 +6904,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 138.43 0)
+			(at 53.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +6913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 138.43 0)
+			(at 53.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6922,7 +6922,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 138.43 0)
+			(at 53.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
