@@ -820,126 +820,6 @@
 				)
 			)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1038,54 +918,38 @@
 		)
 	)
 	(junction
-		(at 106.045 89.535)
+		(at 182.88 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "097fb406-f6cc-473b-9497-a54d03a172db")
+		(uuid "3df9c60e-0f88-44c1-b3ed-4d4567435cef")
 	)
 	(junction
-		(at 86.995 89.535)
+		(at 91.44 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "36c648d3-9024-4128-b358-62a6a7b73b3e")
+		(uuid "423d2c3e-7538-4494-ac58-63b4017a0671")
 	)
 	(junction
-		(at 95.885 89.535)
+		(at 153.67 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d2e4e4c-66d1-41b5-8fa6-91a8fc6fdf73")
+		(uuid "8cd6157a-5c83-476e-af3f-0d7d0f72685d")
 	)
 	(junction
-		(at 170.18 89.535)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "624c6295-4bef-4b9f-a8a7-1b39de6ea3f2")
-	)
-	(junction
-		(at 186.69 89.535)
+		(at 199.39 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9336faeb-8a58-4a03-9cea-39047124dd45")
 	)
 	(junction
-		(at 116.84 89.535)
+		(at 127 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca97ded8-4a88-44a8-9c5e-2d8a3dc2b4d1")
+		(uuid "b956a275-9786-4038-bebf-2ee1169d2be0")
 	)
 	(wire
 		(pts
-			(xy 84.455 89.535) (xy 86.995 89.535)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03f01348-5e06-4913-a272-20934758ff48")
-	)
-	(wire
-		(pts
-			(xy 170.18 99.695) (xy 170.18 98.425)
+			(xy 182.88 100.33) (xy 182.88 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1095,37 +959,57 @@
 	)
 	(wire
 		(pts
-			(xy 86.995 89.535) (xy 86.995 91.44)
+			(xy 199.39 90.17) (xy 195.58 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "105e7960-a741-40de-98cd-b7f69c0c9fba")
+		(uuid "13e78d2f-afa3-4800-b8e0-0638624cd4b3")
 	)
 	(wire
 		(pts
-			(xy 106.045 89.535) (xy 106.045 93.98)
+			(xy 153.67 90.17) (xy 182.88 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c81cf9d-3478-4725-9061-44e91cb3c6ef")
+		(uuid "1405388a-23ba-45d2-9aec-beb81855645d")
 	)
 	(wire
 		(pts
-			(xy 116.84 95.885) (xy 116.84 97.79)
+			(xy 199.39 90.17) (xy 212.09 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38f40296-d76a-4d34-9dbd-e425785e2f1e")
+		(uuid "150fe99b-2b35-45a5-9492-c24418fea6a1")
 	)
 	(wire
 		(pts
-			(xy 207.01 100.965) (xy 199.39 100.965)
+			(xy 153.67 90.17) (xy 153.67 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236e1160-9ecf-46b3-848f-e94ab4e15bf0")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.06) (xy 127 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e42aaad-d0b8-482f-9980-4c2a9a90a296")
+	)
+	(wire
+		(pts
+			(xy 219.71 101.6) (xy 212.09 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1135,67 +1019,47 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 89.535) (xy 186.69 89.535)
+			(xy 91.44 90.17) (xy 127 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ce87ef0-9e9f-4266-8b74-0e096d570da1")
+		(uuid "43c8e40e-815d-42d2-a1c3-d14182040e5a")
 	)
 	(wire
 		(pts
-			(xy 124.46 89.535) (xy 170.18 89.535)
+			(xy 91.44 90.17) (xy 91.44 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fe17849-258b-42e2-aa6b-19c90b78b34d")
+		(uuid "521fa5b2-9f39-4122-8055-d559f76bc53f")
 	)
 	(wire
 		(pts
-			(xy 86.995 89.535) (xy 88.9 89.535)
+			(xy 127 90.17) (xy 129.54 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46b106dc-e0ec-427c-ad5f-43f83a1399f3")
+		(uuid "52cf681e-d0b3-43bb-8b87-d2eb85130205")
 	)
 	(wire
 		(pts
-			(xy 116.84 89.535) (xy 119.38 89.535)
+			(xy 153.67 99.06) (xy 156.21 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4802b2e2-cbeb-4bcb-8ed4-c0915d8df60a")
+		(uuid "55578dc2-c259-4f68-a8ad-2d26d3e0e36b")
 	)
 	(wire
 		(pts
-			(xy 231.14 130.175) (xy 227.33 130.175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a633404-c84a-4c05-88c2-70237d6547f8")
-	)
-	(wire
-		(pts
-			(xy 113.665 89.535) (xy 116.84 89.535)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56552daa-b74e-4600-9b4b-518fee0a417d")
-	)
-	(wire
-		(pts
-			(xy 170.18 89.535) (xy 170.18 93.345)
+			(xy 182.88 90.17) (xy 182.88 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1205,17 +1069,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 97.79) (xy 119.38 97.79)
+			(xy 134.62 90.17) (xy 146.05 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "811d3343-4066-40a4-af1f-c46439e97ec8")
+		(uuid "64f24ce3-5fc8-48de-bbe4-48f63ea2bf46")
 	)
 	(wire
 		(pts
-			(xy 186.69 98.425) (xy 186.69 100.33)
+			(xy 199.39 99.06) (xy 199.39 100.965)
 		)
 		(stroke
 			(width 0)
@@ -1225,47 +1089,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 89.535) (xy 95.885 89.535)
+			(xy 151.13 90.17) (xy 153.67 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97ca51f2-9fee-406b-9e12-7f9db418799f")
+		(uuid "a2369a46-9a86-4177-9bbe-78ba77091ffa")
 	)
 	(wire
 		(pts
-			(xy 182.88 89.535) (xy 186.69 89.535)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e180591-5a3d-49fe-9f06-c67fd4218b94")
-	)
-	(wire
-		(pts
-			(xy 116.84 89.535) (xy 116.84 90.805)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8c49e83-9417-4b0a-b24c-242062177b08")
-	)
-	(wire
-		(pts
-			(xy 104.14 89.535) (xy 106.045 89.535)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8e36756-667f-46b2-8504-bd385092f2d8")
-	)
-	(wire
-		(pts
-			(xy 199.39 100.965) (xy 199.39 89.535)
+			(xy 212.09 101.6) (xy 212.09 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1275,7 +1109,27 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 89.535) (xy 186.69 93.345)
+			(xy 153.67 96.52) (xy 153.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7fc8128-c2b7-43f5-9479-83b7e85a8c03")
+	)
+	(wire
+		(pts
+			(xy 127 99.06) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb6afba-39e2-4790-a7d9-e7bdca0a8abb")
+	)
+	(wire
+		(pts
+			(xy 199.39 90.17) (xy 199.39 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1285,17 +1139,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.885 89.535) (xy 95.885 93.98)
+			(xy 87.63 90.17) (xy 91.44 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2c7b633-ca3d-4134-a928-8d11d889d1c7")
+		(uuid "e7fd424b-a6b6-4792-9261-40a31d5eb1d2")
 	)
 	(wire
 		(pts
-			(xy 170.18 89.535) (xy 175.26 89.535)
+			(xy 182.88 90.17) (xy 187.96 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1305,37 +1159,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 126.365) (xy 231.14 130.175)
+			(xy 127 90.17) (xy 127 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f41d0587-dfaf-451a-96b4-2c289ff65b5c")
-	)
-	(wire
-		(pts
-			(xy 95.885 89.535) (xy 99.06 89.535)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd2f0824-149d-4d60-9bd0-d17ec3af76ed")
-	)
-	(wire
-		(pts
-			(xy 106.045 89.535) (xy 108.585 89.535)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdab8bab-1633-4b55-a568-2240b681c0c8")
+		(uuid "f562e9a8-8f6b-4c19-b403-de016b3e92a5")
 	)
 	(rectangle
-		(start 147.32 81.28)
-		(end 236.22 114.935)
+		(start 141.478 82.55)
+		(end 236.474 116.205)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -1346,8 +1180,8 @@
 		(uuid cffa66c3-c608-41a1-9967-26d2822bbaa2)
 	)
 	(rectangle
-		(start 71.755 81.153)
-		(end 144.78 114.935)
+		(start 74.93 82.423)
+		(end 140.208 116.205)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -1357,21 +1191,9 @@
 		)
 		(uuid de461cf4-5fcb-4f18-b0df-00d56f1dca16)
 	)
-	(rectangle
-		(start 214.63 117.602)
-		(end 236.22 136.652)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e8b86484-6607-432c-826c-48160e0f91b5)
-	)
 	(text "Cell Antenna Out"
 		(exclude_from_sim no)
-		(at 115.57 112.395 0)
+		(at 111.76 114.3 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1384,7 +1206,7 @@
 	)
 	(text "EXT/TEST"
 		(exclude_from_sim no)
-		(at 123.825 105.41 0)
+		(at 161.036 106.934 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1393,22 +1215,20 @@
 		)
 		(uuid "1de46ada-8a1b-4057-9a86-b3e462627ce2")
 	)
-	(text "Sheets Connection"
+	(text "EXT/TEST"
 		(exclude_from_sim no)
-		(at 217.17 135.255 0)
+		(at 119.888 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.6)
-				(bold yes)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "386bf02b-4459-4180-b3bc-7f56aeda0ba7")
+		(uuid "2c827eaa-338d-42ad-bc62-47b583b104d7")
 	)
 	(text "Antenna and Matching Network"
 		(exclude_from_sim no)
-		(at 149.86 112.395 0)
+		(at 162.306 113.538 0)
 		(effects
 			(font
 				(size 3 3)
@@ -1421,7 +1241,7 @@
 	)
 	(text "place as close to the antenna feed"
 		(exclude_from_sim no)
-		(at 72.644 111.379 0)
+		(at 103.378 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1430,21 +1250,9 @@
 		)
 		(uuid "dc14c0c3-96e0-4bfe-b4ee-4d6033777ce3")
 	)
-	(hierarchical_label "+3V3"
-		(shape input)
-		(at 227.33 130.175 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2e33ceb6-8c6c-4040-86e3-8f77b2d00d3c")
-	)
 	(hierarchical_label "CELL_ANT"
 		(shape input)
-		(at 84.455 89.535 180)
+		(at 87.63 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1455,159 +1263,8 @@
 		(uuid "bebb2c3d-2971-408a-a3e4-f89db7e9d31b")
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 106.045 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "024f58db-d0a0-4356-a60f-c5934966a3c1")
-		(property "Reference" "C42"
-			(at 108.585 95.8913 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 108.585 98.4313 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 106.045 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-"
-			(at 106.045 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-"
-			(at 106.045 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 106.045 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "-"
-			(at 106.045 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "-"
-			(at 106.045 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "-"
-			(at 106.045 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "-"
-			(at 106.045 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" ""
-			(at 106.045 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" ""
-			(at 106.045 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" ""
-			(at 106.045 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 106.045 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "076bb2f9-c129-466c-ac3d-e2c3f647c3f2")
-		)
-		(pin "2"
-			(uuid "7d1381fb-e880-4059-bf9a-916f5c9871fe")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/ca79f09e-abdb-462a-9aab-98f2e37e5b23"
-					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
-		(at 121.92 89.535 90)
+		(at 148.59 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1615,7 +1272,7 @@
 		(dnp no)
 		(uuid "0d10d1da-704b-4a58-9149-f4ec9750d0f4")
 		(property "Reference" "R36"
-			(at 120.015 87.63 90)
+			(at 146.685 88.265 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1623,7 +1280,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 123.698 87.63 90)
+			(at 150.368 88.265 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1288,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 121.92 89.535 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1297,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.pdf"
-			(at 121.92 89.535 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,7 +1306,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 121.92 89.535 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,7 +1315,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 121.92 89.535 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,7 +1324,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGJ0000TCE"
-			(at 121.92 89.535 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +1333,7 @@
 			)
 		)
 		(property "Distributor" "LCSC"
-			(at 121.92 89.535 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +1342,7 @@
 			)
 		)
 		(property "Distributor Part Number" "C21376"
-			(at 121.92 89.535 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +1351,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
-			(at 121.92 89.535 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +1360,7 @@
 			)
 		)
 		(property "Id" ""
-			(at 121.92 89.535 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1369,7 @@
 			)
 		)
 		(property "Manufacture" ""
-			(at 121.92 89.535 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,7 +1378,7 @@
 			)
 		)
 		(property "Manufacture Part Number" ""
-			(at 121.92 89.535 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1387,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 121.92 89.535 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,72 +1412,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.045 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "11c157a8-a636-4669-81bc-908043431b91")
-		(property "Reference" "#PWR0110"
-			(at 106.045 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.045 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.045 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.045 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.045 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70bc6db5-f957-49c8-90a0-7c63fe0a60ee")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/ca79f09e-abdb-462a-9aab-98f2e37e5b23"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 100.33 0)
+		(at 199.39 100.965 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1828,7 +1420,7 @@
 		(dnp no)
 		(uuid "124ba14e-ec96-457e-a8b8-6e015193bea3")
 		(property "Reference" "#PWR0114"
-			(at 186.69 106.68 0)
+			(at 199.39 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +1429,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 104.14 0)
+			(at 199.39 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,7 +1437,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 100.33 0)
+			(at 199.39 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,7 +1446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 100.33 0)
+			(at 199.39 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +1455,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 100.33 0)
+			(at 199.39 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +1477,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 116.84 93.345 180)
+		(at 153.67 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1893,7 +1485,7 @@
 		(dnp no)
 		(uuid "1876cf1c-e0de-4f48-97ed-581b2e634a5d")
 		(property "Reference" "R37"
-			(at 114.935 97.663 90)
+			(at 151.765 98.298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +1493,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 114.935 92.837 90)
+			(at 151.765 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +1501,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 116.84 93.345 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 93.345 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +1519,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 93.345 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1528,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 116.84 93.345 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +1537,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 116.84 93.345 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +1546,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 116.84 93.345 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +1555,7 @@
 			)
 		)
 		(property "Distributor Part Number" ""
-			(at 116.84 93.345 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1564,7 @@
 			)
 		)
 		(property "Distributor Link" ""
-			(at 116.84 93.345 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +1573,7 @@
 			)
 		)
 		(property "Id" ""
-			(at 116.84 93.345 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +1582,7 @@
 			)
 		)
 		(property "Manufacture" ""
-			(at 116.84 93.345 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +1591,7 @@
 			)
 		)
 		(property "Manufacture Part Number" ""
-			(at 116.84 93.345 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,7 +1600,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 116.84 93.345 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,7 +1625,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 86.995 95.25 90)
+		(at 91.44 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2041,7 +1633,7 @@
 		(dnp no)
 		(uuid "2357f997-b9a0-48eb-8208-017f0886b669")
 		(property "Reference" "D12"
-			(at 89.535 95.25 90)
+			(at 93.98 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +1642,7 @@
 			)
 		)
 		(property "Value" "ESD5651N"
-			(at 83.82 92.075 0)
+			(at 88.265 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +1651,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 86.995 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +1660,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209151800_Leiditech-ESD5651N_C5173251.pdf"
-			(at 86.995 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +1669,7 @@
 			)
 		)
 		(property "Description" "DFN1006 Electrostatic and Surge Protection (TVS/ESD) ROHS"
-			(at 86.995 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,7 +1678,7 @@
 			)
 		)
 		(property "Manufacturer" "Leiditech"
-			(at 86.995 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,7 +1687,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ESD5651N"
-			(at 86.995 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +1696,7 @@
 			)
 		)
 		(property "Distributor" "LCSC"
-			(at 86.995 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,7 +1705,7 @@
 			)
 		)
 		(property "Distributor Part Number" "C5173251"
-			(at 86.995 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +1714,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-Protection-Devices_Leiditech-ESD5651N_C5173251.html"
-			(at 86.995 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,7 +1723,7 @@
 			)
 		)
 		(property "Id" ""
-			(at 86.995 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,7 +1732,7 @@
 			)
 		)
 		(property "Manufacture" ""
-			(at 86.995 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,7 +1741,7 @@
 			)
 		)
 		(property "Manufacture Part Number" ""
-			(at 86.995 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2158,7 +1750,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 86.995 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +1775,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 170.18 95.885 180)
+		(at 182.88 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2192,7 +1784,7 @@
 		(fields_autoplaced yes)
 		(uuid "37e15e1c-3c37-4871-a50d-0f249a235bc2")
 		(property "Reference" "C39"
-			(at 172.72 94.6085 0)
+			(at 185.42 95.2435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +1793,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 172.72 97.1485 0)
+			(at 185.42 97.7835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,7 +1802,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 170.18 95.885 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,7 +1811,7 @@
 			)
 		)
 		(property "Datasheet" "-"
-			(at 170.18 95.885 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,7 +1820,7 @@
 			)
 		)
 		(property "Description" "-"
-			(at 170.18 95.885 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +1829,7 @@
 			)
 		)
 		(property "Manufacturer" "-"
-			(at 170.18 95.885 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +1838,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "-"
-			(at 170.18 95.885 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +1847,7 @@
 			)
 		)
 		(property "Distributor" "-"
-			(at 170.18 95.885 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,7 +1856,7 @@
 			)
 		)
 		(property "Distributor Part Number" "-"
-			(at 170.18 95.885 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2273,7 +1865,7 @@
 			)
 		)
 		(property "Distributor Link" "-"
-			(at 170.18 95.885 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +1874,7 @@
 			)
 		)
 		(property "Id" ""
-			(at 170.18 95.885 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +1883,7 @@
 			)
 		)
 		(property "Manufacture" ""
-			(at 170.18 95.885 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,7 +1892,7 @@
 			)
 		)
 		(property "Manufacture Part Number" ""
-			(at 170.18 95.885 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +1901,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 170.18 95.885 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,15 +1926,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.885 99.06 0)
+		(at 106.68 100.33 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3fd0ef4b-8188-44d4-82ec-cf740b92db6d")
-		(property "Reference" "#PWR0109"
-			(at 95.885 105.41 0)
+		(uuid "5e721dfa-c341-40c1-9179-7bab78405108")
+		(property "Reference" "#PWR0117"
+			(at 106.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +1944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.885 102.87 0)
+			(at 106.68 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +1952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.885 99.06 0)
+			(at 106.68 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,7 +1961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.885 99.06 0)
+			(at 106.68 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,7 +1970,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.885 99.06 0)
+			(at 106.68 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,160 +1979,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a27d035-d67a-45bb-aff8-eee1dffeb3c6")
+			(uuid "3a54eb3e-d9e4-4c94-952c-b93e150766b1")
 		)
 		(instances
 			(project "bwlc1a"
 				(path "/388039b1-99cc-430f-bd4a-010573fde798/ca79f09e-abdb-462a-9aab-98f2e37e5b23"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 91.44 89.535 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5677134e-7904-43f3-ada4-8b798222afeb")
-		(property "Reference" "R33"
-			(at 91.44 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 91.44 92.075 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 91.44 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.pdf"
-			(at 91.44 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 91.44 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 91.44 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGJ0000TCE"
-			(at 91.44 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "LCSC"
-			(at 91.44 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "C21376"
-			(at 91.44 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
-			(at 91.44 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" ""
-			(at 91.44 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" ""
-			(at 91.44 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" ""
-			(at 91.44 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 91.44 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75ed20b3-7998-4a96-bf5a-e3490977c70c")
-		)
-		(pin "2"
-			(uuid "499d513e-6aa5-4e18-ba19-7e118ee5a17d")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/ca79f09e-abdb-462a-9aab-98f2e37e5b23"
-					(reference "R33")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -2547,7 +1992,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.995 99.06 0)
+		(at 91.44 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2555,7 +2000,7 @@
 		(dnp no)
 		(uuid "6c2c318d-4dc3-497a-8573-e1c418b2240f")
 		(property "Reference" "#PWR0108"
-			(at 86.995 105.41 0)
+			(at 91.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2009,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.995 102.87 0)
+			(at 91.44 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2017,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.995 99.06 0)
+			(at 91.44 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.995 99.06 0)
+			(at 91.44 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2035,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.995 99.06 0)
+			(at 91.44 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,41 +2056,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 179.07 89.535 90)
+		(lib_id "Device:R_Small")
+		(at 127 93.98 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6d1f6980-4fd7-46b9-8a53-e10b20bd9b33")
-		(property "Reference" "L2"
-			(at 179.07 86.995 90)
+		(uuid "6ca43bc5-f643-41d0-b43c-dd1000d23faa")
+		(property "Reference" "R38"
+			(at 128.905 98.298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 179.07 92.075 90)
+		(property "Value" "DNP"
+			(at 128.905 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 179.07 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW15AN3N0G80D_C412272.pdf"
-			(at 179.07 89.535 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 127 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,8 +2090,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.35A 3nH ±2% 0402 Power Inductors ROHS"
-			(at 179.07 89.535 0)
+		(property "Datasheet" ""
+			(at 127 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,8 +2099,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 179.07 89.535 0)
+		(property "Description" ""
+			(at 127 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,8 +2108,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "LQW15AN3N0G80D"
-			(at 179.07 89.535 0)
+		(property "Manufacturer" ""
+			(at 127 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2680,8 +2117,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "LCSC"
-			(at 179.07 89.535 0)
+		(property "Manufacturer Part Number" ""
+			(at 127 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2689,8 +2126,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C412272"
-			(at 179.07 89.535 0)
+		(property "Distributor" ""
+			(at 127 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,8 +2135,17 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Power-Inductors_Murata-Electronics-LQW15AN3N0G80D_C412272.html"
-			(at 179.07 89.535 0)
+		(property "Distributor Part Number" ""
+			(at 127 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
+			(at 127 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +2154,7 @@
 			)
 		)
 		(property "Id" ""
-			(at 179.07 89.535 0)
+			(at 127 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +2163,7 @@
 			)
 		)
 		(property "Manufacture" ""
-			(at 179.07 89.535 0)
+			(at 127 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2172,7 @@
 			)
 		)
 		(property "Manufacture Part Number" ""
-			(at 179.07 89.535 0)
+			(at 127 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2181,155 @@
 			)
 		)
 		(property "Type" ""
-			(at 179.07 89.535 0)
+			(at 127 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "071e269c-96ca-4d76-b5f2-fdbb834bf9ef")
+		)
+		(pin "2"
+			(uuid "f5210fcf-8101-4050-b505-850809950fe3")
+		)
+		(instances
+			(project "bwlc1a"
+				(path "/388039b1-99cc-430f-bd4a-010573fde798/ca79f09e-abdb-462a-9aab-98f2e37e5b23"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 191.77 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d1f6980-4fd7-46b9-8a53-e10b20bd9b33")
+		(property "Reference" "L2"
+			(at 191.77 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 191.77 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW15AN3N0G80D_C412272.pdf"
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.35A 3nH ±2% 0402 Power Inductors ROHS"
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LQW15AN3N0G80D"
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C412272"
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Power-Inductors_Murata-Electronics-LQW15AN3N0G80D_C412272.html"
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" ""
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture Part Number" ""
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 191.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,307 +2353,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 95.885 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77c72889-418e-4112-82ce-7e8e732b726e")
-		(property "Reference" "C41"
-			(at 98.425 95.8913 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 98.425 98.4313 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 95.885 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-"
-			(at 95.885 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-"
-			(at 95.885 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 95.885 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "-"
-			(at 95.885 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "-"
-			(at 95.885 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "-"
-			(at 95.885 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "-"
-			(at 95.885 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" ""
-			(at 95.885 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" ""
-			(at 95.885 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" ""
-			(at 95.885 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 95.885 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f05cf37-047a-46dc-ad8d-9e973d601a8a")
-		)
-		(pin "2"
-			(uuid "9934506b-f968-4e5e-b5f7-3e32d4abc29a")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/ca79f09e-abdb-462a-9aab-98f2e37e5b23"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 111.125 89.535 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0faed89-c143-447a-9a59-b0d3be6034a3")
-		(property "Reference" "R35"
-			(at 111.125 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 111.125 92.075 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 111.125 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.pdf"
-			(at 111.125 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 111.125 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 111.125 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGJ0000TCE"
-			(at 111.125 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "LCSC"
-			(at 111.125 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "C21376"
-			(at 111.125 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
-			(at 111.125 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" ""
-			(at 111.125 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" ""
-			(at 111.125 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" ""
-			(at 111.125 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 111.125 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "daec017c-928f-49db-93e9-55c35b3e9b33")
-		)
-		(pin "2"
-			(uuid "0a2554e5-d036-4053-a441-ecdac5aa5c73")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/ca79f09e-abdb-462a-9aab-98f2e37e5b23"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 170.18 99.695 0)
+		(at 182.88 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3067,7 +2362,7 @@
 		(dnp no)
 		(uuid "b696cbf5-ffe4-4608-b8aa-805528782338")
 		(property "Reference" "#PWR0112"
-			(at 170.18 106.045 0)
+			(at 182.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,7 +2371,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 103.505 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +2379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 99.695 0)
+			(at 182.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +2388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 99.695 0)
+			(at 182.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +2397,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 99.695 0)
+			(at 182.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,8 +2418,157 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 132.08 90.17 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdfec57d-bc84-4476-9f5b-990190ac817d")
+		(property "Reference" "R39"
+			(at 133.985 88.265 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 130.302 88.265 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.pdf"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ0000TCE"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C21376"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" ""
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture Part Number" ""
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07935128-5b03-4ed5-b9aa-a4cc83369357")
+		)
+		(pin "2"
+			(uuid "1e4f1ac5-72d1-4051-8045-97c6401a3311")
+		)
+		(instances
+			(project "bwlc1a"
+				(path "/388039b1-99cc-430f-bd4a-010573fde798/ca79f09e-abdb-462a-9aab-98f2e37e5b23"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bwlc1a:2108784-1")
-		(at 207.01 95.885 0)
+		(at 219.71 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3133,7 +2577,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0057b99-9847-47bf-a5f2-62108d6ad8c7")
 		(property "Reference" "E1"
-			(at 210.82 93.1544 0)
+			(at 223.52 93.7894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +2586,7 @@
 			)
 		)
 		(property "Value" "2108784-1"
-			(at 210.82 95.6944 0)
+			(at 223.52 96.3294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +2595,7 @@
 			)
 		)
 		(property "Footprint" "bwlc1a:2108784-1"
-			(at 207.01 95.885 0)
+			(at 219.71 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +2605,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F2108784%7FA2%7Fpdf%7FEnglish%7FENG_DS_2108784_A2.pdf%7F2108784-1"
-			(at 207.01 95.885 0)
+			(at 219.71 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,7 +2614,7 @@
 			)
 		)
 		(property "Description" "PCB ANTENNA, SMD, 698-6000MHz"
-			(at 207.01 95.885 0)
+			(at 219.71 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +2623,7 @@
 			)
 		)
 		(property "Id" ""
-			(at 207.01 95.885 0)
+			(at 219.71 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +2632,7 @@
 			)
 		)
 		(property "Manufacture" ""
-			(at 207.01 95.885 0)
+			(at 219.71 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +2641,7 @@
 			)
 		)
 		(property "Manufacture Part Number" ""
-			(at 207.01 95.885 0)
+			(at 219.71 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +2650,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 207.01 95.885 0)
+			(at 219.71 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,7 +2659,7 @@
 			)
 		)
 		(property "Distributor" "TE Connectivity"
-			(at 207.01 95.885 0)
+			(at 219.71 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +2668,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.te.com/en/product-2108784-1.html"
-			(at 207.01 95.885 0)
+			(at 219.71 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,7 +2677,7 @@
 			)
 		)
 		(property "Distributor Part Number" "-"
-			(at 207.01 95.885 0)
+			(at 219.71 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,7 +2686,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity"
-			(at 207.01 95.885 0)
+			(at 219.71 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +2695,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "2108784-1"
-			(at 207.01 95.885 0)
+			(at 219.71 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,99 +2716,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 231.14 126.365 0)
+		(lib_id "power:GND")
+		(at 124.46 101.6 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cf374551-94f3-43d8-b47e-4352fc441faf")
-		(property "Reference" "#PWR0115"
-			(at 231.14 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 228.6 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27f7f408-55fb-4284-a51e-d89b67c64fa7")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/ca79f09e-abdb-462a-9aab-98f2e37e5b23"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-			(project "plantpal"
-				(path "/59b4123e-c7be-466b-a5db-658b8f0c1171"
-					(reference "#PWR049")
-					(unit 1)
-				)
-				(path "/59b4123e-c7be-466b-a5db-658b8f0c1171/0bc89df9-c404-42cc-aab4-4237df7294d4"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-			(project "bwlr1e"
-				(path "/630c8da6-5464-4eef-824d-89618087f4b4"
-					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 137.16 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d43b42e2-1cb2-4dcc-a349-8d7e02a9a6ee")
-		(property "Reference" "#PWR0111"
-			(at 137.16 105.41 0)
+		(uuid "c8f4ffae-a894-4414-967b-4968847d6f8f")
+		(property "Reference" "#PWR0116"
+			(at 124.46 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +2735,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 102.87 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +2743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 99.06 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +2752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 99.06 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +2761,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 99.06 0)
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b267dc7f-d873-4b2e-bee0-55425aee7a30")
+		)
+		(instances
+			(project "bwlc1a"
+				(path "/388039b1-99cc-430f-bd4a-010573fde798/ca79f09e-abdb-462a-9aab-98f2e37e5b23"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d43b42e2-1cb2-4dcc-a349-8d7e02a9a6ee")
+		(property "Reference" "#PWR0111"
+			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3421,15 +2848,16 @@
 	)
 	(symbol
 		(lib_id "bwlc1a:BWIPX-1-001E")
-		(at 128.27 99.06 0)
+		(at 115.57 100.33 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e978f924-4f43-4241-ab4c-441b3146cfd6")
-		(property "Reference" "J6"
-			(at 123.19 93.98 0)
+		(uuid "dce07996-bc62-4aed-8c4e-455a24ca1b05")
+		(property "Reference" "J7"
+			(at 120.65 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +2865,7 @@
 			)
 		)
 		(property "Value" "BWIPX-1-001E"
-			(at 132.715 93.98 0)
+			(at 111.125 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +2873,7 @@
 			)
 		)
 		(property "Footprint" "bwlc1a:BWIPX-1-001E"
-			(at 128.27 106.68 0)
+			(at 115.57 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +2882,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2012231509_BAT-WIRELESS-BWIPX-1-001E_C496552.pdf"
-			(at 128.27 99.06 0)
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +2891,7 @@
 			)
 		)
 		(property "Description" "1 Inner needle IPEX Board Edge 6GHz 50Ω SMD RF Connectors / Coaxial Connectors ROHS"
-			(at 128.27 99.06 0)
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +2900,7 @@
 			)
 		)
 		(property "Manufacturer" "BAT WIRELESS"
-			(at 128.27 99.06 0)
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +2909,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "BWIPX-1-001E"
-			(at 128.27 99.06 0)
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +2918,7 @@
 			)
 		)
 		(property "Distributor" "LCSC"
-			(at 128.27 99.06 0)
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,7 +2927,7 @@
 			)
 		)
 		(property "Distributor Part Number" "C496552"
-			(at 128.27 99.06 0)
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +2936,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.lcsc.com/product-detail/RF-Connectors-Coaxial-Connectors_BAT-WIRELESS-BWIPX-1-001E_C496552.html"
-			(at 128.27 99.06 0)
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +2945,7 @@
 			)
 		)
 		(property "Id" ""
-			(at 128.27 99.06 0)
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +2954,7 @@
 			)
 		)
 		(property "Manufacture" ""
-			(at 128.27 99.06 0)
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,7 +2963,7 @@
 			)
 		)
 		(property "Manufacture Part Number" ""
-			(at 128.27 99.06 0)
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3544,7 +2972,158 @@
 			)
 		)
 		(property "Type" ""
-			(at 128.27 99.06 0)
+			(at 115.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25293e5d-e740-442a-81f7-7bfdbb1742e5")
+		)
+		(pin "2"
+			(uuid "84b57f01-fde4-4539-8c3e-4cd3ebc9793d")
+		)
+		(pin "3"
+			(uuid "26e0416e-cff5-43a6-a220-8296b267dc60")
+		)
+		(instances
+			(project "bwlc1a"
+				(path "/388039b1-99cc-430f-bd4a-010573fde798/ca79f09e-abdb-462a-9aab-98f2e37e5b23"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bwlc1a:BWIPX-1-001E")
+		(at 165.1 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e978f924-4f43-4241-ab4c-441b3146cfd6")
+		(property "Reference" "J6"
+			(at 160.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BWIPX-1-001E"
+			(at 169.545 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bwlc1a:BWIPX-1-001E"
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2012231509_BAT-WIRELESS-BWIPX-1-001E_C496552.pdf"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 6GHz 50Ω SMD RF Connectors / Coaxial Connectors ROHS"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BAT WIRELESS"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BWIPX-1-001E"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C496552"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/RF-Connectors-Coaxial-Connectors_BAT-WIRELESS-BWIPX-1-001E_C496552.html"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture Part Number" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,156 +3150,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 101.6 89.535 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f75df10c-a49c-44e3-95c7-3a1873d95649")
-		(property "Reference" "R34"
-			(at 101.6 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 101.6 92.075 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 101.6 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.pdf"
-			(at 101.6 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±5% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 101.6 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 101.6 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGJ0000TCE"
-			(at 101.6 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "LCSC"
-			(at 101.6 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "C21376"
-			(at 101.6 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGJ0000TCE_C21376.html"
-			(at 101.6 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" ""
-			(at 101.6 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" ""
-			(at 101.6 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" ""
-			(at 101.6 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 101.6 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8606b6d6-ef2b-42c5-b8e5-4dfd1e0fb8ba")
-		)
-		(pin "2"
-			(uuid "024b71c2-2e1b-45ba-803a-970f89fb28a9")
-		)
-		(instances
-			(project "bwlc1a"
-				(path "/388039b1-99cc-430f-bd4a-010573fde798/ca79f09e-abdb-462a-9aab-98f2e37e5b23"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 186.69 95.885 180)
+		(at 199.39 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3729,7 +3160,7 @@
 		(fields_autoplaced yes)
 		(uuid "fae18e7f-9da7-4a12-9a7e-710c71278a2a")
 		(property "Reference" "C40"
-			(at 189.865 94.6085 0)
+			(at 202.565 95.2435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3738,7 +3169,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 189.865 97.1485 0)
+			(at 202.565 97.7835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,7 +3178,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 186.69 95.885 0)
+			(at 199.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,7 +3187,7 @@
 			)
 		)
 		(property "Datasheet" "-"
-			(at 186.69 95.885 0)
+			(at 199.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +3196,7 @@
 			)
 		)
 		(property "Description" "-"
-			(at 186.69 95.885 0)
+			(at 199.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +3205,7 @@
 			)
 		)
 		(property "Manufacturer" "-"
-			(at 186.69 95.885 0)
+			(at 199.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +3214,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "-"
-			(at 186.69 95.885 0)
+			(at 199.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +3223,7 @@
 			)
 		)
 		(property "Distributor" "-"
-			(at 186.69 95.885 0)
+			(at 199.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +3232,7 @@
 			)
 		)
 		(property "Distributor Part Number" "-"
-			(at 186.69 95.885 0)
+			(at 199.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +3241,7 @@
 			)
 		)
 		(property "Distributor Link" "-"
-			(at 186.69 95.885 0)
+			(at 199.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +3250,7 @@
 			)
 		)
 		(property "Id" ""
-			(at 186.69 95.885 0)
+			(at 199.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +3259,7 @@
 			)
 		)
 		(property "Manufacture" ""
-			(at 186.69 95.885 0)
+			(at 199.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +3268,7 @@
 			)
 		)
 		(property "Manufacture Part Number" ""
-			(at 186.69 95.885 0)
+			(at 199.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +3277,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 186.69 95.885 0)
+			(at 199.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +3302,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 100.33 0)
+		(at 156.21 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3879,7 +3310,7 @@
 		(dnp no)
 		(uuid "ff1b1e82-ba61-47e4-8d89-3a1ff3d8cf0e")
 		(property "Reference" "#PWR0113"
-			(at 119.38 106.68 0)
+			(at 156.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +3319,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 104.14 0)
+			(at 156.21 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +3327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 100.33 0)
+			(at 156.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +3336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 100.33 0)
+			(at 156.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,7 +3345,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 100.33 0)
+			(at 156.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
