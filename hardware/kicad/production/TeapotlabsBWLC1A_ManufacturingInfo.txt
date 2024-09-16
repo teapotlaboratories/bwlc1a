@@ -2,7 +2,7 @@ Thickness = 1.6mm
 
 --------------------
 
-Size: 50.1 x 80.6mm
+Size: 50.1 x 83.75mm
 Number of layers: 4
 Material: TG150-160 FR-4
 
