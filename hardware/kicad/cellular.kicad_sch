@@ -6143,6 +6143,19 @@
 		)
 		(uuid bfed86f7-d8ec-42db-848a-b3bc49bc8428)
 	)
+	(text "TODO: re-check mosfet resistor value"
+		(exclude_from_sim no)
+		(at 111.506 137.668 90)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "055c0cb2-3108-4418-b81f-de32460cf691")
+	)
 	(text "Decoupling Capacitor"
 		(exclude_from_sim no)
 		(at 98.679 22.606 0)
@@ -6204,6 +6217,19 @@
 			(justify left bottom)
 		)
 		(uuid "4905ecce-90b3-4aaf-b422-b2b5a057b616")
+	)
+	(text "TODO: re-check mosfet"
+		(exclude_from_sim no)
+		(at 192.532 29.972 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "581de17e-49fe-4233-80af-2d8ff217630c")
 	)
 	(text "Power Off: 20uA\nLTE Sleep: 2.5mA\nLTE Idle: 25mA"
 		(exclude_from_sim no)

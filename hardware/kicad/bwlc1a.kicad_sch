@@ -245,16 +245,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 58.42) (xy 139.7 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b4f704c-6582-4e5b-b603-fe05062cf896")
-	)
-	(wire
-		(pts
 			(xy 153.67 81.915) (xy 164.465 81.915)
 		)
 		(stroke
@@ -859,17 +849,6 @@
 		)
 		(uuid "ac6d923f-4ffb-4e70-a1a7-7ed7bfdbd6a1")
 	)
-	(label "GNSS_2V8"
-		(at 139.7 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b009a57b-8fda-44a5-b511-87b741e57f94")
-	)
 	(label "+3V3"
 		(at 180.34 119.38 0)
 		(fields_autoplaced yes)
@@ -1347,26 +1326,6 @@
 			)
 			(uuid "0cef9e4e-04a6-431a-bb5d-4ade9b64512b")
 		)
-		(pin "GNSS_JAMDET" output
-			(at 193.04 102.87 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "210cca70-c0fe-4b6f-bdca-9738d90ab2be")
-		)
-		(pin "GNSS_GEOFENCE" output
-			(at 193.04 105.41 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9b4f43b1-ce25-44d4-99cc-7b59c8d41eca")
-		)
 		(instances
 			(project "bwlc1a"
 				(path "/388039b1-99cc-430f-bd4a-010573fde798"
@@ -1473,16 +1432,6 @@
 				(justify right)
 			)
 			(uuid "0b86c3e2-eaae-48d8-9064-3da5c7a5e1d9")
-		)
-		(pin "GNSS_2V8" output
-			(at 125.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f6e08338-2c4b-447b-b0aa-c0b4e1e0d12d")
 		)
 		(pin "CELL_BATT" output
 			(at 125.73 53.34 0)
