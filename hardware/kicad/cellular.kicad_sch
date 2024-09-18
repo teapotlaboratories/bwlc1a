@@ -7822,13 +7822,13 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS_GSD")
-		(at 229.87 81.28 270)
+		(at 229.87 81.28 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c40b9e6-5856-4497-9b33-76e0446aae9c")
 		(property "Reference" "Q2"
 			(at 229.87 87.63 90)
@@ -7847,7 +7847,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 232.41 86.36 0)
+			(at 227.33 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9119,13 +9119,13 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS_GSD")
-		(at 229.87 55.88 270)
+		(at 229.87 55.88 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4ba767fa-9550-4ec7-88a2-6e628e2c16db")
 		(property "Reference" "Q1"
 			(at 229.87 62.23 90)
@@ -9144,7 +9144,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 232.41 60.96 0)
+			(at 227.33 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
