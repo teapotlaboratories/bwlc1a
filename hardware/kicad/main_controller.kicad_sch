@@ -9019,7 +9019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS "
+		(property "Description" "DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 88.9 177.165 0)
 			(effects
 				(font
@@ -11325,7 +11325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10A 14V 150W 9V Unidirectional 5V SOT-353-5 ESD and Surge Protection (TVS/ESD) ROHS "
+		(property "Description" "10A 14V 150W 9V Unidirectional 5V SOT-353-5 ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 61.595 177.165 0)
 			(effects
 				(font
@@ -12913,7 +12913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS "
+		(property "Description" "DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 80.645 177.165 0)
 			(effects
 				(font

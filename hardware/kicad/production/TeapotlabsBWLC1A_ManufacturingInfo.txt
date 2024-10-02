@@ -20,7 +20,7 @@ SUGGESTED STACK-UP
 
 L1	Copper		1oz					bwlc1a-F_Cu.gbr
 
-	Prepreg		0.1855mm	Dk=4.56 (7628 RC56%)
+	Prepreg		0.1855mm	Dk=4.56 (7628 RC46%)
 
 L2	Copper		1oz					bwlc1a-In1_Cu.gbr
 
@@ -28,6 +28,6 @@ L2	Copper		1oz					bwlc1a-In1_Cu.gbr
 
 L3	Copper		1oz					bwlc1a-In2_Cu.gbr
 
-	Prepreg		0.1855mm	Dk=4.56 (7628 RC56%)
+	Prepreg		0.1855mm	Dk=4.56 (7628 RC46%)
 
 L4	Copper		1oz					bwlc1a-B_Cu.gbr

@@ -2952,7 +2952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS "
+		(property "Description" "DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 177.8 59.69 0)
 			(effects
 				(font

@@ -10442,7 +10442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10A 14V 150W 9V Unidirectional 5V SOT-353-5 ESD and Surge Protection (TVS/ESD) ROHS "
+		(property "Description" "10A 14V 150W 9V Unidirectional 5V SOT-353-5 ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 222.25 46.99 0)
 			(effects
 				(font
