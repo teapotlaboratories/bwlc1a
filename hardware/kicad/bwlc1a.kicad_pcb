@@ -166,7 +166,7 @@
 	(net 14 "/Cellular/CELL_TXD")
 	(net 15 "Net-(U4-GPIO16{slash}U0CTS{slash}ADC2_CH5{slash}XTAL_32K_N)")
 	(net 16 "Net-(U5-FB)")
-	(net 17 "unconnected-(J3-SHIELD-PadS1)_0")
+	(net 17 "unconnected-(J3-SHIELD-PadS1)_3")
 	(net 18 "Net-(J7-SIG)")
 	(net 19 "Net-(J1-I{slash}O)")
 	(net 20 "Net-(J1-CLK)")
@@ -1350,7 +1350,7 @@
 				)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "10n"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "e4105d8f-60bd-48b3-9d05-501f866558f3")
@@ -1374,7 +1374,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Murata-Electronics-LQG15HS10NG02D_C464435.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1387,7 +1387,7 @@
 				)
 			)
 		)
-		(property "Description" "-"
+		(property "Description" "500mA 10nH ±2% 260mΩ 0402 Inductors (SMD) ROHS"
 			(at 123.162 117.2862 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1399,7 +1399,7 @@
 				)
 			)
 		)
-		(property "Distributor" "-"
+		(property "Distributor" "LCSC"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1411,7 +1411,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "-"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Inductors-SMD_Murata-Electronics-LQG15HS10NG02D_C464435.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1423,7 +1423,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "-"
+		(property "Distributor Part Number" "C464435"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1435,7 +1435,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "-"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1448,64 +1448,12 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "-"
+		(property "Manufacturer Part Number" "LQG15HS10NG02D"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1214c80f-ee5a-41e6-912a-f5ce03608689")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Id" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4a2a8177-7fe4-42dc-a1f5-030b4cae19e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c01fa8f4-dd5a-47a1-b1da-f02c76a188d3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f86ad6a6-1fe2-4d31-8592-22c13ffe3c91")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "45730ba8-c409-4032-b78c-1da2213f8ba6")
 			(effects
 				(font
 					(size 1 1)
@@ -5734,7 +5682,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0104.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Texas-Instruments-TXB0104RGYR_C400708.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5756,6 +5704,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad77133e-55e9-4c05-aa1f-ac642203ef62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Translators-Level-Shifters_Texas-Instruments-TXB0104RGYR_C400708.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "265677fa-73a3-41e3-8acc-b96ec4713c05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Part Number" "C400708 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3107bb56-0a14-4403-a8e9-3f2c41184b89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" " Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7490eb6e-c512-4a14-9978-ccdd640ce168")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TXB0104RGYR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b49fe8c-a874-4aee-8ff9-5b319b74df6c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10163,7 +10176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209151800_Leiditech-ESD5651N_C5173251.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2301051530_TECH-PUBLIC-ESD5651N_C5342369.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10176,7 +10189,7 @@
 				)
 			)
 		)
-		(property "Description" "DFN1006 Electrostatic and Surge Protection (TVS/ESD) ROHS"
+		(property "Description" "DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10201,7 +10214,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-Protection-Devices_Leiditech-ESD5651N_C5173251.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-and-Surge-Protection-TVS-span-style-background-color-ff0-ESD-span_TECH-PUBLIC-ESD5651N_C5342369.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10213,7 +10226,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C5173251"
+		(property "Distributor Part Number" "C5342369"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10225,7 +10238,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Leiditech"
+		(property "Manufacturer" "TECH PUBLIC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12326,7 +12339,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209151800_Leiditech-ESD5651N_C5173251.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2301051530_TECH-PUBLIC-ESD5651N_C5342369.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12339,7 +12352,7 @@
 				)
 			)
 		)
-		(property "Description" "DFN1006 Electrostatic and Surge Protection (TVS/ESD) ROHS"
+		(property "Description" "DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12364,7 +12377,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-Protection-Devices_Leiditech-ESD5651N_C5173251.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-and-Surge-Protection-TVS-span-style-background-color-ff0-ESD-span_TECH-PUBLIC-ESD5651N_C5342369.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12376,7 +12389,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C5173251"
+		(property "Distributor Part Number" "C5342369"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12388,7 +12401,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Leiditech"
+		(property "Manufacturer" "TECH PUBLIC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26338,7 +26351,7 @@
 			(drill oval 0.6 1.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 66 "unconnected-(J3-SHIELD-PadS1)_1")
+			(net 67 "unconnected-(J3-SHIELD-PadS1)_2")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
 			(teardrops
@@ -26360,7 +26373,7 @@
 			(drill oval 0.6 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 67 "unconnected-(J3-SHIELD-PadS1)_2")
+			(net 17 "unconnected-(J3-SHIELD-PadS1)_3")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
 			(teardrops
@@ -26382,7 +26395,7 @@
 			(drill oval 0.6 1.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "unconnected-(J3-SHIELD-PadS1)_0")
+			(net 66 "unconnected-(J3-SHIELD-PadS1)_1")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
 			(teardrops
@@ -27874,7 +27887,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108132030_TECH-PUBLIC-ESDA6V1W5-TP_C970036.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206231830_TECH-PUBLIC-ESDA6V1W5_C3040609.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27887,7 +27900,7 @@
 				)
 			)
 		)
-		(property "Description" "SOT-323-5 ESD Protection Devices ROHS"
+		(property "Description" "10A 14V 150W 9V Unidirectional 5V SOT-353-5 ESD and Surge Protection (TVS/ESD) ROHS "
 			(at 155.1036 123.4176 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27911,7 +27924,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-Protection-Devices_TECH-PUBLIC-ESDA6V1W5-TP_C970036.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-and-Surge-Protection-TVS-span-style-background-color-ff0-ESD-span_TECH-PUBLIC-ESDA6V1W5_C3040609.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27923,7 +27936,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C970036"
+		(property "Distributor Part Number" "C3040609"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27948,7 +27961,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "ESDA6V1W5-TP"
+		(property "Manufacturer Part Number" "ESDA6V1W5"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28260,7 +28273,6 @@
 		(property "Reference" "TP30"
 			(at 1.936 -0.02 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "6bac3196-ba3b-468c-bdec-131b7321f649")
 			(effects
 				(font
@@ -28504,9 +28516,8 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP29"
-			(at -1.822 -0.267 0)
+			(at -1.79 -0.921 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "421cec07-fd0d-401c-8c7e-c39c5fa4a2cf")
 			(effects
 				(font
@@ -28752,7 +28763,6 @@
 		(property "Reference" "TP20"
 			(at 1.944 -0.021 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "d606fb9b-9ce8-4781-b18f-6a5039df4f36")
 			(effects
 				(font
@@ -29729,7 +29739,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209151800_Leiditech-ESD5651N_C5173251.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2301051530_TECH-PUBLIC-ESD5651N_C5342369.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29742,7 +29752,7 @@
 				)
 			)
 		)
-		(property "Description" "DFN1006 Electrostatic and Surge Protection (TVS/ESD) ROHS"
+		(property "Description" "DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29767,7 +29777,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-Protection-Devices_Leiditech-ESD5651N_C5173251.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-and-Surge-Protection-TVS-span-style-background-color-ff0-ESD-span_TECH-PUBLIC-ESD5651N_C5342369.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29779,7 +29789,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C5173251"
+		(property "Distributor Part Number" "C5342369"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29791,7 +29801,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Leiditech"
+		(property "Manufacturer" "TECH PUBLIC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30165,7 +30175,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "3p3"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "c86bf751-83ef-4559-927c-d00a33a4b3e8")
@@ -30189,7 +30199,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW15AN3N0G80D_C412272.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081612_Murata-Electronics-GRM1555C1H3R3CA01D_C76968.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30202,7 +30212,7 @@
 				)
 			)
 		)
-		(property "Description" "1.35A 3nH ±2% 0402 Power Inductors ROHS"
+		(property "Description" "50V 3.3pF C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30215,7 +30225,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Murata Electronics "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30228,7 +30238,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "LQW15AN3N0G80D"
+		(property "Manufacturer Part Number" "GRM1555C1H3R3CA01D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30254,7 +30264,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C412272"
+		(property "Distributor Part Number" "C76968"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30267,64 +30277,12 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Power-Inductors_Murata-Electronics-LQW15AN3N0G80D_C412272.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM1555C1H3R3CA01D_C76968.html"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cd855d40-7a2a-40ab-94f1-dedade001733")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Id" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c0949084-fefe-40c1-b2e7-03858a218bb7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b285fa91-a2db-4764-8fdf-76beab15a45d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacture Part Number" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e4c53e4c-9b1e-4c1b-b0c8-f16ecec33799")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Type" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c88eb339-960a-4534-bf0c-9a8595c5e083")
 			(effects
 				(font
 					(size 1 1)
@@ -34455,7 +34413,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108132030_TECH-PUBLIC-ESDA6V1W5-TP_C970036.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206231830_TECH-PUBLIC-ESDA6V1W5_C3040609.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34468,7 +34426,7 @@
 				)
 			)
 		)
-		(property "Description" "SOT-323-5 ESD Protection Devices ROHS"
+		(property "Description" "10A 14V 150W 9V Unidirectional 5V SOT-353-5 ESD and Surge Protection (TVS/ESD) ROHS "
 			(at 184.023 88.519 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34492,7 +34450,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-Protection-Devices_TECH-PUBLIC-ESDA6V1W5-TP_C970036.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-and-Surge-Protection-TVS-span-style-background-color-ff0-ESD-span_TECH-PUBLIC-ESDA6V1W5_C3040609.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34504,7 +34462,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C970036"
+		(property "Distributor Part Number" "C3040609"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34529,7 +34487,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "ESDA6V1W5-TP"
+		(property "Manufacturer Part Number" "ESDA6V1W5"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34841,7 +34799,6 @@
 		(property "Reference" "TP28"
 			(at -1.058 -1.282 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "87bedca4-9dc3-41c6-bde8-eedc68cf002d")
 			(effects
 				(font
@@ -38363,7 +38320,7 @@
 				)
 			)
 		)
-		(property "Value" "A7670C"
+		(property "Value" "A7670G-LABE"
 			(at 0 16 0)
 			(layer "F.Fab")
 			(uuid "4f271d33-96d0-4eea-a78f-776274925ef3")
@@ -38425,7 +38382,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/2G-3G-4G-5G-Modules_SIMCom-Wireless-Solutions-A7670C-MASL_C2891912.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/2G-3G-4G-5G-Modules_SIMCom-Wireless-Solutions-A7670G-LABE_C22462360.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38437,7 +38394,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C2891912"
+		(property "Distributor Part Number" "C22462360"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38462,7 +38419,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "A7670C-MASL"
+		(property "Manufacturer Part Number" "A7670G-LABE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41783,7 +41740,6 @@
 		(property "Reference" "TP27"
 			(at -1.22 -1.114 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "f6ca30a1-689d-4501-9026-e5bd2c586fc6")
 			(effects
 				(font
@@ -43606,7 +43562,6 @@
 		(property "Reference" "TP24"
 			(at -1.869 -0.002 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "120d40fc-df0c-4839-b177-27597dc60c42")
 			(effects
 				(font
@@ -46152,7 +46107,6 @@
 		(property "Reference" "TP31"
 			(at -1.838 0.011 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "41efa4ed-0f1a-4f92-b8ff-ed7c11835c6c")
 			(effects
 				(font
@@ -46729,7 +46683,6 @@
 		(property "Reference" "TP26"
 			(at 1.89 0.025 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "09dd7be6-a929-490e-8581-c91277991001")
 			(effects
 				(font
@@ -48825,7 +48778,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209151800_Leiditech-ESD5651N_C5173251.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2301051530_TECH-PUBLIC-ESD5651N_C5342369.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48838,7 +48791,7 @@
 				)
 			)
 		)
-		(property "Description" "DFN1006 Electrostatic and Surge Protection (TVS/ESD) ROHS"
+		(property "Description" "DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS "
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48851,7 +48804,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Leiditech"
+		(property "Manufacturer" "TECH PUBLIC"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48890,7 +48843,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C5173251"
+		(property "Distributor Part Number" "C5342369"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48903,7 +48856,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-Protection-Devices_Leiditech-ESD5651N_C5173251.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-and-Surge-Protection-TVS-span-style-background-color-ff0-ESD-span_TECH-PUBLIC-ESD5651N_C5342369.html"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51284,7 +51237,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209151800_Leiditech-ESD5651N_C5173251.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2301051530_TECH-PUBLIC-ESD5651N_C5342369.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51297,7 +51250,7 @@
 				)
 			)
 		)
-		(property "Description" "DFN1006 Electrostatic and Surge Protection (TVS/ESD) ROHS"
+		(property "Description" "DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51322,7 +51275,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-Protection-Devices_Leiditech-ESD5651N_C5173251.html"
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-ESD-span-and-Surge-Protection-TVS-span-style-background-color-ff0-ESD-span_TECH-PUBLIC-ESD5651N_C5342369.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -51334,7 +51287,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "C5173251"
+		(property "Distributor Part Number" "C5342369"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -51346,7 +51299,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Leiditech"
+		(property "Manufacturer" "TECH PUBLIC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -59058,17 +59011,6 @@
 		(at 171.196 121.666 0)
 		(layer "F.SilkS")
 		(uuid "89d0a261-3c32-436e-a007-67773bd3efd3")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "GNSS_3V3"
-		(at 137.16 76.454 0)
-		(layer "F.SilkS")
-		(uuid "9ed384ba-5e8d-4e91-b9c1-78d25a5d7378")
 		(effects
 			(font
 				(size 0.8 0.8)
