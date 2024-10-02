@@ -1226,6 +1226,16 @@
 		)
 		(uuid "2c827eaa-338d-42ad-bc62-47b583b104d7")
 	)
+	(text "Inductor"
+		(exclude_from_sim no)
+		(at 206.502 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31b01b1c-0700-472a-8d20-c616083aa4d7")
+	)
 	(text "Antenna and Matching Network"
 		(exclude_from_sim no)
 		(at 162.306 113.538 0)
@@ -1239,6 +1249,16 @@
 		)
 		(uuid "59561d9c-71ef-4386-a8ac-eaec7bfbe989")
 	)
+	(text "Matching circuit initial value are \nfrom Antenna reference design"
+		(exclude_from_sim no)
+		(at 223.012 85.344 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "95f9e6ae-fc98-425c-b9e9-e18f7e037731")
+	)
 	(text "place as close to the antenna feed"
 		(exclude_from_sim no)
 		(at 103.378 86.36 0)
@@ -1249,6 +1269,16 @@
 			(justify left bottom)
 		)
 		(uuid "dc14c0c3-96e0-4bfe-b4ee-4d6033777ce3")
+	)
+	(text "Capacitor"
+		(exclude_from_sim no)
+		(at 192.024 85.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f2782685-3532-4376-a533-a9dc3db241ab")
 	)
 	(hierarchical_label "CELL_ANT"
 		(shape input)
@@ -2073,7 +2103,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "3p3"
 			(at 191.77 92.71 90)
 			(effects
 				(font
@@ -2090,7 +2120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW15AN3N0G80D_C412272.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081612_Murata-Electronics-GRM1555C1H3R3CA01D_C76968.pdf"
 			(at 191.77 90.17 0)
 			(effects
 				(font
@@ -2099,7 +2129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.35A 3nH ±2% 0402 Power Inductors ROHS"
+		(property "Description" "50V 3.3pF C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 191.77 90.17 0)
 			(effects
 				(font
@@ -2108,7 +2138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Murata Electronics "
 			(at 191.77 90.17 0)
 			(effects
 				(font
@@ -2117,7 +2147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "LQW15AN3N0G80D"
+		(property "Manufacturer Part Number" "GRM1555C1H3R3CA01D"
 			(at 191.77 90.17 0)
 			(effects
 				(font
@@ -2135,7 +2165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "C412272"
+		(property "Distributor Part Number" "C76968"
 			(at 191.77 90.17 0)
 			(effects
 				(font
@@ -2144,43 +2174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Power-Inductors_Murata-Electronics-LQW15AN3N0G80D_C412272.html"
-			(at 191.77 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" ""
-			(at 191.77 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" ""
-			(at 191.77 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" ""
-			(at 191.77 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM1555C1H3R3CA01D_C76968.html"
 			(at 191.77 90.17 0)
 			(effects
 				(font
@@ -3169,7 +3163,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "10n"
 			(at 202.565 97.7835 0)
 			(effects
 				(font
@@ -3187,7 +3181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Murata-Electronics-LQG15HS10NG02D_C464435.pdf"
 			(at 199.39 96.52 0)
 			(effects
 				(font
@@ -3196,7 +3190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-"
+		(property "Description" "500mA 10nH ±2% 260mΩ 0402 Inductors (SMD) ROHS"
 			(at 199.39 96.52 0)
 			(effects
 				(font
@@ -3205,7 +3199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
+		(property "Manufacturer" "Murata Electronics"
 			(at 199.39 96.52 0)
 			(effects
 				(font
@@ -3214,7 +3208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "-"
+		(property "Manufacturer Part Number" "LQG15HS10NG02D"
 			(at 199.39 96.52 0)
 			(effects
 				(font
@@ -3223,7 +3217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "-"
+		(property "Distributor" "LCSC"
 			(at 199.39 96.52 0)
 			(effects
 				(font
@@ -3232,7 +3226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "-"
+		(property "Distributor Part Number" "C464435"
 			(at 199.39 96.52 0)
 			(effects
 				(font
@@ -3241,43 +3235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "-"
-			(at 199.39 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" ""
-			(at 199.39 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture" ""
-			(at 199.39 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture Part Number" ""
-			(at 199.39 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Inductors-SMD_Murata-Electronics-LQG15HS10NG02D_C464435.html"
 			(at 199.39 96.52 0)
 			(effects
 				(font
